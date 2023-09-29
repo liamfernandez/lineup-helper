@@ -1,6 +1,5 @@
 <script class="ts">
 	import Write from '$lib/icons/Write.svelte';
-	import '../app.css';
 	import { onMount } from 'svelte';
 	import { lineups } from '$lib/stores';
 	import { goto } from '$app/navigation';
@@ -20,12 +19,12 @@
 	<title>Fantasy 🏀 Assistant</title>
 </svelte:head>
 
-<div class="flex flex-col items-center gap-16 md:gap-10 w-full md:-mt-0 px-4">
-	<img alt="fantasy helper logo" src="/nav-logo.png" class="md:w-[400px] w-[300px] mr-8" />
+<div class="flex flex-col items-center gap-16 md:gap-10 w-full md:-mt-0 px-4 md:px-20">
+	<img alt="fantasy helper logo" src="/app-logos/nav-logo.png" class="md:w-[400px] w-[300px] mr-8" />
 	<a href="/create">
 		<button on:click={() => {
 			goto('/create')
-		}} class="flex flex-col items-center shadow-xl mx-auto bg-gradient-to-br from-[#FF8A15] to-orange text-white py-2 text-xl rounded-xl w-[12rem]">
+		}} class="hover:scale-105 transition flex flex-col items-center shadow-xl mx-auto bg-gradient-to-br from-[#FF8A15] to-orange text-white py-2 text-xl rounded-xl w-[12rem]">
 			Add a New Lineup
 			<Write size={22} />
 		</button>
@@ -48,9 +47,3 @@
 		{/if}
 	</div>
 </div>
-
-<style>
-	.shadow {
-		box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-	}
-</style>
