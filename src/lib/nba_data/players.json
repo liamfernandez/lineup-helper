@@ -1,0 +1,2310 @@
+{
+    "Saddiq Bey": {
+        "team_id": "1234567890",
+        "position": "F"
+    },
+    "Bogdan Bogdanovic": {
+        "team_id": "1234567890",
+        "position": "SG"
+    },
+    "Kobe Bufkin": {
+        "team_id": "1234567890",
+        "position": "G"
+    },
+    "Clint Capela": {
+        "team_id": "1234567890",
+        "position": "PF"
+    },
+    "Bruno Fernando": {
+        "team_id": "1234567890",
+        "position": "C"
+    },
+    "Trent Forrest": {
+        "team_id": "1234567890",
+        "position": "SG"
+    },
+    "A.J. Griffin,": {
+        "team_id": "1234567890",
+        "position": "Jr."
+    },
+    "Mouhamed Gueye": {
+        "team_id": "1234567890",
+        "position": "F"
+    },
+    "De'Andre Hunter": {
+        "team_id": "1234567890",
+        "position": "PF"
+    },
+    "Jalen Johnson": {
+        "team_id": "1234567890",
+        "position": "PF"
+    },
+    "Seth Lundy": {
+        "team_id": "1234567890",
+        "position": "GF"
+    },
+    "Garrison Mathews": {
+        "team_id": "1234567890",
+        "position": "SG"
+    },
+    "Wesley Matthews": {
+        "team_id": "1234567890",
+        "position": "G"
+    },
+    "Patty Mills": {
+        "team_id": "1234567890",
+        "position": "G"
+    },
+    "Dejounte Murray": {
+        "team_id": "1234567890",
+        "position": "SG"
+    },
+    "Miles Norris": {
+        "team_id": "1234567890",
+        "position": "PF"
+    },
+    "Onyeka Okongwu": {
+        "team_id": "1234567890",
+        "position": "PF"
+    },
+    "Trae Young": {
+        "team_id": "1234567890",
+        "position": "PG"
+    },
+    "Grayson Allen": {
+        "team_id": "7789012345",
+        "position": "SG"
+    },
+    "Giannis Antetokounmpo": {
+        "team_id": "7789012345",
+        "position": "F"
+    },
+    "Thanasis Antetokounmpo": {
+        "team_id": "7789012345",
+        "position": "SF"
+    },
+    "Malik Beasley": {
+        "team_id": "7789012345",
+        "position": "SG"
+    },
+    "MarJon Beauchamp": {
+        "team_id": "7789012345",
+        "position": "SG"
+    },
+    "Marques Bolden": {
+        "team_id": "7789012345",
+        "position": "C"
+    },
+    "Pat Connaughton": {
+        "team_id": "7789012345",
+        "position": "SF"
+    },
+    "Jae Crowder": {
+        "team_id": "7789012345",
+        "position": "SF"
+    },
+    "Jazian Gortman": {
+        "team_id": "7789012345",
+        "position": "G"
+    },
+    "A.J. Green": {
+        "team_id": "7789012345",
+        "position": "PG"
+    },
+    "Jrue Holiday": {
+        "team_id": "7789012345",
+        "position": "G"
+    },
+    "Andre Jackson,": {
+        "team_id": "7789012345",
+        "position": "Jr."
+    },
+    "Chris Livingston": {
+        "team_id": "7789012345",
+        "position": "F"
+    },
+    "Brook Lopez": {
+        "team_id": "7789012345",
+        "position": "C"
+    },
+    "Robin Lopez": {
+        "team_id": "7789012345",
+        "position": "FC"
+    },
+    "Khris Middleton": {
+        "team_id": "7789012345",
+        "position": "SF"
+    },
+    "Omari Moore": {
+        "team_id": "7789012345",
+        "position": "F"
+    },
+    "Bobby Portis": {
+        "team_id": "7789012345",
+        "position": "PF"
+    },
+    "Drew Timme": {
+        "team_id": "7789012345",
+        "position": "F"
+    },
+    "TyTy Washington,": {
+        "team_id": "7789012345",
+        "position": "Jr."
+    },
+    "Lindell Wigginton": {
+        "team_id": "7789012345",
+        "position": "SG"
+    },
+    "Jalen Wilson": {
+        "team_id": "3456789012",
+        "position": "F"
+    },
+    "Dariq Whitehead": {
+        "team_id": "3456789012",
+        "position": "F"
+    },
+    "Trendon Watford": {
+        "team_id": "3456789012",
+        "position": "SF"
+    },
+    "Lonnie Walker": {
+        "team_id": "3456789012",
+        "position": "SG"
+    },
+    "Cam Thomas": {
+        "team_id": "3456789012",
+        "position": "PG"
+    },
+    "Dennis Smith": {
+        "team_id": "3456789012",
+        "position": "PG"
+    },
+    "Ben Simmons": {
+        "team_id": "3456789012",
+        "position": "PF"
+    },
+    "Day'Ron Sharpe": {
+        "team_id": "3456789012",
+        "position": "PF"
+    },
+    "Royce O'Neale": {
+        "team_id": "3456789012",
+        "position": "SF"
+    },
+    "Scottie Lindsey": {
+        "team_id": "3456789012",
+        "position": "SG"
+    },
+    "Cameron Johnson": {
+        "team_id": "3456789012",
+        "position": "G"
+    },
+    "Harry Giles": {
+        "team_id": "3456789012",
+        "position": "PF"
+    },
+    "Dorian Finney-Smith": {
+        "team_id": "3456789012",
+        "position": "SF"
+    },
+    "Kyler Edwards": {
+        "team_id": "3456789012",
+        "position": "G"
+    },
+    "Spencer Dinwiddie": {
+        "team_id": "3456789012",
+        "position": "PG"
+    },
+    "Noah Clowney": {
+        "team_id": "3456789012",
+        "position": "F"
+    },
+    "Nicolas Claxton": {
+        "team_id": "3456789012",
+        "position": "C"
+    },
+    "Armoni Brooks": {
+        "team_id": "3456789012",
+        "position": "SG"
+    },
+    "Mikal Bridges": {
+        "team_id": "3456789012",
+        "position": "SG"
+    },
+    "Darius Bazley": {
+        "team_id": "3456789012",
+        "position": "PF"
+    },
+    "Angelo Allegri": {
+        "team_id": "4567890123",
+        "position": "F"
+    },
+    "Amari Bailey": {
+        "team_id": "4567890123",
+        "position": "G"
+    },
+    "LaMelo Ball": {
+        "team_id": "4567890123",
+        "position": "G"
+    },
+    "Leaky Black": {
+        "team_id": "4567890123",
+        "position": "SF"
+    },
+    "James Bouknight": {
+        "team_id": "4567890123",
+        "position": "G"
+    },
+    "Miles Bridges": {
+        "team_id": "4567890123",
+        "position": "SF"
+    },
+    "Gordon Hayward": {
+        "team_id": "4567890123",
+        "position": "GF"
+    },
+    "Kai Jones": {
+        "team_id": "4567890123",
+        "position": "PF"
+    },
+    "Cody Martin": {
+        "team_id": "4567890123",
+        "position": "F"
+    },
+    "Bryce McGowens": {
+        "team_id": "4567890123",
+        "position": "GF"
+    },
+    "Nathan Mensah": {
+        "team_id": "4567890123",
+        "position": "F"
+    },
+    "Brandon Miller": {
+        "team_id": "4567890123",
+        "position": "F"
+    },
+    "Frank Ntilikina": {
+        "team_id": "4567890123",
+        "position": "PG"
+    },
+    "Nick Richards": {
+        "team_id": "4567890123",
+        "position": "C"
+    },
+    "Terry Rozier": {
+        "team_id": "4567890123",
+        "position": "G"
+    },
+    "Tre Scott": {
+        "team_id": "4567890123",
+        "position": "SF"
+    },
+    "Jaylen Sims": {
+        "team_id": "4567890123",
+        "position": "G"
+    },
+    "Nick Smith,": {
+        "team_id": "4567890123",
+        "position": "Jr."
+    },
+    "J.T. Thor": {
+        "team_id": "4567890123",
+        "position": "PF"
+    },
+    "P.J. Washington": {
+        "team_id": "4567890123",
+        "position": "PF"
+    },
+    "Mark Williams": {
+        "team_id": "4567890123",
+        "position": "C"
+    },
+    "Lonzo Ball": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Onuralp Bitim": {
+        "team_id": "5678901234",
+        "position": "SG"
+    },
+    "Jevon Carter": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Alex Caruso": {
+        "team_id": "5678901234",
+        "position": "G"
+    },
+    "Torrey Craig": {
+        "team_id": "5678901234",
+        "position": "GF"
+    },
+    "DeMar DeRozan": {
+        "team_id": "5678901234",
+        "position": "GF"
+    },
+    "Ayo Dosunmu": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Henri Drell": {
+        "team_id": "5678901234",
+        "position": "SF"
+    },
+    "Andre Drummond": {
+        "team_id": "5678901234",
+        "position": "C"
+    },
+    "Max Heidegger": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Quenton Jackson": {
+        "team_id": "5678901234",
+        "position": "GF"
+    },
+    "Carlik Jones": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Zach LaVine": {
+        "team_id": "5678901234",
+        "position": "SG"
+    },
+    "Justin Lewis": {
+        "team_id": "5678901234",
+        "position": "F"
+    },
+    "Julian Phillips": {
+        "team_id": "5678901234",
+        "position": "F"
+    },
+    "Adama Sanogo": {
+        "team_id": "5678901234",
+        "position": "PF"
+    },
+    "Terry Taylor": {
+        "team_id": "5678901234",
+        "position": "GF"
+    },
+    "Dalen Terry": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Nikola Vucevic": {
+        "team_id": "5678901234",
+        "position": "PF"
+    },
+    "Coby White": {
+        "team_id": "5678901234",
+        "position": "PG"
+    },
+    "Patrick Williams": {
+        "team_id": "5678901234",
+        "position": "G"
+    },
+    "Jarrett Allen": {
+        "team_id": "6789012345",
+        "position": "C"
+    },
+    "Emoni Bates": {
+        "team_id": "6789012345",
+        "position": "SF"
+    },
+    "Sharife Cooper": {
+        "team_id": "6789012345",
+        "position": "PG"
+    },
+    "Darius Garland": {
+        "team_id": "6789012345",
+        "position": "G"
+    },
+    "Ty Jerome": {
+        "team_id": "6789012345",
+        "position": "PG"
+    },
+    "Damian Jones": {
+        "team_id": "6789012345",
+        "position": "PF"
+    },
+    "Caris LeVert": {
+        "team_id": "6789012345",
+        "position": "G"
+    },
+    "Sam Merrill": {
+        "team_id": "6789012345",
+        "position": "G"
+    },
+    "Donovan Mitchell": {
+        "team_id": "6789012345",
+        "position": "SG"
+    },
+    "Evan Mobley": {
+        "team_id": "6789012345",
+        "position": "PF"
+    },
+    "Isaiah Mobley": {
+        "team_id": "6789012345",
+        "position": "SF"
+    },
+    "Pete Nance": {
+        "team_id": "6789012345",
+        "position": "PF"
+    },
+    "Georges Niang": {
+        "team_id": "6789012345",
+        "position": "F"
+    },
+    "Isaac Okoro": {
+        "team_id": "6789012345",
+        "position": "SG"
+    },
+    "Craig Porter,": {
+        "team_id": "6789012345",
+        "position": "Jr."
+    },
+    "Justin Powell": {
+        "team_id": "6789012345",
+        "position": "SG"
+    },
+    "Ricky Rubio": {
+        "team_id": "6789012345",
+        "position": "G"
+    },
+    "Zhaire Smith": {
+        "team_id": "6789012345",
+        "position": "SG"
+    },
+    "Max Strus": {
+        "team_id": "6789012345",
+        "position": "G"
+    },
+    "Tristan Thompson": {
+        "team_id": "6789012345",
+        "position": "F"
+    },
+    "Dean Wade": {
+        "team_id": "6789012345",
+        "position": "PF"
+    },
+    "Greg Brown": {
+        "team_id": "7890123456",
+        "position": "III"
+    },
+    "Seth Curry": {
+        "team_id": "7890123456",
+        "position": "G"
+    },
+    "Dexter Dennis": {
+        "team_id": "7890123456",
+        "position": "GF"
+    },
+    "Luka Doncic": {
+        "team_id": "7890123456",
+        "position": "SF"
+    },
+    "Dante Exum": {
+        "team_id": "7890123456",
+        "position": "PG"
+    },
+    "Josh Green": {
+        "team_id": "7890123456",
+        "position": "SG"
+    },
+    "Tim Hardaway": {
+        "team_id": "7890123456",
+        "position": "Jr."
+    },
+    "Jaden Hardy": {
+        "team_id": "7890123456",
+        "position": "SG"
+    },
+    "Richaun Holmes": {
+        "team_id": "7890123456",
+        "position": "F"
+    },
+    "Kyrie Irving": {
+        "team_id": "7890123456",
+        "position": "G"
+    },
+    "Derrick Jones": {
+        "team_id": "7890123456",
+        "position": "SF"
+    },
+    "Maxi Kleber": {
+        "team_id": "7890123456",
+        "position": "PF"
+    },
+    "A.J. Lawson": {
+        "team_id": "7890123456",
+        "position": "F"
+    },
+    "Dereck Lively": {
+        "team_id": "7890123456",
+        "position": "II"
+    },
+    "Mike Miles,": {
+        "team_id": "7890123456",
+        "position": "Jr."
+    },
+    "Markieff Morris": {
+        "team_id": "7890123456",
+        "position": "PF"
+    },
+    "Dwight Powell": {
+        "team_id": "7890123456",
+        "position": "PF"
+    },
+    "Olivier-Maxence Prosper": {
+        "team_id": "7890123456",
+        "position": "F"
+    },
+    "Jordan Walker": {
+        "team_id": "7890123456",
+        "position": "G"
+    },
+    "Joe Wieskamp": {
+        "team_id": "7890123456",
+        "position": "SF"
+    },
+    "Grant Williams": {
+        "team_id": "7890123456",
+        "position": "SF"
+    },
+    "Souley Boum": {
+        "team_id": "8901234567",
+        "position": "G"
+    },
+    "Christian Braun": {
+        "team_id": "8901234567",
+        "position": "SF"
+    },
+    "Kentavious Caldwell-Pope": {
+        "team_id": "8901234567",
+        "position": "SG"
+    },
+    "Vlatko Cancar": {
+        "team_id": "8901234567",
+        "position": "SF"
+    },
+    "Armaan Franklin": {
+        "team_id": "8901234567",
+        "position": "G"
+    },
+    "Andrew Funk": {
+        "team_id": "8901234567",
+        "position": "SG"
+    },
+    "Collin Gillespie": {
+        "team_id": "8901234567",
+        "position": "PG"
+    },
+    "Aaron Gordon": {
+        "team_id": "8901234567",
+        "position": "F"
+    },
+    "Justin Holiday": {
+        "team_id": "8901234567",
+        "position": "SF"
+    },
+    "James Huff": {
+        "team_id": "8901234567",
+        "position": "C"
+    },
+    "Reggie Jackson": {
+        "team_id": "8901234567",
+        "position": "G"
+    },
+    "Nikola Jokic": {
+        "team_id": "8901234567",
+        "position": "C"
+    },
+    "DeAndre Jordan": {
+        "team_id": "8901234567",
+        "position": "C"
+    },
+    "Braxton Key": {
+        "team_id": "8901234567",
+        "position": "SF"
+    },
+    "Jamal Murray": {
+        "team_id": "8901234567",
+        "position": "SG"
+    },
+    "Zeke Nnaji": {
+        "team_id": "8901234567",
+        "position": "PF"
+    },
+    "Jalen Pickett": {
+        "team_id": "8901234567",
+        "position": "F"
+    },
+    "Michael Porter,": {
+        "team_id": "8901234567",
+        "position": "Jr."
+    },
+    "Julian Strawther": {
+        "team_id": "8901234567",
+        "position": "GF"
+    },
+    "Hunter Tyson": {
+        "team_id": "8901234567",
+        "position": "SF"
+    },
+    "Peyton Watson": {
+        "team_id": "8901234567",
+        "position": "GF"
+    },
+    "Marvin Bagley": {
+        "team_id": "9012345678",
+        "position": "III"
+    },
+    "Buddy Boeheim": {
+        "team_id": "9012345678",
+        "position": "SG"
+    },
+    "Bojan Bogdanovic": {
+        "team_id": "9012345678",
+        "position": "F"
+    },
+    "Alec Burks": {
+        "team_id": "9012345678",
+        "position": "SG"
+    },
+    "Malcolm Cazalon": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "Cade Cunningham": {
+        "team_id": "9012345678",
+        "position": "SF"
+    },
+    "Jalen Duren": {
+        "team_id": "9012345678",
+        "position": "PF"
+    },
+    "Tosan Evbuomwan": {
+        "team_id": "9012345678",
+        "position": "SF"
+    },
+    "Joe Harris": {
+        "team_id": "9012345678",
+        "position": "SG"
+    },
+    "Killian Hayes": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "Jaden Ivey": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "Isaiah Livers": {
+        "team_id": "9012345678",
+        "position": "PF"
+    },
+    "Monte Morris": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "Jontay Porter": {
+        "team_id": "9012345678",
+        "position": "PF"
+    },
+    "Jared Rhoden": {
+        "team_id": "9012345678",
+        "position": "SG"
+    },
+    "Marcus Sasser": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "Zavier Simpson": {
+        "team_id": "9012345678",
+        "position": "PG"
+    },
+    "Isaiah Stewart": {
+        "team_id": "9012345678",
+        "position": "II"
+    },
+    "Ausar Thompson": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "Stanley Umude": {
+        "team_id": "9012345678",
+        "position": "G"
+    },
+    "James Wiseman": {
+        "team_id": "9012345678",
+        "position": "C"
+    },
+    "Stephen Curry": {
+        "team_id": "0123456789",
+        "position": "G"
+    },
+    "Usman Garuba": {
+        "team_id": "0123456789",
+        "position": "C"
+    },
+    "Draymond Green": {
+        "team_id": "0123456789",
+        "position": "F"
+    },
+    "Trayce Jackson-Davis": {
+        "team_id": "0123456789",
+        "position": "F"
+    },
+    "Cory Joseph": {
+        "team_id": "0123456789",
+        "position": "PG"
+    },
+    "Jonathan Kuminga": {
+        "team_id": "0123456789",
+        "position": "F"
+    },
+    "Kevon Looney": {
+        "team_id": "0123456789",
+        "position": "PF"
+    },
+    "Moses Moody": {
+        "team_id": "0123456789",
+        "position": "SG"
+    },
+    "Chris Paul": {
+        "team_id": "0123456789",
+        "position": "PG"
+    },
+    "Gary Payton": {
+        "team_id": "0123456789",
+        "position": "II"
+    },
+    "Brandin Podziemski": {
+        "team_id": "0123456789",
+        "position": "G"
+    },
+    "Lester Quinones": {
+        "team_id": "0123456789",
+        "position": "SG"
+    },
+    "Dario Saric": {
+        "team_id": "0123456789",
+        "position": "SF"
+    },
+    "Klay Thompson": {
+        "team_id": "0123456789",
+        "position": "G"
+    },
+    "Andrew Wiggins": {
+        "team_id": "0123456789",
+        "position": "F"
+    },
+    "Dillon Brooks": {
+        "team_id": "1123456789",
+        "position": "F"
+    },
+    "Darius Days": {
+        "team_id": "1123456789",
+        "position": "PF"
+    },
+    "Tari Eason": {
+        "team_id": "1123456789",
+        "position": "F"
+    },
+    "Jalen Green": {
+        "team_id": "1123456789",
+        "position": "SG"
+    },
+    "Jeff Green": {
+        "team_id": "1123456789",
+        "position": "F"
+    },
+    "Nathaniel Hinton": {
+        "team_id": "1123456789",
+        "position": "SF"
+    },
+    "Aaron Holiday": {
+        "team_id": "1123456789",
+        "position": "PG"
+    },
+    "Trevor Hudgins": {
+        "team_id": "1123456789",
+        "position": "G"
+    },
+    "Jock Landale": {
+        "team_id": "1123456789",
+        "position": "C"
+    },
+    "Boban Marjanovic": {
+        "team_id": "1123456789",
+        "position": "C"
+    },
+    "Matthew Mayer": {
+        "team_id": "1123456789",
+        "position": "SF"
+    },
+    "Joshua Obiesie": {
+        "team_id": "1123456789",
+        "position": "F"
+    },
+    "Kevin Porter,": {
+        "team_id": "1123456789",
+        "position": "Jr."
+    },
+    "Jermaine Samuels": {
+        "team_id": "1123456789",
+        "position": "SF"
+    },
+    "Alperen Sengun": {
+        "team_id": "1123456789",
+        "position": "C"
+    },
+    "Jabari Smith,": {
+        "team_id": "1123456789",
+        "position": "Jr."
+    },
+    "Jae'sean Tate": {
+        "team_id": "1123456789",
+        "position": "F"
+    },
+    "Amen Thompson": {
+        "team_id": "1123456789",
+        "position": "G"
+    },
+    "Fred VanVleet": {
+        "team_id": "1123456789",
+        "position": "G"
+    },
+    "Cam Whitmore": {
+        "team_id": "1123456789",
+        "position": "F"
+    },
+    "Nate Williams,": {
+        "team_id": "1123456789",
+        "position": "Jr."
+    },
+    "Pedro Bradshaw": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Bruce Brown,": {
+        "team_id": "2234567890",
+        "position": "Jr."
+    },
+    "Kendall Brown": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Tyrese Haliburton": {
+        "team_id": "2234567890",
+        "position": "PG"
+    },
+    "Buddy Hield": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Isaiah Jackson": {
+        "team_id": "2234567890",
+        "position": "PF"
+    },
+    "Bennedict Mathurin": {
+        "team_id": "2234567890",
+        "position": "GF"
+    },
+    "T.J. McConnell": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Andrew Nembhard": {
+        "team_id": "2234567890",
+        "position": "PG"
+    },
+    "Aaron Nesmith": {
+        "team_id": "2234567890",
+        "position": "F"
+    },
+    "Jordan Nwora": {
+        "team_id": "2234567890",
+        "position": "F"
+    },
+    "Ben Sheppard": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Jalen Smith": {
+        "team_id": "2234567890",
+        "position": "C"
+    },
+    "Craig Sword": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Daniel Theis": {
+        "team_id": "2234567890",
+        "position": "C"
+    },
+    "Obi Toppin": {
+        "team_id": "2234567890",
+        "position": "F"
+    },
+    "Oscar Tshiebwe": {
+        "team_id": "2234567890",
+        "position": "F"
+    },
+    "Myles Turner": {
+        "team_id": "2234567890",
+        "position": "FC"
+    },
+    "Jarace Walker": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Isaiah Wong": {
+        "team_id": "2234567890",
+        "position": "G"
+    },
+    "Nicolas Batum": {
+        "team_id": "3345678901",
+        "position": "F"
+    },
+    "B.J. Boston,": {
+        "team_id": "3345678901",
+        "position": "Jr."
+    },
+    "Kobe Brown": {
+        "team_id": "3345678901",
+        "position": "GF"
+    },
+    "Amir Coffey": {
+        "team_id": "3345678901",
+        "position": "SF"
+    },
+    "Robert Covington": {
+        "team_id": "3345678901",
+        "position": "F"
+    },
+    "Moussa Diabate": {
+        "team_id": "3345678901",
+        "position": "PF"
+    },
+    "Paul George": {
+        "team_id": "3345678901",
+        "position": "GF"
+    },
+    "Bones Hyland": {
+        "team_id": "3345678901",
+        "position": "G"
+    },
+    "Kawhi Leonard": {
+        "team_id": "3345678901",
+        "position": "F"
+    },
+    "Terance Mann": {
+        "team_id": "3345678901",
+        "position": "SG"
+    },
+    "K.J. Martin": {
+        "team_id": "3345678901",
+        "position": "F"
+    },
+    "Jordan Miller": {
+        "team_id": "3345678901",
+        "position": "G"
+    },
+    "Xavier Moon": {
+        "team_id": "3345678901",
+        "position": "SG"
+    },
+    "Marcus Morris": {
+        "team_id": "3345678901",
+        "position": "F"
+    },
+    "Mason Plumlee": {
+        "team_id": "3345678901",
+        "position": "PF"
+    },
+    "Norman Powell": {
+        "team_id": "3345678901",
+        "position": "SG"
+    },
+    "Jason Preston": {
+        "team_id": "3345678901",
+        "position": "G"
+    },
+    "Brodric Thomas": {
+        "team_id": "3345678901",
+        "position": "G"
+    },
+    "Russell Westbrook": {
+        "team_id": "3345678901",
+        "position": "G"
+    },
+    "Ivica Zubac": {
+        "team_id": "3345678901",
+        "position": "C"
+    },
+    "Damion Baugh": {
+        "team_id": "4456789012",
+        "position": "SG"
+    },
+    "Colin Castleton": {
+        "team_id": "4456789012",
+        "position": "PF"
+    },
+    "Max Christie": {
+        "team_id": "4456789012",
+        "position": "F"
+    },
+    "Anthony Davis": {
+        "team_id": "4456789012",
+        "position": "PF"
+    },
+    "Alex Fudge": {
+        "team_id": "4456789012",
+        "position": "F"
+    },
+    "Rui Hachimura": {
+        "team_id": "4456789012",
+        "position": "F"
+    },
+    "Jaxson Hayes": {
+        "team_id": "4456789012",
+        "position": "PF"
+    },
+    "D'Moi Hodge": {
+        "team_id": "4456789012",
+        "position": "F"
+    },
+    "Jalen Hood-Schifino": {
+        "team_id": "4456789012",
+        "position": "PG"
+    },
+    "LeBron James": {
+        "team_id": "4456789012",
+        "position": "F"
+    },
+    "Maxwell Lewis": {
+        "team_id": "4456789012",
+        "position": "SF"
+    },
+    "Scotty Pippen,": {
+        "team_id": "4456789012",
+        "position": "Jr."
+    },
+    "Taurean Prince": {
+        "team_id": "4456789012",
+        "position": "F"
+    },
+    "Austin Reaves": {
+        "team_id": "4456789012",
+        "position": "PG"
+    },
+    "Cam Reddish": {
+        "team_id": "4456789012",
+        "position": "G"
+    },
+    "D'Angelo Russell": {
+        "team_id": "4456789012",
+        "position": "SG"
+    },
+    "Vincent Valerio-Bodon": {
+        "team_id": "4456789012",
+        "position": "GF"
+    },
+    "Jarred Vanderbilt": {
+        "team_id": "4456789012",
+        "position": "PF"
+    },
+    "Gabe Vincent": {
+        "team_id": "4456789012",
+        "position": "G"
+    },
+    "Christian Wood": {
+        "team_id": "4456789012",
+        "position": "PF"
+    },
+    "Steven Adams": {
+        "team_id": "5567890123",
+        "position": "C"
+    },
+    "Santi Aldama": {
+        "team_id": "5567890123",
+        "position": "C"
+    },
+    "Desmond Bane": {
+        "team_id": "5567890123",
+        "position": "SG"
+    },
+    "Josh Christopher": {
+        "team_id": "5567890123",
+        "position": "G"
+    },
+    "Brandon Clarke": {
+        "team_id": "5567890123",
+        "position": "PF"
+    },
+    "Jacob Gilyard": {
+        "team_id": "5567890123",
+        "position": "PG"
+    },
+    "Shaquille Harrison": {
+        "team_id": "5567890123",
+        "position": "G"
+    },
+    "G.G. Jackson": {
+        "team_id": "5567890123",
+        "position": "PF"
+    },
+    "Jaren Jackson,": {
+        "team_id": "5567890123",
+        "position": "Jr."
+    },
+    "Luke Kennard": {
+        "team_id": "5567890123",
+        "position": "SG"
+    },
+    "John Konchar": {
+        "team_id": "5567890123",
+        "position": "G"
+    },
+    "Jake LaRavia": {
+        "team_id": "5567890123",
+        "position": "F"
+    },
+    "Kenny Lofton,": {
+        "team_id": "5567890123",
+        "position": "Jr."
+    },
+    "Ja Morant": {
+        "team_id": "5567890123",
+        "position": "G"
+    },
+    "David Roddy": {
+        "team_id": "5567890123",
+        "position": "F"
+    },
+    "Derrick Rose": {
+        "team_id": "5567890123",
+        "position": "PG"
+    },
+    "Marcus Smart": {
+        "team_id": "5567890123",
+        "position": "PG"
+    },
+    "Xavier Tillman,": {
+        "team_id": "5567890123",
+        "position": "Sr."
+    },
+    "Isaiah Todd": {
+        "team_id": "5567890123",
+        "position": "PF"
+    },
+    "Vincent Williams,": {
+        "team_id": "5567890123",
+        "position": "Jr."
+    },
+    "Ziaire Williams": {
+        "team_id": "5567890123",
+        "position": "F"
+    },
+    "Bam Adebayo": {
+        "team_id": "6678901234",
+        "position": "C"
+    },
+    "Thomas Bryant": {
+        "team_id": "6678901234",
+        "position": "C"
+    },
+    "Jimmy Butler": {
+        "team_id": "6678901234",
+        "position": "GF"
+    },
+    "Jamal Cain": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Justin Champagnie": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Cheick Diallo": {
+        "team_id": "6678901234",
+        "position": "PF"
+    },
+    "R.J. Hampton": {
+        "team_id": "6678901234",
+        "position": "G"
+    },
+    "Tyler Herro": {
+        "team_id": "6678901234",
+        "position": "SG"
+    },
+    "Haywood Highsmith": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Jaime Jaquez,": {
+        "team_id": "6678901234",
+        "position": "Jr."
+    },
+    "Nikola Jovic": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Kevin Love": {
+        "team_id": "6678901234",
+        "position": "FC"
+    },
+    "Kyle Lowry": {
+        "team_id": "6678901234",
+        "position": "PG"
+    },
+    "Caleb Martin": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Drew Peterson": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Josh Richardson": {
+        "team_id": "6678901234",
+        "position": "G"
+    },
+    "Duncan Robinson": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Orlando Robinson": {
+        "team_id": "6678901234",
+        "position": "PF"
+    },
+    "Dru Smith": {
+        "team_id": "6678901234",
+        "position": "SG"
+    },
+    "Cole Swider": {
+        "team_id": "6678901234",
+        "position": "F"
+    },
+    "Alondes Williams": {
+        "team_id": "6678901234",
+        "position": "G"
+    },
+    "Nickeil Alexander-Walker": {
+        "team_id": "8890123456",
+        "position": "SG"
+    },
+    "Kyle Anderson": {
+        "team_id": "8890123456",
+        "position": "PF"
+    },
+    "Troy Brown,": {
+        "team_id": "8890123456",
+        "position": "Jr."
+    },
+    "Jaylen Clark": {
+        "team_id": "8890123456",
+        "position": "G"
+    },
+    "Mike Conley": {
+        "team_id": "8890123456",
+        "position": "PG"
+    },
+    "Anthony Edwards": {
+        "team_id": "8890123456",
+        "position": "SF"
+    },
+    "Luka Garza": {
+        "team_id": "8890123456",
+        "position": "C"
+    },
+    "Rudy Gobert": {
+        "team_id": "8890123456",
+        "position": "C"
+    },
+    "Trevor Keels": {
+        "team_id": "8890123456",
+        "position": "PG"
+    },
+    "Vit Krejci": {
+        "team_id": "8890123456",
+        "position": "PG"
+    },
+    "Tyrese Martin": {
+        "team_id": "8890123456",
+        "position": "GF"
+    },
+    "Jaden McDaniels": {
+        "team_id": "8890123456",
+        "position": "F"
+    },
+    "Jordan McLaughlin": {
+        "team_id": "8890123456",
+        "position": "G"
+    },
+    "Leonard Miller": {
+        "team_id": "8890123456",
+        "position": "F"
+    },
+    "Shake Milton": {
+        "team_id": "8890123456",
+        "position": "SG"
+    },
+    "Josh Minott": {
+        "team_id": "8890123456",
+        "position": "F"
+    },
+    "Wendell Moore,": {
+        "team_id": "8890123456",
+        "position": "Jr."
+    },
+    "Daishen Nix": {
+        "team_id": "8890123456",
+        "position": "GF"
+    },
+    "Naz Reid": {
+        "team_id": "8890123456",
+        "position": "C"
+    },
+    "Matt Ryan": {
+        "team_id": "8890123456",
+        "position": "SF"
+    },
+    "Karl-Anthony Towns": {
+        "team_id": "8890123456",
+        "position": "C"
+    },
+    "Jose Alvarado": {
+        "team_id": "9901234567",
+        "position": "G"
+    },
+    "Dyson Daniels": {
+        "team_id": "9901234567",
+        "position": "GF"
+    },
+    "Jordan Hawkins": {
+        "team_id": "9901234567",
+        "position": "G"
+    },
+    "Brandon Ingram": {
+        "team_id": "9901234567",
+        "position": "SF"
+    },
+    "Herb Jones": {
+        "team_id": "9901234567",
+        "position": "SF"
+    },
+    "Kira Lewis,": {
+        "team_id": "9901234567",
+        "position": "Jr."
+    },
+    "E.J. Liddell": {
+        "team_id": "9901234567",
+        "position": "PF"
+    },
+    "Naji Marshall": {
+        "team_id": "9901234567",
+        "position": "SF"
+    },
+    "C.J. McCollum": {
+        "team_id": "9901234567",
+        "position": "G"
+    },
+    "Trey Murphy": {
+        "team_id": "9901234567",
+        "position": "III"
+    },
+    "Larry Nance,": {
+        "team_id": "9901234567",
+        "position": "Jr."
+    },
+    "Dereon Seabron": {
+        "team_id": "9901234567",
+        "position": "SG"
+    },
+    "Jonas Valanciunas": {
+        "team_id": "9901234567",
+        "position": "C"
+    },
+    "Zion Williamson": {
+        "team_id": "9901234567",
+        "position": "PF"
+    },
+    "Cody Zeller": {
+        "team_id": "9901234567",
+        "position": "F"
+    },
+    "Ryan Arcidiacono": {
+        "team_id": "1012345678",
+        "position": "G"
+    },
+    "R.J. Barrett": {
+        "team_id": "1012345678",
+        "position": "SG"
+    },
+    "Charlie Brown,": {
+        "team_id": "1012345678",
+        "position": "Jr."
+    },
+    "Jalen Brunson": {
+        "team_id": "1012345678",
+        "position": "PG"
+    },
+    "Donte DiVincenzo": {
+        "team_id": "1012345678",
+        "position": "SG"
+    },
+    "Evan Fournier": {
+        "team_id": "1012345678",
+        "position": "SG"
+    },
+    "Quentin Grimes": {
+        "team_id": "1012345678",
+        "position": "SG"
+    },
+    "Josh Hart": {
+        "team_id": "1012345678",
+        "position": "SG"
+    },
+    "Isaiah Hartenstein": {
+        "team_id": "1012345678",
+        "position": "PF"
+    },
+    "DaQuan Jeffries": {
+        "team_id": "1012345678",
+        "position": "SF"
+    },
+    "Nathan Knight": {
+        "team_id": "1012345678",
+        "position": "PF"
+    },
+    "Jaylen Martin": {
+        "team_id": "1012345678",
+        "position": "F"
+    },
+    "Miles McBride": {
+        "team_id": "1012345678",
+        "position": "G"
+    },
+    "Immanuel Quickley": {
+        "team_id": "1012345678",
+        "position": "PG"
+    },
+    "Julius Randle": {
+        "team_id": "1012345678",
+        "position": "PF"
+    },
+    "Mitchell Robinson": {
+        "team_id": "1012345678",
+        "position": "C"
+    },
+    "Isaiah Roby": {
+        "team_id": "1012345678",
+        "position": "SF"
+    },
+    "Jericho Sims": {
+        "team_id": "1012345678",
+        "position": "C"
+    },
+    "Jacob Toppin": {
+        "team_id": "1012345678",
+        "position": "SF"
+    },
+    "Duane Washington,": {
+        "team_id": "1012345678",
+        "position": "Jr."
+    },
+    "Dylan Windler": {
+        "team_id": "1012345678",
+        "position": "SF"
+    },
+    "Davis Bertans": {
+        "team_id": "2123456789",
+        "position": "SF"
+    },
+    "Ousmane Dieng": {
+        "team_id": "2123456789",
+        "position": "SG"
+    },
+    "Luguentz Dort": {
+        "team_id": "2123456789",
+        "position": "PG"
+    },
+    "Josh Giddey": {
+        "team_id": "2123456789",
+        "position": "G"
+    },
+    "Shai Gilgeous-Alexander": {
+        "team_id": "2123456789",
+        "position": "PG"
+    },
+    "Chet Holmgren": {
+        "team_id": "2123456789",
+        "position": "C"
+    },
+    "Isaiah Joe": {
+        "team_id": "2123456789",
+        "position": "SG"
+    },
+    "Keyontae Johnson": {
+        "team_id": "2123456789",
+        "position": "F"
+    },
+    "Tre Mann": {
+        "team_id": "2123456789",
+        "position": "PG"
+    },
+    "Vasilije Micic": {
+        "team_id": "2123456789",
+        "position": "PG"
+    },
+    "Victor Oladipo": {
+        "team_id": "2123456789",
+        "position": "G"
+    },
+    "Aleksej Pokusevski": {
+        "team_id": "2123456789",
+        "position": "C"
+    },
+    "Jeremiah Robinson-Earl": {
+        "team_id": "2123456789",
+        "position": "PF"
+    },
+    "Olivier Sarr": {
+        "team_id": "2123456789",
+        "position": "FC"
+    },
+    "Cason Wallace": {
+        "team_id": "2123456789",
+        "position": "G"
+    },
+    "Lindy Waters": {
+        "team_id": "2123456789",
+        "position": "III"
+    },
+    "Jack White": {
+        "team_id": "2123456789",
+        "position": "SF"
+    },
+    "Aaron Wiggins": {
+        "team_id": "2123456789",
+        "position": "F"
+    },
+    "Jalen Williams": {
+        "team_id": "2123456789",
+        "position": "G"
+    },
+    "Jaylin Williams": {
+        "team_id": "2123456789",
+        "position": "C"
+    },
+    "Kenrich Williams": {
+        "team_id": "2123456789",
+        "position": "SF"
+    },
+    "Cole Anthony": {
+        "team_id": "3234567890",
+        "position": "PG"
+    },
+    "Paolo Banchero": {
+        "team_id": "3234567890",
+        "position": "C"
+    },
+    "Goga Bitadze": {
+        "team_id": "3234567890",
+        "position": "C"
+    },
+    "Anthony Black": {
+        "team_id": "3234567890",
+        "position": "G"
+    },
+    "Wendell Carter,": {
+        "team_id": "3234567890",
+        "position": "Jr."
+    },
+    "Markelle Fultz": {
+        "team_id": "3234567890",
+        "position": "PG"
+    },
+    "Gary Harris": {
+        "team_id": "3234567890",
+        "position": "SG"
+    },
+    "Kevon Harris": {
+        "team_id": "3234567890",
+        "position": "SF"
+    },
+    "Caleb Houstan": {
+        "team_id": "3234567890",
+        "position": "SF"
+    },
+    "Jett Howard": {
+        "team_id": "3234567890",
+        "position": "GF"
+    },
+    "Joe Ingles": {
+        "team_id": "3234567890",
+        "position": "F"
+    },
+    "Jonathan Isaac": {
+        "team_id": "3234567890",
+        "position": "SF"
+    },
+    "Mac McClung": {
+        "team_id": "3234567890",
+        "position": "PG"
+    },
+    "Chuma Okeke": {
+        "team_id": "3234567890",
+        "position": "PF"
+    },
+    "Trevelin Queen": {
+        "team_id": "3234567890",
+        "position": "G"
+    },
+    "Admiral Schofield": {
+        "team_id": "3234567890",
+        "position": "SF"
+    },
+    "Jalen Suggs": {
+        "team_id": "3234567890",
+        "position": "SG"
+    },
+    "Franz Wagner": {
+        "team_id": "3234567890",
+        "position": "SF"
+    },
+    "Moe Wagner": {
+        "team_id": "3234567890",
+        "position": "PF"
+    },
+    "Brandon Williams": {
+        "team_id": "3234567890",
+        "position": "PG"
+    },
+    "Mohamed Bamba": {
+        "team_id": "4345678901",
+        "position": "C"
+    },
+    "Patrick Beverley": {
+        "team_id": "4345678901",
+        "position": "PG"
+    },
+    "Ricky Council": {
+        "team_id": "4345678901",
+        "position": "IV"
+    },
+    "David Duke": {
+        "team_id": "4345678901",
+        "position": "SG"
+    },
+    "Joel Embiid": {
+        "team_id": "4345678901",
+        "position": "C"
+    },
+    "Danny Green": {
+        "team_id": "4345678901",
+        "position": "SF"
+    },
+    "James Harden": {
+        "team_id": "4345678901",
+        "position": "SG"
+    },
+    "Montrezl Harrell": {
+        "team_id": "4345678901",
+        "position": "F"
+    },
+    "Tobias Harris": {
+        "team_id": "4345678901",
+        "position": "F"
+    },
+    "Danuel House": {
+        "team_id": "4345678901",
+        "position": "F"
+    },
+    "Furkan Korkmaz": {
+        "team_id": "4345678901",
+        "position": "SG"
+    },
+    "Tyrese Maxey": {
+        "team_id": "4345678901",
+        "position": "PG"
+    },
+    "De'Anthony Melton": {
+        "team_id": "4345678901",
+        "position": "SG"
+    },
+    "Kelly Oubre,": {
+        "team_id": "4345678901",
+        "position": "Jr."
+    },
+    "Filip Petrusev": {
+        "team_id": "4345678901",
+        "position": "FC"
+    },
+    "Paul Reed,": {
+        "team_id": "4345678901",
+        "position": "Jr."
+    },
+    "Javonte Smart": {
+        "team_id": "4345678901",
+        "position": "G"
+    },
+    "Terquavion Smith": {
+        "team_id": "4345678901",
+        "position": "G"
+    },
+    "Jaden Springer": {
+        "team_id": "4345678901",
+        "position": "SG"
+    },
+    "Azuolas Tubelis": {
+        "team_id": "4345678901",
+        "position": "F"
+    },
+    "P.J. Tucker": {
+        "team_id": "4345678901",
+        "position": "SF"
+    },
+    "Deandre Ayton": {
+        "team_id": "5456789012",
+        "position": "C"
+    },
+    "Udoka Azubuike": {
+        "team_id": "5456789012",
+        "position": "C"
+    },
+    "Keita Bates-Diop": {
+        "team_id": "5456789012",
+        "position": "SF"
+    },
+    "Bradley Beal": {
+        "team_id": "5456789012",
+        "position": "SG"
+    },
+    "Bol Bol": {
+        "team_id": "5456789012",
+        "position": "C"
+    },
+    "Devin Booker": {
+        "team_id": "5456789012",
+        "position": "SG"
+    },
+    "Toumani Camara": {
+        "team_id": "5456789012",
+        "position": "SF"
+    },
+    "Kevin Durant": {
+        "team_id": "5456789012",
+        "position": "SF"
+    },
+    "Drew Eubanks": {
+        "team_id": "5456789012",
+        "position": "C"
+    },
+    "Jordan Goodwin": {
+        "team_id": "5456789012",
+        "position": "SG"
+    },
+    "Eric Gordon": {
+        "team_id": "5456789012",
+        "position": "G"
+    },
+    "Damion Lee": {
+        "team_id": "5456789012",
+        "position": "G"
+    },
+    "Saben Lee": {
+        "team_id": "5456789012",
+        "position": "PG"
+    },
+    "Chimezie Metu": {
+        "team_id": "5456789012",
+        "position": "PF"
+    },
+    "Josh Okogie": {
+        "team_id": "5456789012",
+        "position": "SG"
+    },
+    "Ish Wainright": {
+        "team_id": "5456789012",
+        "position": "GF"
+    },
+    "Yuta Watanabe": {
+        "team_id": "5456789012",
+        "position": "F"
+    },
+    "Ibou Badji": {
+        "team_id": "6567890123",
+        "position": "C"
+    },
+    "Moses Brown": {
+        "team_id": "6567890123",
+        "position": "C"
+    },
+    "John Butler": {
+        "team_id": "6567890123",
+        "position": "C"
+    },
+    "Jerami Grant": {
+        "team_id": "6567890123",
+        "position": "F"
+    },
+    "Scoot Henderson": {
+        "team_id": "6567890123",
+        "position": "G"
+    },
+    "Keon Johnson": {
+        "team_id": "6567890123",
+        "position": "PG"
+    },
+    "Damian Lillard": {
+        "team_id": "6567890123",
+        "position": "G"
+    },
+    "Nassir Little": {
+        "team_id": "6567890123",
+        "position": "SF"
+    },
+    "Kris Murray": {
+        "team_id": "6567890123",
+        "position": "F"
+    },
+    "Jusuf Nurkic": {
+        "team_id": "6567890123",
+        "position": "FC"
+    },
+    "Rayan Rupert": {
+        "team_id": "6567890123",
+        "position": "G"
+    },
+    "Shaedon Sharpe": {
+        "team_id": "6567890123",
+        "position": "F"
+    },
+    "Anfernee Simons": {
+        "team_id": "6567890123",
+        "position": "SG"
+    },
+    "Matisse Thybulle": {
+        "team_id": "6567890123",
+        "position": "SF"
+    },
+    "Jabari Walker": {
+        "team_id": "6567890123",
+        "position": "F"
+    },
+    "Harrison Barnes": {
+        "team_id": "7678901234",
+        "position": "SF"
+    },
+    "Deonte Burton": {
+        "team_id": "7678901234",
+        "position": "F"
+    },
+    "Chance Comanche": {
+        "team_id": "7678901234",
+        "position": "C"
+    },
+    "Chris Duarte": {
+        "team_id": "7678901234",
+        "position": "PG"
+    },
+    "Kessler Edwards": {
+        "team_id": "7678901234",
+        "position": "SG"
+    },
+    "Keon Ellis": {
+        "team_id": "7678901234",
+        "position": "F"
+    },
+    "Jordan Ford": {
+        "team_id": "7678901234",
+        "position": "PG"
+    },
+    "De'Aaron Fox": {
+        "team_id": "7678901234",
+        "position": "PG"
+    },
+    "Kevin Huerter": {
+        "team_id": "7678901234",
+        "position": "SF"
+    },
+    "Colby Jones": {
+        "team_id": "7678901234",
+        "position": "GF"
+    },
+    "Alex Len": {
+        "team_id": "7678901234",
+        "position": "C"
+    },
+    "Trey Lyles": {
+        "team_id": "7678901234",
+        "position": "SF"
+    },
+    "JaVale McGee": {
+        "team_id": "7678901234",
+        "position": "C"
+    },
+    "Davion Mitchell": {
+        "team_id": "7678901234",
+        "position": "PG"
+    },
+    "Malik Monk": {
+        "team_id": "7678901234",
+        "position": "SG"
+    },
+    "Keegan Murray": {
+        "team_id": "7678901234",
+        "position": "F"
+    },
+    "Domantas Sabonis": {
+        "team_id": "7678901234",
+        "position": "PF"
+    },
+    "Jalen Slawson": {
+        "team_id": "7678901234",
+        "position": "F"
+    },
+    "Sasha Vezenkov": {
+        "team_id": "7678901234",
+        "position": "PF"
+    },
+    "Dominick Barlow": {
+        "team_id": "8789012345",
+        "position": "F"
+    },
+    "Charles Bassey": {
+        "team_id": "8789012345",
+        "position": "PF"
+    },
+    "Khem Birch": {
+        "team_id": "8789012345",
+        "position": "PF"
+    },
+    "Malaki Branham": {
+        "team_id": "8789012345",
+        "position": "GF"
+    },
+    "Reggie Bullock": {
+        "team_id": "8789012345",
+        "position": "SG"
+    },
+    "Julian Champagnie": {
+        "team_id": "8789012345",
+        "position": "F"
+    },
+    "Sidy Cissoko": {
+        "team_id": "8789012345",
+        "position": "GF"
+    },
+    "Zach Collins": {
+        "team_id": "8789012345",
+        "position": "C"
+    },
+    "Devonte' Graham": {
+        "team_id": "8789012345",
+        "position": "PG"
+    },
+    "Raiquan Gray": {
+        "team_id": "8789012345",
+        "position": "PF"
+    },
+    "Keldon Johnson": {
+        "team_id": "8789012345",
+        "position": "SF"
+    },
+    "Tre Jones": {
+        "team_id": "8789012345",
+        "position": "PG"
+    },
+    "Sandro Mamukelashvili": {
+        "team_id": "8789012345",
+        "position": "F"
+    },
+    "Doug McDermott": {
+        "team_id": "8789012345",
+        "position": "F"
+    },
+    "Seth Millner": {
+        "team_id": "8789012345",
+        "position": "F"
+    },
+    "Cedi Osman": {
+        "team_id": "8789012345",
+        "position": "GF"
+    },
+    "Sir'Jabari Rice": {
+        "team_id": "8789012345",
+        "position": "G"
+    },
+    "Jeremy Sochan": {
+        "team_id": "8789012345",
+        "position": "SG"
+    },
+    "Devin Vassell": {
+        "team_id": "8789012345",
+        "position": "SG"
+    },
+    "Victor Wembanyama": {
+        "team_id": "8789012345",
+        "position": "F"
+    },
+    "Blake Wesley": {
+        "team_id": "8789012345",
+        "position": "SG"
+    },
+    "Precious Achiuwa": {
+        "team_id": "9890123456",
+        "position": "SF"
+    },
+    "OG Anunoby": {
+        "team_id": "9890123456",
+        "position": "SF"
+    },
+    "Scottie Barnes": {
+        "team_id": "9890123456",
+        "position": "SF"
+    },
+    "Chris Boucher": {
+        "team_id": "9890123456",
+        "position": "PF"
+    },
+    "Gradey Dick": {
+        "team_id": "9890123456",
+        "position": "GF"
+    },
+    "Jeff Dowtin": {
+        "team_id": "9890123456",
+        "position": "PG"
+    },
+    "Malachi Flynn": {
+        "team_id": "9890123456",
+        "position": "PG"
+    },
+    "Javon Freeman-Liberty": {
+        "team_id": "9890123456",
+        "position": "G"
+    },
+    "Mouhamadou Gueye": {
+        "team_id": "9890123456",
+        "position": "F"
+    },
+    "Ron Harper": {
+        "team_id": "9890123456",
+        "position": "G"
+    },
+    "Christian Koloko": {
+        "team_id": "9890123456",
+        "position": "C"
+    },
+    "Jalen McDaniels": {
+        "team_id": "9890123456",
+        "position": "PF"
+    },
+    "Markquis Nowell": {
+        "team_id": "9890123456",
+        "position": "PG"
+    },
+    "Kevin Obanor": {
+        "team_id": "9890123456",
+        "position": "F"
+    },
+    "Jakob Poeltl": {
+        "team_id": "9890123456",
+        "position": "C"
+    },
+    "Otto Porter": {
+        "team_id": "9890123456",
+        "position": "SF"
+    },
+    "Dennis Schroder": {
+        "team_id": "9890123456",
+        "position": "PG"
+    },
+    "Pascal Siakam": {
+        "team_id": "9890123456",
+        "position": "F"
+    },
+    "Garrett Temple": {
+        "team_id": "9890123456",
+        "position": "G"
+    },
+    "Gary Trent,": {
+        "team_id": "9890123456",
+        "position": "Jr."
+    },
+    "Thaddeus Young": {
+        "team_id": "9890123456",
+        "position": "F"
+    },
+    "Ochai Agbaji": {
+        "team_id": "0912345678",
+        "position": "SF"
+    },
+    "Jordan Clarkson": {
+        "team_id": "0912345678",
+        "position": "G"
+    },
+    "John Collins": {
+        "team_id": "0912345678",
+        "position": "PF"
+    },
+    "Kris Dunn": {
+        "team_id": "0912345678",
+        "position": "SG"
+    },
+    "Simone Fontecchio": {
+        "team_id": "0912345678",
+        "position": "SF"
+    },
+    "Keyonte George": {
+        "team_id": "0912345678",
+        "position": "G"
+    },
+    "Joey Hauser": {
+        "team_id": "0912345678",
+        "position": "PF"
+    },
+    "Taylor Hendricks": {
+        "team_id": "0912345678",
+        "position": "F"
+    },
+    "Talen Horton-Tucker": {
+        "team_id": "0912345678",
+        "position": "SF"
+    },
+    "Johnny Juzang": {
+        "team_id": "0912345678",
+        "position": "SG"
+    },
+    "Walker Kessler": {
+        "team_id": "0912345678",
+        "position": "C"
+    },
+    "Taevion Kinsey": {
+        "team_id": "0912345678",
+        "position": "GF"
+    },
+    "Romeo Langford": {
+        "team_id": "0912345678",
+        "position": "SG"
+    },
+    "Lauri Markkanen": {
+        "team_id": "0912345678",
+        "position": "SF"
+    },
+    "Kelly Olynyk": {
+        "team_id": "0912345678",
+        "position": "C"
+    },
+    "Nick Ongenda": {
+        "team_id": "0912345678",
+        "position": "C"
+    },
+    "Micah Potter": {
+        "team_id": "0912345678",
+        "position": "C"
+    },
+    "Luka Samanic": {
+        "team_id": "0912345678",
+        "position": "PF"
+    },
+    "Brice Sensabaugh": {
+        "team_id": "0912345678",
+        "position": "F"
+    },
+    "Collin Sexton": {
+        "team_id": "0912345678",
+        "position": "PG"
+    },
+    "Omer Yurtseven": {
+        "team_id": "0912345678",
+        "position": "C"
+    },
+    "Chase Audige": {
+        "team_id": "2034567890",
+        "position": "SG"
+    },
+    "Deni Avdija": {
+        "team_id": "2034567890",
+        "position": "SG"
+    },
+    "Patrick Baldwin,": {
+        "team_id": "2034567890",
+        "position": "Jr."
+    },
+    "Jared Butler": {
+        "team_id": "2034567890",
+        "position": "PG"
+    },
+    "Xavier Cooks": {
+        "team_id": "2034567890",
+        "position": "GF"
+    },
+    "Bilal Coulibaly": {
+        "team_id": "2034567890",
+        "position": "GF"
+    },
+    "Johnny Davis": {
+        "team_id": "2034567890",
+        "position": "F"
+    },
+    "Daniel Gafford": {
+        "team_id": "2034567890",
+        "position": "C"
+    },
+    "Danilo Gallinari": {
+        "team_id": "2034567890",
+        "position": "SF"
+    },
+    "Taj Gibson": {
+        "team_id": "2034567890",
+        "position": "F"
+    },
+    "Anthony Gill": {
+        "team_id": "2034567890",
+        "position": "PF"
+    },
+    "Tyus Jones": {
+        "team_id": "2034567890",
+        "position": "PG"
+    },
+    "Corey Kispert": {
+        "team_id": "2034567890",
+        "position": "SF"
+    },
+    "Kyle Kuzma": {
+        "team_id": "2034567890",
+        "position": "F"
+    },
+    "Mike Muscala": {
+        "team_id": "2034567890",
+        "position": "FC"
+    },
+    "Eugene Omoruyi": {
+        "team_id": "2034567890",
+        "position": "F"
+    },
+    "Jordan Poole": {
+        "team_id": "2034567890",
+        "position": "SG"
+    },
+    "Ryan Rollins": {
+        "team_id": "2034567890",
+        "position": "G"
+    },
+    "Landry Shamet": {
+        "team_id": "2034567890",
+        "position": "PG"
+    },
+    "Dejan Vasiljevic": {
+        "team_id": "2034567890",
+        "position": "SG"
+    },
+    "Delon Wright": {
+        "team_id": "2034567890",
+        "position": "G"
+    }
+}
