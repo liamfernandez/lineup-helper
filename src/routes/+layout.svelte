@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="flex flex-col justify-between min-h-screen max-h-fit bg-Canvas">
-	<span class="absolute right-2 top-8 md:top-6 md:right-10">
+	<span class="absolute right-2 top-4 md:top-6 md:right-10">
 		<ThemeSwitcher />
 	</span>
 	<main class="pt-10">

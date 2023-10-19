@@ -24,7 +24,7 @@
 	<a href="/create">
 		<button on:click={() => {
 			goto('/create')
-		}} class="hover:scale-105 transition flex flex-col items-center shadow-xl mx-auto bg-gradient-to-br from-[#FF8A15] to-orange text-white py-2 text-xl rounded-xl w-[12rem]">
+		}} class="hover:scale-105 hover:shadow-xl shadow-xl transition flex flex-col items-center md:shadow-none mx-auto bg-gradient-to-br from-[#FF8A15] to-orange text-white py-2 text-xl rounded-xl w-[12rem]">
 			Add a New Lineup
 			<Write size={22} />
 		</button>

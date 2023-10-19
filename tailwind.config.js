@@ -13,12 +13,14 @@ export default {
         'yellow': '#F4B400',
         'green': '#0F9D58',
         'white': '#FFFFFF',
-        'orange': '#cd5f00'
+        'orange': '#cd5f00',
+        'logo': '#D78032'
       }
     },
   },
   plugins: [
     require('daisyui'),
+    require('@tailwindcss/forms'),
   ],
   daisyui: {
     themes: false
