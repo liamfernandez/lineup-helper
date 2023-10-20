@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import OnMount from '$lib/components/OnMount.svelte';
 	import PlayerSearch from '$lib/icons/Player_Search.svelte';
 	import { BASE_DELAY, BASE_DURATION } from '$lib/transitions';
@@ -36,10 +35,6 @@
 			errorWithName = true;
 		}
 	}
-
-	onMount(() => {
-		console.log('ALL PLAYER NAMES: ', data.player_names);
-	});
 </script>
 
 <svelte:head>
