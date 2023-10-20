@@ -12,6 +12,5 @@ bun.lockb
 .eslintignore
 .eslintrc.cjs
 .npmrc
-.prettierrc
 .prettierignore
 package-lock.json
