@@ -1,16 +1,15 @@
-export class Player {
-  private name: string = "";
-  private team_id: number = 0;
-  private team_name: string = "";
-
-  public Player(name: string) {
-    this.name = name;
-    this.team_id = GLOBAL_PLAYERS[name]["team_id"];
-    this.team_name = TEAMS[this.team_id];
-  }
+type NBA_Player = {
+  player_id: number;
+  team_id: number;
+  image_url: string;
+  position: string;
+  pts: number | null;
+  reb: number | null;
+  ast: number | null;
+  index: number;
 }
 
-export const TEAMS: any = {
+export const TEAMS: { [key: string]: string } = {
   "1610612737": "Atlanta Hawks",
   "1610612738": "Boston Celtics",
   "1610612751": "Brooklyn Nets",
@@ -43,8 +42,7 @@ export const TEAMS: any = {
   "1610612764": "Washington Wizards"
 }
 
-
-export const GLOBAL_PLAYERS: any = {
+export const GLOBAL_PLAYERS: { [key: string]: NBA_Player } = {
   "Precious Achiuwa": {
     "player_id": 1630173,
     "team_id": 1610612761,
@@ -204,16 +202,6 @@ export const GLOBAL_PLAYERS: any = {
     "reb": 1.9,
     "ast": 2.0,
     "index": 16
-  },
-  "Chase Audige": {
-    "player_id": 1641914,
-    "team_id": 1610612764,
-    "image_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641914.png",
-    "position": null,
-    "pts": null,
-    "reb": null,
-    "ast": null,
-    "index": 17
   },
   "Deni Avdija": {
     "player_id": 1630166,
@@ -4035,16 +4023,6 @@ export const GLOBAL_PLAYERS: any = {
     "ast": 2.4,
     "index": 399
   },
-  "Kevin Obanor": {
-    "player_id": 1641893,
-    "team_id": 1610612761,
-    "image_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641893.png",
-    "position": null,
-    "pts": null,
-    "reb": null,
-    "ast": null,
-    "index": 400
-  },
   "Joshua Obiesie": {
     "player_id": 1629697,
     "team_id": 1610612745,
@@ -6026,3 +6004,5 @@ export const GLOBAL_PLAYERS: any = {
     "index": 598
   }
 };
+
+export const ALL_PLAYER_NAMES = Object.keys(GLOBAL_PLAYERS);

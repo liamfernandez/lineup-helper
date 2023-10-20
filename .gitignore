@@ -14,3 +14,4 @@ bun.lockb
 .npmrc
 .prettierrc
 .prettierignore
+package-lock.json

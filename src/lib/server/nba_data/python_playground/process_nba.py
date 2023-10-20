@@ -44,10 +44,6 @@ def prune_nba_stats_data():
         with open("raw_nba_stats_data/cleaned_players.json", 'w') as outfile:
             json.dump(pruned_data, outfile, indent=2)
 
-def download_player_headshots():
-    print("s")
-
-
 if __name__ == "__main__":
     # format_nba_stats_data()
     prune_nba_stats_data()

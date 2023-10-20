@@ -1,7 +1,4 @@
 <script lang="ts">
-import type { Player } from "$lib/nba_data/models";
-
-export let players: Map<string, Player>;
 </script>
 
 <div class="overflow-hidden rounded-md bg-white shadow mt-4">
