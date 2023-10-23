@@ -1,0 +1,6772 @@
+{
+  "Ike Anigbogu": {
+    "player_id": 14,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Ron Baker": {
+    "player_id": 25,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Jabari Bird": {
+    "player_id": 47,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "MarShon Brooks": {
+    "player_id": 67,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Lorenzo Brown": {
+    "player_id": 71,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Omri Casspi": {
+    "player_id": 90,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Alex Abrines": {
+    "player_id": 1,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Tyler Davis": {
+    "player_id": 119,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Keenan Evans": {
+    "player_id": 149,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Marcin Gortat": {
+    "player_id": 179,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Andrew Bogut": {
+    "player_id": 1593,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Amir Johnson": {
+    "player_id": 241,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Malachi Richardson": {
+    "player_id": 392,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Zach Lofton": {
+    "player_id": 281,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Kosta Koufos": {
+    "player_id": 263,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Billy Preston": {
+    "player_id": 382,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Zhou Qi": {
+    "player_id": 384,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Zach Randolph": {
+    "player_id": 388,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "DJ Stephens": {
+    "player_id": 430,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Milos Teodosic": {
+    "player_id": 437,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Gary Trent Jr.": {
+    "player_id": 448,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Antoine Walker": {
+    "player_id": 1009,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Shareef Abdur-Rahim": {
+    "player_id": 1018,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Ed O'Bannon": {
+    "player_id": 1023,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Stephon Marbury": {
+    "player_id": 1027,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Loy Vaught": {
+    "player_id": 1032,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Todd Fuller": {
+    "player_id": 1034,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Ray Allen": {
+    "player_id": 1036,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Allen Iverson": {
+    "player_id": 1037,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Matt Maloney": {
+    "player_id": 1044,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Antonio Daniels": {
+    "player_id": 1086,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Tim Duncan": {
+    "player_id": 1089,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Tony Battie": {
+    "player_id": 1090,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Bobby Jackson": {
+    "player_id": 1091,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Ron Mercer": {
+    "player_id": 1096,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Zydrunas Ilgauskas": {
+    "player_id": 1107,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Derek Anderson": {
+    "player_id": 1108,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Jason Williams": {
+    "player_id": 1161,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Paul Pierce": {
+    "player_id": 1168,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Michael Dickerson": {
+    "player_id": 1181,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Raef LaFrentz": {
+    "player_id": 1193,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Mike Bibby": {
+    "player_id": 1199,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Lamar Odom": {
+    "player_id": 1216,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Shawn Marion": {
+    "player_id": 1226,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "James Posey": {
+    "player_id": 1227,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Adrian Griffin": {
+    "player_id": 1229,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Steve Francis": {
+    "player_id": 1232,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Vonteego Cummings": {
+    "player_id": 1234,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Elton Brand": {
+    "player_id": 1247,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Wally Szczerbiak": {
+    "player_id": 1251,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Hanno Mottola": {
+    "player_id": 1275,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Stephen Jackson": {
+    "player_id": 1280,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Kenyon Martin": {
+    "player_id": 1281,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Desmond Mason": {
+    "player_id": 1283,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Eduardo Najera": {
+    "player_id": 1288,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Khalid El-Amin": {
+    "player_id": 1291,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Darius Miles": {
+    "player_id": 1295,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Jamaal Tinsley": {
+    "player_id": 1344,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Speedy Claxton": {
+    "player_id": 1355,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Shane Battier": {
+    "player_id": 1378,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Pat Burke": {
+    "player_id": 1408,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Jay Williams": {
+    "player_id": 1425,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Reggie Evans": {
+    "player_id": 1435,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Dan Gadzuric": {
+    "player_id": 1436,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Caron Butler": {
+    "player_id": 1439,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Drew Gooden": {
+    "player_id": 1441,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Mike Wilks": {
+    "player_id": 1462,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Britton Johnsen": {
+    "player_id": 1490,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Jarvis Hayes": {
+    "player_id": 1496,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Emeka Okafor": {
+    "player_id": 1559,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Andres Nocioni": {
+    "player_id": 1561,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Ben Gordon": {
+    "player_id": 1562,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Johan Petro": {
+    "player_id": 1614,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Joey Graham": {
+    "player_id": 1626,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Sergei Monia": {
+    "player_id": 1637,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Brandon Roy": {
+    "player_id": 1689,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Mouhamed Sene": {
+    "player_id": 1690,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Shelden Williams": {
+    "player_id": 1694,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Yi Jianlian": {
+    "player_id": 1745,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Arron Afflalo": {
+    "player_id": 1757,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Greg Oden": {
+    "player_id": 1798,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "DeMarcus Nelson": {
+    "player_id": 1805,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "O.J. Mayo": {
+    "player_id": 1811,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Jonny Flynn": {
+    "player_id": 1859,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Brandon Jennings": {
+    "player_id": 1860,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Landry Fields": {
+    "player_id": 1885,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "DeQuan Jones": {
+    "player_id": 2017,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Vitor Faverani": {
+    "player_id": 2032,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Briante Weber": {
+    "player_id": 2152,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Trevon Scott": {
+    "player_id": 24102396,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Michael Beasley": {
+    "player_id": 39,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Wesley Johnson": {
+    "player_id": 245,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Wade Baldwin IV": {
+    "player_id": 26,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jared Terrell": {
+    "player_id": 438,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Isaiah Briscoe": {
+    "player_id": 63,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Isaiah Canaan": {
+    "player_id": 82,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Tyler Cavanaugh": {
+    "player_id": 93,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Raymond Felton": {
+    "player_id": 155,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Jon Leuer": {
+    "player_id": 276,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Jeremy Lin": {
+    "player_id": 279,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Shaun Livingston": {
+    "player_id": 280,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Tyreke Evans": {
+    "player_id": 150,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jordan Loyd": {
+    "player_id": 287,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Dante Cunningham": {
+    "player_id": 113,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Angel Delgado": {
+    "player_id": 122,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Luol Deng": {
+    "player_id": 124,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Trevon Duval": {
+    "player_id": 141,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Vincent Edwards": {
+    "player_id": 142,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jose Calderon": {
+    "player_id": 80,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Bonzie Colson": {
+    "player_id": 50191,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Jason Smith": {
+    "player_id": 423,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Jerryd Bayless": {
+    "player_id": 34,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Ian Clark": {
+    "player_id": 99,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Shelvin Mack": {
+    "player_id": 291,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Nikola Mirotic": {
+    "player_id": 321,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Dirk Nowitzki": {
+    "player_id": 346,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Alex Poythress": {
+    "player_id": 381,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Sam Dekker": {
+    "player_id": 121,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Jonas Jerebko": {
+    "player_id": 239,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Rawle Alkins": {
+    "player_id": 7,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Dairis Bertans": {
+    "player_id": 50609,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Zaza Pachulia": {
+    "player_id": 361,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Tarik Phillip": {
+    "player_id": 50947,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Quincy Pondexter": {
+    "player_id": 374,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Jonathon Simmons": {
+    "player_id": 418,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Ekpe Udoh": {
+    "player_id": 453,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Guerschon Yabusele": {
+    "player_id": 488,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Channing Frye": {
+    "player_id": 164,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Billy Garrett": {
+    "player_id": 50737,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Devin Harris": {
+    "player_id": 195,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Timofey Mozgov": {
+    "player_id": 332,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Tony Parker": {
+    "player_id": 363,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Darren Collison": {
+    "player_id": 103,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Jodie Meeks": {
+    "player_id": 311,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Salah Mejri": {
+    "player_id": 312,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Dwyane Wade": {
+    "player_id": 461,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Alan Williams": {
+    "player_id": 477,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Troy Williams": {
+    "player_id": 483,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Tyrique Jones": {
+    "player_id": 17895956,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Matt Coleman III": {
+    "player_id": 17896105,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Eric Mika": {
+    "player_id": 1891701,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Javon Bess": {
+    "player_id": 666438,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Kavell Bigby-Williams": {
+    "player_id": 666440,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Iman Shumpert": {
+    "player_id": 415,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Phil Booth": {
+    "player_id": 666457,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Tyree White": {
+    "player_id": 17895754,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Dusty Hannahs": {
+    "player_id": 2116373,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Jarell Martin": {
+    "player_id": 298,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Perrion Callandret": {
+    "player_id": 666488,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Troy Caupain": {
+    "player_id": 92,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Joe Chealey": {
+    "player_id": 96,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Jon Davis": {
+    "player_id": 666529,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Abdul Gaddy": {
+    "player_id": 666576,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "JaKeenan Gant": {
+    "player_id": 666580,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "CJ Miles": {
+    "player_id": 316,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Daniel Hamilton": {
+    "player_id": 190,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Andrew Harrison": {
+    "player_id": 198,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Ahmed Hill": {
+    "player_id": 666637,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Amir Hinton": {
+    "player_id": 666640,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Levi Randolph": {
+    "player_id": 1573276,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Sir'Dominic Pointer": {
+    "player_id": 2270852,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Isaac Humphries": {
+    "player_id": 50793,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Demetrius Jackson": {
+    "player_id": 232,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Sagaba Konate": {
+    "player_id": 666702,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Stanton Kidd": {
+    "player_id": 666697,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Christ Koumadje": {
+    "player_id": 666707,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "David Kramer": {
+    "player_id": 666708,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Terry Larrier": {
+    "player_id": 666714,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Tyler Lydon": {
+    "player_id": 289,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Pau Gasol": {
+    "player_id": 170,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Amile Jefferson": {
+    "player_id": 238,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Chasson Randle": {
+    "player_id": 386,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Luke Maye": {
+    "player_id": 666757,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Devin Robinson": {
+    "player_id": 396,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Allen Crabbe": {
+    "player_id": 109,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Nicolo Melli": {
+    "player_id": 667302,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Isaiah Miles": {
+    "player_id": 666775,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jordan Murphy": {
+    "player_id": 666795,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "J.P. Macura": {
+    "player_id": 293,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "James Palmer Jr.": {
+    "player_id": 666828,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Shamorie Ponds": {
+    "player_id": 666847,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Ivan Rabb": {
+    "player_id": 385,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Josh Perkins": {
+    "player_id": 666838,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Isaiah Pineiro": {
+    "player_id": 666841,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Miles Plumlee": {
+    "player_id": 372,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Jonah Bolden": {
+    "player_id": 55,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Lamar Peters": {
+    "player_id": 666840,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Tyler Ulis": {
+    "player_id": 454,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Thomas Welsh": {
+    "player_id": 471,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "C.J. Williams": {
+    "player_id": 478,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Todd Withers": {
+    "player_id": 666973,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Ryan Anderson": {
+    "player_id": 13,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Chandler Parsons": {
+    "player_id": 364,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Allonzo Trier": {
+    "player_id": 449,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Doron Sheffer": {
+    "player_id": 4196798,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Justin Simon": {
+    "player_id": 666897,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Shaq Buchanan": {
+    "player_id": 17895899,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "John Egbunu": {
+    "player_id": 666552,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Daryl Macon": {
+    "player_id": 292,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Kyree Walker": {
+    "player_id": 17895728,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Gerald Green": {
+    "player_id": 186,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Dragan Bender": {
+    "player_id": 43,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Nene ": {
+    "player_id": 342,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Kaleb Johnson": {
+    "player_id": 17895913,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Matt Morgan": {
+    "player_id": 17895914,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Nick Mayo": {
+    "player_id": 17553946,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Derrick Alston": {
+    "player_id": 17553947,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Augusto Binelli": {
+    "player_id": 4196803,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Luc Mbah a Moute": {
+    "player_id": 302,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Ron Ellis": {
+    "player_id": 4196804,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Marcelo Nicola": {
+    "player_id": 4196805,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Alain Digbeau": {
+    "player_id": 4196806,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Ben Pepper": {
+    "player_id": 4196807,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Roberto Duenas": {
+    "player_id": 4196808,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "George Banks": {
+    "player_id": 4196809,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Naz Mitrou-Long": {
+    "player_id": 323,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Andrew Betts": {
+    "player_id": 4196810,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Venson Hamilton": {
+    "player_id": 4196811,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "DeeAndre Hulett": {
+    "player_id": 4196812,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Josip Sesar": {
+    "player_id": 4196813,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Robertas Javtokas": {
+    "player_id": 4196814,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Federico Kammerichs": {
+    "player_id": 4196815,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Mladen Sekularac": {
+    "player_id": 4196816,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Milos Vujanic": {
+    "player_id": 4196817,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Peter Fehse": {
+    "player_id": 4196818,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Sofoklis Schortsanitis": {
+    "player_id": 4196821,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Szymon Szewczyk": {
+    "player_id": 4196822,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Mario Austin": {
+    "player_id": 4196823,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Dante Exum": {
+    "player_id": 151,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Damien Jefferson": {
+    "player_id": 17553945,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Travis Munnings": {
+    "player_id": 17553948,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Henry Ellenson": {
+    "player_id": 143,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Tim Williams": {
+    "player_id": 17553949,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Jordan Goodwin": {
+    "player_id": 17895726,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Austin Hollins": {
+    "player_id": 17895727,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Sedrick Barefield": {
+    "player_id": 17553954,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "James Banks III": {
+    "player_id": 17895729,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Matt Lewis": {
+    "player_id": 17896110,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Anas Mahmoud": {
+    "player_id": 17895730,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Isiaha Mike": {
+    "player_id": 17895731,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "K.J. Lawson": {
+    "player_id": 17895732,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Blake Francis": {
+    "player_id": 17895733,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Scottie Lindsey": {
+    "player_id": 17553957,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Norvel Pelle": {
+    "player_id": 666837,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Aleem Ford": {
+    "player_id": 23800531,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Trey Davis": {
+    "player_id": 17895777,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Justin Patton": {
+    "player_id": 366,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "William Howard": {
+    "player_id": 666653,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Yotam Halperin": {
+    "player_id": 4196853,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Ejike Ugboaja": {
+    "player_id": 4196854,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Edin Bavcic": {
+    "player_id": 4196855,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Petteri Koponen": {
+    "player_id": 4196862,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Stanko Barac": {
+    "player_id": 4196863,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Anzejs Pasecniks": {
+    "player_id": 1358055,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Renaldas Seibutis": {
+    "player_id": 4196865,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Brad Newley": {
+    "player_id": 4196866,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Giorgos Printezis": {
+    "player_id": 4196867,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Milovan Rakovic": {
+    "player_id": 4196868,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Tyrone Wallace": {
+    "player_id": 466,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Abdel Nader": {
+    "player_id": 339,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Cat Barber": {
+    "player_id": 24338188,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Ante Tomic": {
+    "player_id": 4196882,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "DeVon Hardin": {
+    "player_id": 4196884,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Tadija Dragicevic": {
+    "player_id": 4196885,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Maarty Leunen": {
+    "player_id": 4196886,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "BJ Johnson": {
+    "player_id": 50815,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Sergio Llull": {
+    "player_id": 4196897,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Sergiy Gladyr": {
+    "player_id": 4196900,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Emir Preldzic": {
+    "player_id": 4196902,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Isaiah Hicks": {
+    "player_id": 209,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Chinemelu Elonu": {
+    "player_id": 4196903,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Henk Norel": {
+    "player_id": 4196904,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Latavious Williams": {
+    "player_id": 4196907,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Antonio Blakeney": {
+    "player_id": 50,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Malik Ellison": {
+    "player_id": 24338541,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jordan Floyd": {
+    "player_id": 17553938,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Alan Griffin": {
+    "player_id": 17553939,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Terry Henderson": {
+    "player_id": 17895791,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Tyson Carter": {
+    "player_id": 17553940,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Cullen Russo": {
+    "player_id": 17895793,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Paulao Prestes": {
+    "player_id": 4196920,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Dwayne Collins": {
+    "player_id": 4196921,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Chukwudiebere Maduabum": {
+    "player_id": 4196923,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "MIlan Macvan": {
+    "player_id": 4196942,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Adam Hanga": {
+    "player_id": 4196944,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Patrick Patterson": {
+    "player_id": 365,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Jon Diebler": {
+    "player_id": 4196945,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Ilkan Karaman": {
+    "player_id": 4196966,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Elijah Hughes": {
+    "player_id": 3547266,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Keaton Wallace": {
+    "player_id": 17895703,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Ersan Ilyasova": {
+    "player_id": 225,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Jacob Evans": {
+    "player_id": 148,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Micah Potter": {
+    "player_id": 19465584,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Matt Coleman": {
+    "player_id": 17553944,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Dru Smith": {
+    "player_id": 19465585,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Alex Antetokounmpo": {
+    "player_id": 17553943,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Cady Lalanne": {
+    "player_id": 4197066,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Nikola Milutinov": {
+    "player_id": 4197068,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Arturas Gudaitis": {
+    "player_id": 4197069,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Juan Pablo Vaulet": {
+    "player_id": 4197071,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Marcus Eriksson": {
+    "player_id": 4197072,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Evan Turner": {
+    "player_id": 451,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Tyler Harvey": {
+    "player_id": 4197073,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Satnam Singh": {
+    "player_id": 4197074,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Daniel Diez": {
+    "player_id": 4197075,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Marcus Graves": {
+    "player_id": 17553971,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Anthony Black": {
+    "player_id": 56677827,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Joshua Obiesie": {
+    "player_id": 17553968,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Nikola Radicevic": {
+    "player_id": 4197076,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Dimitrios Agravanis": {
+    "player_id": 4197077,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Luka Mitrovic": {
+    "player_id": 4197078,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Isaia Cordinier": {
+    "player_id": 4197110,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "David Michineau": {
+    "player_id": 4197111,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Ryan Taylor": {
+    "player_id": 17553972,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Kendall Smith": {
+    "player_id": 17553973,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Mathias Lessort": {
+    "player_id": 666726,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Yoeli Childs": {
+    "player_id": 17553977,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Gradey Dick": {
+    "player_id": 56677828,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Rayan Rupert": {
+    "player_id": 56677829,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Ognen Jaramaz": {
+    "player_id": 4197165,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Alpha Kaba": {
+    "player_id": 4197166,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Princepal Singh": {
+    "player_id": 17553980,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Wes Iwundu": {
+    "player_id": 230,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Kahlil Whitney": {
+    "player_id": 17553981,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Tres Tinkle": {
+    "player_id": 17553982,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Romaro Gill": {
+    "player_id": 17553985,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Elijah Pemberton": {
+    "player_id": 17553989,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Issuf Sanon": {
+    "player_id": 4197230,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "J.J. Barea": {
+    "player_id": 29,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Vitto Brown": {
+    "player_id": 17895796,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Tahjere McCall": {
+    "player_id": 666758,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Jared Brownridge": {
+    "player_id": 17895798,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Yante Maten": {
+    "player_id": 300,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Quinton Rose": {
+    "player_id": 17895815,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Matur Maker": {
+    "player_id": 17895818,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "LiAngelo Ball": {
+    "player_id": 17895819,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "D.J. Hogg": {
+    "player_id": 17895821,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Denzel Valentine": {
+    "player_id": 456,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Langston Galloway": {
+    "player_id": 168,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Terrance Ferguson": {
+    "player_id": 156,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Cristiano Felicio": {
+    "player_id": 154,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Yogi Ferrell": {
+    "player_id": 157,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "George King": {
+    "player_id": 256,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Amida Brimah": {
+    "player_id": 666467,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Ade Murkey": {
+    "player_id": 17553986,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Marc Gasol": {
+    "player_id": 169,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Aaron Henry": {
+    "player_id": 17896053,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Treveon Graham": {
+    "player_id": 181,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jerian Grant": {
+    "player_id": 183,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Vanja Marinkovic": {
+    "player_id": 4197231,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Kerry Blackshear Jr.": {
+    "player_id": 18030330,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Marko Guduric": {
+    "player_id": 666607,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Devon Hall": {
+    "player_id": 666610,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Donta Hall": {
+    "player_id": 666611,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Juwan Durham": {
+    "player_id": 17895721,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Max Heidegger": {
+    "player_id": 17895722,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Justin Jaworski": {
+    "player_id": 17895723,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Ibi Watson": {
+    "player_id": 17895724,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jaime Echenique": {
+    "player_id": 17895725,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Kevin Hervey": {
+    "player_id": 1280857,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Mario Hezonja": {
+    "player_id": 208,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "James Nunnally": {
+    "player_id": 348,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Trevor Ariza": {
+    "player_id": 20,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Dewan Hernandez": {
+    "player_id": 666630,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Devon Dotson": {
+    "player_id": 3547197,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Brandon Knight": {
+    "player_id": 258,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Isaiah Brown": {
+    "player_id": 17553990,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "GG Jackson": {
+    "player_id": 56677830,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Yves Pons": {
+    "player_id": 17896066,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Jarron Cumberland": {
+    "player_id": 24489019,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Dedric Lawson": {
+    "player_id": 666716,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Charles Matthews": {
+    "player_id": 17895865,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Zach Norvell Jr.": {
+    "player_id": 666808,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Simisola Shittu": {
+    "player_id": 666892,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Kaleb Wesson": {
+    "player_id": 17895876,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Daulton Hommes": {
+    "player_id": 666647,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Kerwin Roach": {
+    "player_id": 17895877,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Zach Hankins": {
+    "player_id": 17895878,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Tariq Owens": {
+    "player_id": 666827,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Tyler Hall": {
+    "player_id": 17895902,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Hassani Gravett": {
+    "player_id": 666598,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Brandon Randolph": {
+    "player_id": 17895903,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Jalen Adams": {
+    "player_id": 666393,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Trey Phills": {
+    "player_id": 17895906,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Stephen Domingo": {
+    "player_id": 17895907,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Marco Belinelli": {
+    "player_id": 40,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Andrei Fetisov": {
+    "player_id": 4196799,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Kyle Alexander": {
+    "player_id": 666401,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Paul White": {
+    "player_id": 17895908,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Al-Farouq Aminu": {
+    "player_id": 10,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "DeMarre Carroll": {
+    "player_id": 84,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Kenny Williams": {
+    "player_id": 17895910,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Vince Carter": {
+    "player_id": 88,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Tyson Chandler": {
+    "player_id": 94,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Wilson Chandler": {
+    "player_id": 95,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Rashard Griffith": {
+    "player_id": 4196800,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Aurelijius Zukauskas": {
+    "player_id": 4196801,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Abdul Shamsid-Deen": {
+    "player_id": 4196802,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Sani Becirovic": {
+    "player_id": 4196824,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Barry Brown": {
+    "player_id": 17895911,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Paul Eboua": {
+    "player_id": 17895963,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Derrick Alston Jr.": {
+    "player_id": 17895984,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Cam Whitmore": {
+    "player_id": 56677831,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jahlil Tripp": {
+    "player_id": 17895991,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Rayshaun Hammonds": {
+    "player_id": 17895992,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Paccelis Morlende": {
+    "player_id": 4196825,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Remon Van de Hare": {
+    "player_id": 4196826,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Selom Mawugbe": {
+    "player_id": 17553991,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Nedzad Sinanovic": {
+    "player_id": 4196827,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Xue Yuyang": {
+    "player_id": 4196828,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Albert Miralles": {
+    "player_id": 4196832,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Viktor Sanikidze": {
+    "player_id": 4196833,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Sergei Lishouk": {
+    "player_id": 4196835,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Christian Drejer": {
+    "player_id": 4196836,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Sergei Karaulov": {
+    "player_id": 4196837,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Fran Vazquez": {
+    "player_id": 4196839,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Erazem Lorbek": {
+    "player_id": 4196841,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Axel Hervelle": {
+    "player_id": 4196842,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Cenk Akyol": {
+    "player_id": 4196843,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Lior Eliyahu": {
+    "player_id": 4196850,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Vladimir Veremeenko": {
+    "player_id": 4196852,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Matt Hurt": {
+    "player_id": 17896050,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Izzet Turkyilmaz": {
+    "player_id": 4196965,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "JJ Redick": {
+    "player_id": 389,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Craig Sword": {
+    "player_id": 24590029,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Bojan Dubljevic": {
+    "player_id": 4196998,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "DJ Steward": {
+    "player_id": 17553996,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Janis Timma": {
+    "player_id": 4196999,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Johnathan Williams": {
+    "player_id": 479,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Greg Whittington": {
+    "player_id": 3546977,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jalen Crutcher": {
+    "player_id": 17896092,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "MaCio Teague": {
+    "player_id": 17896090,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Jordan McRae": {
+    "player_id": 310,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "D.J. Carton": {
+    "player_id": 17896091,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Matt Mitchell": {
+    "player_id": 17896096,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Josh Reaves": {
+    "player_id": 666859,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Zaccheus Darko-Kelly": {
+    "player_id": 17896098,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Isaiah Miller": {
+    "player_id": 17896095,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Mitch Ballock": {
+    "player_id": 17896102,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Nigel Williams-Goss": {
+    "player_id": 666963,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Cameron Reynolds": {
+    "player_id": 50966,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jarace Walker": {
+    "player_id": 56677832,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Nemanja Dangubic": {
+    "player_id": 4197032,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Louis Labeyrie": {
+    "player_id": 4197033,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Johnathan Motley": {
+    "player_id": 331,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Jaylen Hands": {
+    "player_id": 4197192,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Dzanan Musa": {
+    "player_id": 336,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Emmanuel Mudiay": {
+    "player_id": 333,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Darius Miller": {
+    "player_id": 317,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "E.J. Montgomery": {
+    "player_id": 17895996,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Devonte Patterson": {
+    "player_id": 17895998,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Jordan Bowden": {
+    "player_id": 17895999,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Nathan Sestina": {
+    "player_id": 17896000,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Emmitt Williams": {
+    "player_id": 17896005,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Nico Mannion": {
+    "player_id": 3547261,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Anthony Cowan Jr.": {
+    "player_id": 17896006,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "John Petty Jr.": {
+    "player_id": 17896054,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Romeo Weems": {
+    "player_id": 17896108,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Ryan Daly": {
+    "player_id": 17896109,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Brandon Rachal": {
+    "player_id": 17896111,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Colbey Ross": {
+    "player_id": 17554007,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Devontae Shuler": {
+    "player_id": 17896113,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Justin Smith": {
+    "player_id": 17554008,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Carsen Edwards": {
+    "player_id": 666551,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Chris Chiozza": {
+    "player_id": 50661,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Nahziah Carter": {
+    "player_id": 17896019,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Miye Oni": {
+    "player_id": 666824,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Thon Maker": {
+    "player_id": 295,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Jordan Bell": {
+    "player_id": 41,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Frank Mason": {
+    "player_id": 299,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Ian Mahinmi": {
+    "player_id": 294,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Shakur Juiston": {
+    "player_id": 17896008,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Amar Sylla": {
+    "player_id": 17896115,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Reid Travis": {
+    "player_id": 17896119,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "JJ Culver": {
+    "player_id": 17896015,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Cheick Diallo": {
+    "player_id": 127,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Darnell Cowart": {
+    "player_id": 17896010,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Nate Renfro": {
+    "player_id": 17896011,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Damyean Dotson": {
+    "player_id": 134,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Cameron Oliver": {
+    "player_id": 11558583,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Ryan Woolridge": {
+    "player_id": 17896013,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "John Henson": {
+    "player_id": 205,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Eugene German": {
+    "player_id": 17896014,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jaire Grayer": {
+    "player_id": 17896016,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Timothe Luwawu-Cabarrot": {
+    "player_id": 288,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Rob Edwards": {
+    "player_id": 17896009,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Ethan Thompson": {
+    "player_id": 17896117,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Aron Baynes": {
+    "player_id": 35,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "DMitrik Trice": {
+    "player_id": 17895753,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Deonte Burton": {
+    "player_id": 17895762,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "David Nwaba": {
+    "player_id": 350,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Ky Bowman": {
+    "player_id": 666460,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Zylan Cheatham": {
+    "player_id": 666502,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Ryan Broekhoff": {
+    "player_id": 64,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jamal Crawford": {
+    "player_id": 111,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Quinn Cook": {
+    "player_id": 106,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Rondae Hollis-Jefferson": {
+    "player_id": 216,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Brian Bowen II": {
+    "player_id": 666459,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Jared Dudley": {
+    "player_id": 138,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Glenn Robinson III": {
+    "player_id": 395,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Andre Roberson": {
+    "player_id": 394,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Jahlil Okafor": {
+    "player_id": 354,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Shabazz Napier": {
+    "player_id": 341,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Michael Frazier": {
+    "player_id": 50729,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Harry Giles III": {
+    "player_id": 174,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Kyle O'Quinn": {
+    "player_id": 352,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Elie Okobo": {
+    "player_id": 355,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Maurice Harkless": {
+    "player_id": 193,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Tomas Satoransky": {
+    "player_id": 408,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Kent Bazemore": {
+    "player_id": 36,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Trey Burke": {
+    "player_id": 76,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Cameron McGriff": {
+    "player_id": 17895707,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Jaysean Paige": {
+    "player_id": 24850479,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Chris Silva": {
+    "player_id": 666894,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Aleksandar Vezenkov": {
+    "player_id": 4197162,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Troy Daniels": {
+    "player_id": 116,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jaylen Hoard": {
+    "player_id": 666641,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Isaiah Thomas": {
+    "player_id": 440,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Alex Oriakhi": {
+    "player_id": 4196997,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Aaron White": {
+    "player_id": 4197065,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Vincent Poirier": {
+    "player_id": 666846,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Elijah Bryant": {
+    "player_id": 11755528,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Ahmad Caver": {
+    "player_id": 17895912,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Deividas Sirvydis": {
+    "player_id": 666899,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Cason Wallace": {
+    "player_id": 56677833,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Ben McLemore": {
+    "player_id": 309,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Justin James": {
+    "player_id": 666672,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Michael Foster Jr.": {
+    "player_id": 38017678,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Josh Jackson": {
+    "player_id": 234,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Udonis Haslem": {
+    "player_id": 203,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Mason Jones": {
+    "player_id": 3547291,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Adam Mokoka": {
+    "player_id": 666783,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Andre Iguodala": {
+    "player_id": 224,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Skal Labissiere": {
+    "player_id": 266,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Jordan Bone": {
+    "player_id": 666454,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Michael Kidd-Gilchrist": {
+    "player_id": 255,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Kyle Korver": {
+    "player_id": 262,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Noah Vonleh": {
+    "player_id": 459,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Rodions Kurucs": {
+    "player_id": 264,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Wayne Ellington": {
+    "player_id": 144,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Courtney Lee": {
+    "player_id": 271,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Jalen Lecque": {
+    "player_id": 666720,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Vic Law": {
+    "player_id": 666717,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "TJ Leaf": {
+    "player_id": 270,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Ashton Hagans": {
+    "player_id": 3547278,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Jabari Parker": {
+    "player_id": 362,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Tyler Bey": {
+    "player_id": 3547265,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Karim Mane": {
+    "player_id": 3547284,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Chris Paul": {
+    "player_id": 367,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Tyler Johnson": {
+    "player_id": 244,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Will Magnay": {
+    "player_id": 3547303,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Josh Hall": {
+    "player_id": 3547290,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Yam Madar": {
+    "player_id": 4197384,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "DeMarcus Cousins": {
+    "player_id": 107,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Greg Monroe": {
+    "player_id": 325,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Ed Davis": {
+    "player_id": 118,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Eric Bledsoe": {
+    "player_id": 51,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Avery Bradley": {
+    "player_id": 59,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Hassan Whiteside": {
+    "player_id": 474,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Nemanja Bjelica": {
+    "player_id": 49,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Lance Stephenson": {
+    "player_id": 431,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Daniel Oturu": {
+    "player_id": 3547263,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Grant Riller": {
+    "player_id": 3547277,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jalen Harris": {
+    "player_id": 3547292,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Justinian Jessup": {
+    "player_id": 4197389,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Anthony Tolliver": {
+    "player_id": 446,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Jeff Teague": {
+    "player_id": 435,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Thabo Sefolosha": {
+    "player_id": 411,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Marial Shayok": {
+    "player_id": 666891,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Mike Scott": {
+    "player_id": 410,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "JR Smith": {
+    "player_id": 424,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Zhaire Smith": {
+    "player_id": 425,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Caleb Swanigan": {
+    "player_id": 433,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Carmelo Anthony": {
+    "player_id": 17,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Lance Thomas": {
+    "player_id": 442,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Dwight Howard": {
+    "player_id": 220,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Ray Spalding": {
+    "player_id": 427,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Lou Williams": {
+    "player_id": 481,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "LaMarcus Aldridge": {
+    "player_id": 6,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Keyonte George": {
+    "player_id": 56677834,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Omari Spellman": {
+    "player_id": 428,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Sindarius Thornwell": {
+    "player_id": 445,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Khyri Thomas": {
+    "player_id": 441,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Alen Smailagic": {
+    "player_id": 666900,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Rajon Rondo": {
+    "player_id": 400,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Paul Millsap": {
+    "player_id": 318,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Justin Turner": {
+    "player_id": 17895693,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Biram Faye": {
+    "player_id": 17895694,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Eric Demers": {
+    "player_id": 17895695,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Jontay Porter": {
+    "player_id": 2309958,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Dwayne Bacon": {
+    "player_id": 23,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Chandler Hutchison": {
+    "player_id": 222,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Tahj Eaddy": {
+    "player_id": 17895696,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Asbjorn Midtgaard": {
+    "player_id": 17895697,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Jeremiah Tilmon": {
+    "player_id": 17895698,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "D.J. Funderburk": {
+    "player_id": 17895701,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Olivier Sarr": {
+    "player_id": 24572055,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Denzel Mahoney": {
+    "player_id": 17895706,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Sehmus Hazer": {
+    "player_id": 17895708,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Tre Scott": {
+    "player_id": 17895709,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Chandler Vaudrin": {
+    "player_id": 17895710,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Justin Jackson": {
+    "player_id": 235,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Jaylen Adams": {
+    "player_id": 2,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Caleb Homesley": {
+    "player_id": 12044014,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Dion Waiters": {
+    "player_id": 463,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Kenny Wooten": {
+    "player_id": 666975,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Marvin Williams": {
+    "player_id": 482,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Ante Zizic": {
+    "player_id": 492,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Caleb Agada": {
+    "player_id": 17895711,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Giorgi Bezhanishvili": {
+    "player_id": 17895712,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Chudier Bile": {
+    "player_id": 17895713,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jason Burnell": {
+    "player_id": 17895714,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Justin Robinson": {
+    "player_id": 17895746,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Steffon Mitchell": {
+    "player_id": 17895715,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Justin Wright-Foreman": {
+    "player_id": 666976,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Arnas Velicka": {
+    "player_id": 17895716,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "LJ Figueroa": {
+    "player_id": 17895717,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Jeremiah Martin": {
+    "player_id": 666750,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Mark Vital": {
+    "player_id": 17895718,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Sterling Manley": {
+    "player_id": 17895719,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Troy Baxter Jr.": {
+    "player_id": 17895720,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Marquese Chriss": {
+    "player_id": 97,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Spencer Littleson": {
+    "player_id": 17895734,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Jamorko Pickett": {
+    "player_id": 18678057,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Anthony Tarke": {
+    "player_id": 17895736,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Lydell Elmore": {
+    "player_id": 17895737,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "David DiLeo": {
+    "player_id": 17895738,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Malcolm Hill": {
+    "player_id": 24102469,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Alpha Diallo": {
+    "player_id": 17895740,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Jon Axel Gudmundsson": {
+    "player_id": 17895741,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Trey Kell": {
+    "player_id": 17895742,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "D.J. Wilson": {
+    "player_id": 484,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Tim Frazier": {
+    "player_id": 163,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Brad Wanamaker": {
+    "player_id": 468,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Kaiser Gates": {
+    "player_id": 666584,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Sean McDermott": {
+    "player_id": 3547300,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Kenneth Faried": {
+    "player_id": 152,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Kyle Fogg": {
+    "player_id": 17895758,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Zach Auguste": {
+    "player_id": 17895775,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Wayne Selden": {
+    "player_id": 412,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Juhann Begarin": {
+    "player_id": 17896068,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Aamir Simms": {
+    "player_id": 17896082,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "E'Twaun Moore": {
+    "player_id": 326,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Oscar da Silva": {
+    "player_id": 17896086,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Jo Lual-Acuil Jr.": {
+    "player_id": 17895743,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Emmanuel Nzekwesi": {
+    "player_id": 17895744,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Jaleen Smith": {
+    "player_id": 17895745,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Marcus Foster": {
+    "player_id": 17895747,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jalen Tate": {
+    "player_id": 17895748,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Tyler Hagedorn": {
+    "player_id": 17895749,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Ty-Shon Alexander": {
+    "player_id": 3547296,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Steven Enoch": {
+    "player_id": 17895750,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "John Mooney": {
+    "player_id": 17895751,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Mike Smith": {
+    "player_id": 17895752,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Marcus Derrickson": {
+    "player_id": 126,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Trevon Bluiett": {
+    "player_id": 52,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Jemerrio Jones": {
+    "player_id": 50823,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Johnny Hamilton": {
+    "player_id": 18677827,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jake Layman": {
+    "player_id": 269,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "DeVaughn Akoon-Purcell": {
+    "player_id": 5,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Nate Mason": {
+    "player_id": 17895834,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Bennie Boatwright": {
+    "player_id": 17895835,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Aubrey Dawkins": {
+    "player_id": 17895838,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Robert Franks": {
+    "player_id": 666570,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Balsa Koprivica": {
+    "player_id": 18678048,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Rokas Jokubaitis": {
+    "player_id": 17896079,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "EJ Onu": {
+    "player_id": 17896080,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Marcus Zegarowski": {
+    "player_id": 17896118,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Javin DeLaurier": {
+    "player_id": 17895839,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Jon Teske": {
+    "player_id": 17895988,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Alondes Williams": {
+    "player_id": 38017723,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Petr Cornelie": {
+    "player_id": 4197105,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Paris Bass": {
+    "player_id": 24839769,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Tony Snell": {
+    "player_id": 426,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Alize Johnson": {
+    "player_id": 240,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Mychal Mulder": {
+    "player_id": 666794,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "CJ Elleby": {
+    "player_id": 3547164,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Jared Harper": {
+    "player_id": 666616,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Myles Powell": {
+    "player_id": 10384980,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Nate Hinton": {
+    "player_id": 3547281,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Enes Kanter": {
+    "player_id": 253,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jaylen Morris": {
+    "player_id": 327,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Cassius Stanley": {
+    "player_id": 3547273,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Tacko Fall": {
+    "player_id": 666560,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Jeremy Lamb": {
+    "player_id": 267,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Jeff Dowtin": {
+    "player_id": 17553988,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Trayvon Palmer": {
+    "player_id": 24602685,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Justin Tillman": {
+    "player_id": 24590098,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Chris Clemons": {
+    "player_id": 666509,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Reggie Perry": {
+    "player_id": 3547169,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Kostas Antetokounmpo": {
+    "player_id": 16,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Keifer Sykes": {
+    "player_id": 17895769,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jahmi'us Ramsey": {
+    "player_id": 3547262,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Georgios Kalaitzakis": {
+    "player_id": 18170939,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Jordan Hall": {
+    "player_id": 38017713,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Mario Chalmers": {
+    "player_id": 1801,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "JaQuori McLaughlin": {
+    "player_id": 17554000,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Jarrett Culver": {
+    "player_id": 666523,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Ignas Brazdeikis": {
+    "player_id": 666464,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Markus Howard": {
+    "player_id": 3547283,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Cassius Winston": {
+    "player_id": 3547286,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Robert Woodard II": {
+    "player_id": 3547288,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Malik Fitts": {
+    "player_id": 9338307,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Jalen Pickett": {
+    "player_id": 56677582,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "DeJon Jarreau": {
+    "player_id": 17554002,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Brandon Williams": {
+    "player_id": 24489167,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Luca Vildoza": {
+    "player_id": 11314392,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Sharife Cooper": {
+    "player_id": 17896029,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Alfonzo McKinnie": {
+    "player_id": 308,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Chima Moneke": {
+    "player_id": 38017738,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Scottie Lewis": {
+    "player_id": 17896061,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Matt Thomas": {
+    "player_id": 666919,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Juwan Morgan": {
+    "player_id": 666788,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Keljin Blevins": {
+    "player_id": 666446,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Devin Cannady": {
+    "player_id": 9177971,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Isaac Bonga": {
+    "player_id": 56,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Tyler Cook": {
+    "player_id": 666517,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Arnoldas Kulboka": {
+    "player_id": 4197232,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Gary Clark": {
+    "player_id": 98,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Tyler Dorsey": {
+    "player_id": 133,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Kemba Walker": {
+    "player_id": 465,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "James Ennis III": {
+    "player_id": 146,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Solomon Hill": {
+    "player_id": 212,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Sekou Doumbouya": {
+    "player_id": 666543,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Eric Paschall": {
+    "player_id": 666831,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Killian Tillie": {
+    "player_id": 3547215,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Quinndary Weatherspoon": {
+    "player_id": 666953,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Marcos Louzada Silva": {
+    "player_id": 4197307,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Marques Bolden": {
+    "player_id": 666453,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Nick Smith Jr.": {
+    "player_id": 56677846,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Devontae Cacok": {
+    "player_id": 666486,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Rayjon Tucker": {
+    "player_id": 666930,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "McKinley Wright IV": {
+    "player_id": 17896074,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Elfrid Payton": {
+    "player_id": 369,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Malik Newman": {
+    "player_id": 1986689,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Nik Stauskas": {
+    "player_id": 429,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Rodney Hood": {
+    "player_id": 218,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Paul Watson": {
+    "player_id": 1567838,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Frank Jackson": {
+    "player_id": 233,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Sterling Brown": {
+    "player_id": 72,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "DeAndre' Bembry": {
+    "player_id": 42,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Kelan Martin": {
+    "player_id": 666751,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Zavier Simpson": {
+    "player_id": 17553987,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Semi Ojeleye": {
+    "player_id": 353,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Melvin Frazier Jr.": {
+    "player_id": 162,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Joel Ayayi": {
+    "player_id": 17553993,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Chris Smith": {
+    "player_id": 17896085,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Tyrell Terry": {
+    "player_id": 3547255,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Justin Anderson": {
+    "player_id": 11,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Dakota Mathias": {
+    "player_id": 666755,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Kyle Guy": {
+    "player_id": 666608,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Tremont Waters": {
+    "player_id": 666952,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Kevin Durant": {
+    "player_id": 140,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Aric Holman": {
+    "player_id": 17895875,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Matt Mooney": {
+    "player_id": 1687493,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Marcus Garrett": {
+    "player_id": 17553997,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Kevin Pangos": {
+    "player_id": 19465586,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "MJ Walker": {
+    "player_id": 17896101,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Miles Bridges": {
+    "player_id": 62,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Emoni Bates": {
+    "player_id": 56677847,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Moses Wright": {
+    "player_id": 17896072,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "D.J. Stewart Jr.": {
+    "player_id": 17553998,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Chaundee Brown": {
+    "player_id": 17553999,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Amari Bailey": {
+    "player_id": 56677848,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "RJ Nembhard Jr.": {
+    "player_id": 17554003,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Feron Hunt": {
+    "player_id": 17896093,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Jordan Schakel": {
+    "player_id": 17554006,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Kobe Brown": {
+    "player_id": 56677849,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Brodric Thomas": {
+    "player_id": 3547306,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "David Johnson": {
+    "player_id": 17896020,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Freddie Gillespie": {
+    "player_id": 9318184,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Toumani Camara": {
+    "player_id": 56677850,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Stanley Johnson": {
+    "player_id": 243,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Bryn Forbes": {
+    "player_id": 159,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Serge Ibaka": {
+    "player_id": 223,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Derrick Favors": {
+    "player_id": 153,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "John Wall": {
+    "player_id": 467,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jaylen Clark": {
+    "player_id": 56677851,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Leandro Bolmaro": {
+    "player_id": 4197356,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "LeBron James": {
+    "player_id": 237,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Charles Brown": {
+    "player_id": 666474,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Filip Petrusev": {
+    "player_id": 17895941,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Trent Forrest": {
+    "player_id": 3547297,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jordan Ford": {
+    "player_id": 17895990,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Braxton Key": {
+    "player_id": 17896007,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jeremiah Robinson-Earl": {
+    "player_id": 17896021,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Josh Christopher": {
+    "player_id": 17896023,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Herbert Jones": {
+    "player_id": 17896024,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Ochai Agbaji": {
+    "player_id": 38017620,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Greg Brown III": {
+    "player_id": 17896028,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Chris Duarte": {
+    "player_id": 17896030,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Matt Ryan": {
+    "player_id": 17896017,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Kai Jones": {
+    "player_id": 17896032,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Nah'Shon Hyland": {
+    "player_id": 17896031,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Miles McBride": {
+    "player_id": 17896033,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Jarrell Brantley": {
+    "player_id": 666463,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Andre Jackson Jr.": {
+    "player_id": 56677852,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Keyontae Johnson": {
+    "player_id": 56677853,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Max Strus": {
+    "player_id": 666908,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Ish Smith": {
+    "player_id": 422,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Cameron Reddish": {
+    "player_id": 666860,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Juancho Hernangomez": {
+    "player_id": 206,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Joshua Primo": {
+    "player_id": 17896051,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Usman Garuba": {
+    "player_id": 17896070,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Isaiah Livers": {
+    "player_id": 17896071,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Tony Bradley": {
+    "player_id": 60,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Jalen Suggs": {
+    "player_id": 17896073,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Chris Livingston": {
+    "player_id": 56677854,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Seth Lundy": {
+    "player_id": 56677855,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Hamidou Diallo": {
+    "player_id": 128,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Terence Davis": {
+    "player_id": 666530,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Kendrick Nunn": {
+    "player_id": 50927,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Chris Boucher": {
+    "player_id": 58,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Daniel Theis": {
+    "player_id": 439,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Maxi Kleber": {
+    "player_id": 257,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Torrey Craig": {
+    "player_id": 110,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Grayson Allen": {
+    "player_id": 8,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Udoka Azubuike": {
+    "player_id": 3547095,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Marvin Bagley III": {
+    "player_id": 24,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Mo Bamba": {
+    "player_id": 28,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Troy Brown Jr.": {
+    "player_id": 68,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Jalen Brunson": {
+    "player_id": 73,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Jevon Carter": {
+    "player_id": 87,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Wendell Carter Jr.": {
+    "player_id": 85,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Donte DiVincenzo": {
+    "player_id": 131,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Bruno Fernando": {
+    "player_id": 666564,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Shai Gilgeous-Alexander": {
+    "player_id": 175,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Devonte' Graham": {
+    "player_id": 180,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Aaron Holiday": {
+    "player_id": 213,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Kevin Huerter": {
+    "player_id": 221,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Oshae Brissett": {
+    "player_id": 666468,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Robert Williams III": {
+    "player_id": 476,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Duncan Robinson": {
+    "player_id": 397,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Yuta Watanabe": {
+    "player_id": 470,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Brandon Boston Jr.": {
+    "player_id": 17896022,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Jordan Miller": {
+    "player_id": 56677856,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Julian Phillips": {
+    "player_id": 56677857,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Ben Sheppard": {
+    "player_id": 56677861,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Kevin Love": {
+    "player_id": 285,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Luke Kornet": {
+    "player_id": 261,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Isaiah Todd": {
+    "player_id": 17895967,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Nathan Knight": {
+    "player_id": 3547295,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Anthony Lamb": {
+    "player_id": 7155648,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Jay Scrubb": {
+    "player_id": 3547280,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Jared Butler": {
+    "player_id": 18677954,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Desmond Bane": {
+    "player_id": 3547287,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Jalen Green": {
+    "player_id": 17895966,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Saben Lee": {
+    "player_id": 3547298,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Jalen Slawson": {
+    "player_id": 56677862,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Azuolas Tubelis": {
+    "player_id": 56677863,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jordan Walsh": {
+    "player_id": 56677864,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Danilo Gallinari": {
+    "player_id": 167,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Eric Gordon": {
+    "player_id": 178,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Moses Brown": {
+    "player_id": 666476,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "D.J. Augustin": {
+    "player_id": 21,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Lindy Waters III": {
+    "player_id": 27924547,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Trey Murphy III": {
+    "player_id": 18677986,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Jaden Springer": {
+    "player_id": 17896025,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Franz Wagner": {
+    "player_id": 17896026,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "KZ Okpala": {
+    "player_id": 666821,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Charles Bediako": {
+    "player_id": 56677865,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Jamaree Bouyea": {
+    "player_id": 44477062,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Al Horford": {
+    "player_id": 219,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Mike Conley": {
+    "player_id": 104,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Rui Hachimura": {
+    "player_id": 666609,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Jock Landale": {
+    "player_id": 19465326,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Daishen Nix": {
+    "player_id": 17895968,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Jonathan Kuminga": {
+    "player_id": 17553979,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Kenyon Martin Jr.": {
+    "player_id": 3547294,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Sam Merrill": {
+    "player_id": 3547299,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Ayo Dosunmu": {
+    "player_id": 17895983,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Jae'Sean Tate": {
+    "player_id": 3547301,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Anthony Gill": {
+    "player_id": 3547302,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Kevon Harris": {
+    "player_id": 38017607,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Ziaire Williams": {
+    "player_id": 17896027,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Colin Castleton": {
+    "player_id": 56677738,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Wenyen Gabriel": {
+    "player_id": 166,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Leaky Black": {
+    "player_id": 56677866,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Vit Krejci": {
+    "player_id": 4197387,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Marko Simonovic": {
+    "player_id": 4197388,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Xavier Sneed": {
+    "player_id": 17895994,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Scotty Pippen Jr.": {
+    "player_id": 38017656,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Alex Fudge": {
+    "player_id": 56677867,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "D'Moi Hodge": {
+    "player_id": 56677868,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Markquis Nowell": {
+    "player_id": 56677869,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Sir'Jabari Rice": {
+    "player_id": 56677870,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Hunter Tyson": {
+    "player_id": 56677871,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Brook Lopez": {
+    "player_id": 283,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Robin Lopez": {
+    "player_id": 284,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "JaVale McGee": {
+    "player_id": 306,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Nicolas Batum": {
+    "player_id": 33,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Edmond Sumner": {
+    "player_id": 432,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Dillon Brooks": {
+    "player_id": 66,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Thomas Bryant": {
+    "player_id": 74,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Monte Morris": {
+    "player_id": 330,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Vlatko Cancar": {
+    "player_id": 666489,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jordan McLaughlin": {
+    "player_id": 666767,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Gabe Vincent": {
+    "player_id": 1603383,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Drew Eubanks": {
+    "player_id": 147,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Amir Coffey": {
+    "player_id": 666511,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "DaQuan Jeffries": {
+    "player_id": 666675,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Terance Mann": {
+    "player_id": 666743,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Andrew Nembhard": {
+    "player_id": 38017507,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Skylar Mays": {
+    "player_id": 3547289,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Stanley Umude": {
+    "player_id": 44477024,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Juan Toscano-Anderson": {
+    "player_id": 666925,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Mamadi Diakite": {
+    "player_id": 3547163,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Chance Comanche": {
+    "player_id": 48248491,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "George Hill": {
+    "player_id": 211,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Goran Dragic": {
+    "player_id": 136,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Blake Griffin": {
+    "player_id": 189,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Kevin Knox": {
+    "player_id": 259,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Theo Pinson": {
+    "player_id": 370,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "DeAndre Jordan": {
+    "player_id": 250,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "James Harden": {
+    "player_id": 192,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Ricky Rubio": {
+    "player_id": 404,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Jaren Jackson Jr.": {
+    "player_id": 231,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Cody Martin": {
+    "player_id": 666748,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Mitchell Robinson": {
+    "player_id": 399,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Collin Sexton": {
+    "player_id": 413,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Landry Shamet": {
+    "player_id": 414,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Anfernee Simons": {
+    "player_id": 419,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Jarred Vanderbilt": {
+    "player_id": 457,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Moritz Wagner": {
+    "player_id": 462,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Lonnie Walker IV": {
+    "player_id": 464,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "P.J. Washington": {
+    "player_id": 666950,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Kenrich Williams": {
+    "player_id": 480,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Trae Young": {
+    "player_id": 490,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Deandre Ayton": {
+    "player_id": 22,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Luka Doncic": {
+    "player_id": 132,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Goga Bitadze": {
+    "player_id": 666442,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Lindell Wigginton": {
+    "player_id": 666960,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Bol Bol": {
+    "player_id": 666451,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Zion Williamson": {
+    "player_id": 666969,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "RJ Barrett": {
+    "player_id": 666423,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Tyrese Haliburton": {
+    "player_id": 3547245,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Theo Maledon": {
+    "player_id": 3547253,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Malachi Flynn": {
+    "player_id": 3547275,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Payton Pritchard": {
+    "player_id": 3547276,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Lamar Stevens": {
+    "player_id": 3547279,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Xavier Tillman": {
+    "player_id": 3547285,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Blake Wesley": {
+    "player_id": 38017693,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Duane Washington Jr.": {
+    "player_id": 17896089,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Stephen Curry": {
+    "player_id": 115,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "DeMar DeRozan": {
+    "player_id": 125,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Jrue Holiday": {
+    "player_id": 214,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Taj Gibson": {
+    "player_id": 173,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Reggie Jackson": {
+    "player_id": 236,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "James Johnson": {
+    "player_id": 242,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Meyers Leonard": {
+    "player_id": 275,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Will Barton": {
+    "player_id": 31,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Dewayne Dedmon": {
+    "player_id": 120,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Gorgui Dieng": {
+    "player_id": 129,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Justise Winslow": {
+    "player_id": 485,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Shaquille Harrison": {
+    "player_id": 199,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Cory Joseph": {
+    "player_id": 251,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Jimmy Butler": {
+    "player_id": 79,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Bojan Bogdanovic": {
+    "player_id": 54,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Draymond Green": {
+    "player_id": 185,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Khris Middleton": {
+    "player_id": 315,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "T.J. McConnell": {
+    "player_id": 304,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Tyus Jones": {
+    "player_id": 249,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Montrezl Harrell": {
+    "player_id": 194,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Delon Wright": {
+    "player_id": 487,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "D'Angelo Russell": {
+    "player_id": 405,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Karl-Anthony Towns": {
+    "player_id": 447,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Richaun Holmes": {
+    "player_id": 217,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Damion Lee": {
+    "player_id": 272,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Ivica Zubac": {
+    "player_id": 493,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Dorian Finney-Smith": {
+    "player_id": 158,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Fred VanVleet": {
+    "player_id": 458,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Derrick Jones Jr.": {
+    "player_id": 247,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Alex Caruso": {
+    "player_id": 89,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Markelle Fultz": {
+    "player_id": 165,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Lonzo Ball": {
+    "player_id": 27,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "De'Aaron Fox": {
+    "player_id": 161,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Jayson Tatum": {
+    "player_id": 434,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Malik Monk": {
+    "player_id": 324,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Jonathan Isaac": {
+    "player_id": 229,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Dennis Smith Jr.": {
+    "player_id": 421,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Frank Ntilikina": {
+    "player_id": 347,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Lauri Markkanen": {
+    "player_id": 297,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Donovan Mitchell": {
+    "player_id": 322,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Bismack Biyombo": {
+    "player_id": 48,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Gabe York": {
+    "player_id": 31890572,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "PJ Tucker": {
+    "player_id": 450,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jeff Green": {
+    "player_id": 188,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Thaddeus Young": {
+    "player_id": 489,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Derrick Rose": {
+    "player_id": 401,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Russell Westbrook": {
+    "player_id": 472,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Patrick Beverley": {
+    "player_id": 45,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Danny Green": {
+    "player_id": 184,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Patty Mills": {
+    "player_id": 319,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Garrett Temple": {
+    "player_id": 436,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Wesley Matthews": {
+    "player_id": 301,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Gordon Hayward": {
+    "player_id": 204,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Paul George": {
+    "player_id": 172,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Kyrie Irving": {
+    "player_id": 228,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Tristan Thompson": {
+    "player_id": 444,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Klay Thompson": {
+    "player_id": 443,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Marcus Morris": {
+    "player_id": 328,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Kawhi Leonard": {
+    "player_id": 274,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Nikola Vucevic": {
+    "player_id": 460,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Tobias Harris": {
+    "player_id": 200,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Luke Kennard": {
+    "player_id": 254,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Zach Collins": {
+    "player_id": 102,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "John Collins": {
+    "player_id": 101,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "OG Anunoby": {
+    "player_id": 18,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Jarrett Allen": {
+    "player_id": 9,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Bam Adebayo": {
+    "player_id": 4,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Isaiah Hartenstein": {
+    "player_id": 201,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Kyle Kuzma": {
+    "player_id": 265,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Derrick White": {
+    "player_id": 473,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Rudy Gay": {
+    "player_id": 171,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "PJ Dozier": {
+    "player_id": 135,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Kyle Lowry": {
+    "player_id": 286,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Josh Hart": {
+    "player_id": 202,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Ja Morant": {
+    "player_id": 666786,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "De'Andre Hunter": {
+    "player_id": 666656,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Coby White": {
+    "player_id": 666956,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Brandon Clarke": {
+    "player_id": 666505,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Darius Garland": {
+    "player_id": 666581,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Jaxson Hayes": {
+    "player_id": 666626,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Nickeil Alexander-Walker": {
+    "player_id": 666400,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Tyler Herro": {
+    "player_id": 666633,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Keldon Johnson": {
+    "player_id": 666682,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Chuma Okeke": {
+    "player_id": 666818,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Charles Bassey": {
+    "player_id": 17895854,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Killian Hayes": {
+    "player_id": 3547241,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Deni Avdija": {
+    "player_id": 3547242,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Obi Toppin": {
+    "player_id": 3547243,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Onyeka Okongwu": {
+    "player_id": 3547244,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Trevelin Queen": {
+    "player_id": 17553983,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Darius Days": {
+    "player_id": 38017665,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Johnny Davis": {
+    "player_id": 38017687,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Keegan Murray": {
+    "player_id": 38017688,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "AJ Griffin": {
+    "player_id": 38017689,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Shaedon Sharpe": {
+    "player_id": 38017690,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "TyTy Washington Jr.": {
+    "player_id": 38017691,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Malaki Branham": {
+    "player_id": 38017692,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Tari Eason": {
+    "player_id": 38017695,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Nikola Jovic": {
+    "player_id": 38017696,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Max Christie": {
+    "player_id": 38017697,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Mark Williams": {
+    "player_id": 38017698,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Jeremy Sochan": {
+    "player_id": 38017699,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Wendell Moore Jr.": {
+    "player_id": 38017700,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Kendall Brown": {
+    "player_id": 38017701,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jalen Williams": {
+    "player_id": 38017703,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Dominick Barlow": {
+    "player_id": 38017730,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Romeo Langford": {
+    "player_id": 666713,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Kevin Porter Jr.": {
+    "player_id": 666849,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Darius Bazley": {
+    "player_id": 666429,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Quenton Jackson": {
+    "player_id": 44477085,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Brandin Podziemski": {
+    "player_id": 56677858,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Olivier-Maxence Prosper": {
+    "player_id": 56677859,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Adama Sanogo": {
+    "player_id": 56677860,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Davis Bertans": {
+    "player_id": 44,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Anthony Davis": {
+    "player_id": 117,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Bradley Beal": {
+    "player_id": 37,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Damian Lillard": {
+    "player_id": 278,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Andre Drummond": {
+    "player_id": 137,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Harrison Barnes": {
+    "player_id": 30,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Evan Fournier": {
+    "player_id": 160,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Jae Crowder": {
+    "player_id": 112,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Justin Holiday": {
+    "player_id": 215,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "JaMychal Green": {
+    "player_id": 187,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Alex Len": {
+    "player_id": 273,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Michael Carter-Williams": {
+    "player_id": 86,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "CJ McCollum": {
+    "player_id": 303,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Cody Zeller": {
+    "player_id": 491,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Dennis Schroder": {
+    "player_id": 409,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Kelly Olynyk": {
+    "player_id": 358,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Kentavious Caldwell-Pope": {
+    "player_id": 81,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Mason Plumlee": {
+    "player_id": 371,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Vasilije Micic": {
+    "player_id": 4197029,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Nerlens Noel": {
+    "player_id": 345,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Terrence Ross": {
+    "player_id": 402,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Austin Rivers": {
+    "player_id": 393,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Jonas Valanciunas": {
+    "player_id": 455,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Mike Muscala": {
+    "player_id": 337,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Otto Porter Jr.": {
+    "player_id": 376,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Reggie Bullock": {
+    "player_id": 75,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Robert Covington": {
+    "player_id": 108,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Rudy Gobert": {
+    "player_id": 176,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Ryan Arcidiacono": {
+    "player_id": 19,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "De'Anthony Melton": {
+    "player_id": 313,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Chimezie Metu": {
+    "player_id": 314,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Shake Milton": {
+    "player_id": 320,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Svi Mykhailiuk": {
+    "player_id": 338,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Josh Okogie": {
+    "player_id": 356,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Michael Porter Jr.": {
+    "player_id": 375,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Devin Vassell": {
+    "player_id": 3547246,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Isaac Okoro": {
+    "player_id": 3547247,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Patrick Williams": {
+    "player_id": 3547248,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Precious Achiuwa": {
+    "player_id": 3547249,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Aaron Nesmith": {
+    "player_id": 3547250,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jalen Smith": {
+    "player_id": 3547264,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Isaiah Stewart": {
+    "player_id": 3547267,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Zeke Nnaji": {
+    "player_id": 3547268,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Immanuel Quickley": {
+    "player_id": 3547269,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Paul Reed": {
+    "player_id": 3547270,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Aleksej Pokusevski": {
+    "player_id": 3547271,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Isaiah Joe": {
+    "player_id": 3547272,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Tre Jones": {
+    "player_id": 3547274,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Davon Reed": {
+    "player_id": 390,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Matthew Dellavedova": {
+    "player_id": 123,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Raul Neto": {
+    "player_id": 343,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Mfiondu Kabengele": {
+    "player_id": 666692,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Louis King": {
+    "player_id": 666698,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Justin Champagnie": {
+    "player_id": 17896039,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Jason Preston": {
+    "player_id": 17896042,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Alec Burks": {
+    "player_id": 77,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Markieff Morris": {
+    "player_id": 329,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Steven Adams": {
+    "player_id": 3,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "David Duke Jr.": {
+    "player_id": 17896049,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "RaiQuan Gray": {
+    "player_id": 17896052,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Tim Hardaway Jr.": {
+    "player_id": 191,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Victor Oladipo": {
+    "player_id": 357,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Giannis Antetokounmpo": {
+    "player_id": 15,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Seth Curry": {
+    "player_id": 114,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Luguentz Dort": {
+    "player_id": 666541,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Daniel Gafford": {
+    "player_id": 666577,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Quentin Grimes": {
+    "player_id": 17895858,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Talen Horton-Tucker": {
+    "player_id": 666650,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Ty Jerome": {
+    "player_id": 666676,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Cameron Johnson": {
+    "player_id": 666679,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Jalen McDaniels": {
+    "player_id": 666762,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Naji Marshall": {
+    "player_id": 3547293,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Tre Mann": {
+    "player_id": 17896036,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "James Bouknight": {
+    "player_id": 17896037,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Johnny Juzang": {
+    "player_id": 38017630,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Day'Ron Sharpe": {
+    "player_id": 17896038,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "JT Thor": {
+    "player_id": 18678001,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Jalen Johnson": {
+    "player_id": 17896040,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Keon Johnson": {
+    "player_id": 17896041,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Kessler Edwards": {
+    "player_id": 17896044,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Corey Kispert": {
+    "player_id": 17896045,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Davion Mitchell": {
+    "player_id": 17553994,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Austin Reaves": {
+    "player_id": 17553995,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Cam Thomas": {
+    "player_id": 17896048,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Scottie Barnes": {
+    "player_id": 17896055,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Luka Garza": {
+    "player_id": 17896056,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Trendon Watford": {
+    "player_id": 17896058,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Santi Aldama": {
+    "player_id": 17896067,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Nick Richards": {
+    "player_id": 3547282,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Rodney McGruder": {
+    "player_id": 307,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Omer Yurtseven": {
+    "player_id": 11891374,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Sandro Mamukelashvili": {
+    "player_id": 17896059,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Sam Hauser": {
+    "player_id": 17896060,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Julian Champagnie": {
+    "player_id": 38017649,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Alperen Sengun": {
+    "player_id": 17896062,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Jericho Sims": {
+    "player_id": 17896063,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Josh Giddey": {
+    "player_id": 17896065,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Joe Wieskamp": {
+    "player_id": 17896064,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Zach LaVine": {
+    "player_id": 268,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Jordan Clarkson": {
+    "player_id": 100,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Keita Bates-Diop": {
+    "player_id": 32,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Mikal Bridges": {
+    "player_id": 61,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Bruce Brown": {
+    "player_id": 69,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Buddy Boeheim": {
+    "player_id": 38017718,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Trevor Keels": {
+    "player_id": 38017720,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Tyrese Martin": {
+    "player_id": 38017722,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "John Butler Jr.": {
+    "player_id": 38124126,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Caleb Martin": {
+    "player_id": 666747,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Jerome Robinson": {
+    "player_id": 398,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Nassir Little": {
+    "player_id": 666729,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Armoni Brooks": {
+    "player_id": 9051997,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Moses Moody": {
+    "player_id": 17553992,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Isaiah Jackson": {
+    "player_id": 17896035,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jalen Wilson": {
+    "player_id": 56677722,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Cade Cunningham": {
+    "player_id": 17896075,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Evan Mobley": {
+    "player_id": 17896076,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Aaron Wiggins": {
+    "player_id": 17896078,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Isaiah Mobley": {
+    "player_id": 38017662,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "E.J. Liddell": {
+    "player_id": 38017663,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Javonte Smart": {
+    "player_id": 17554001,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Malcolm Cazalon": {
+    "player_id": 56677729,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Dalano Banton": {
+    "player_id": 17896094,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Jose Alvarado": {
+    "player_id": 17896097,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "AJ Lawson": {
+    "player_id": 17554004,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Ibou Badji": {
+    "player_id": 39613724,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Jay Huff": {
+    "player_id": 17896103,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Eugene Omoruyi": {
+    "player_id": 17896106,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Terry Taylor": {
+    "player_id": 17896116,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Ish Wainright": {
+    "player_id": 17896120,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Scoot Henderson": {
+    "player_id": 56677747,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Carlik Jones": {
+    "player_id": 17896099,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Jalen Duren": {
+    "player_id": 38017694,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Mac McClung": {
+    "player_id": 17554005,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Julian Strawther": {
+    "player_id": 56677776,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Oscar Tshiebwe": {
+    "player_id": 56677778,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Leonard Miller": {
+    "player_id": 56677782,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Keon Ellis": {
+    "player_id": 38017714,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Josh Minott": {
+    "player_id": 38017715,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Jaime Jaquez Jr.": {
+    "player_id": 56677785,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Justin Lewis": {
+    "player_id": 45969255,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Ousmane Dieng": {
+    "player_id": 38017716,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Nicolas Claxton": {
+    "player_id": 666508,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Jordan Nwora": {
+    "player_id": 3547207,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jordan Poole": {
+    "player_id": 666848,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Neemias Queta": {
+    "player_id": 17553967,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Naz Reid": {
+    "player_id": 667378,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Luka Samanic": {
+    "player_id": 666881,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Admiral Schofield": {
+    "player_id": 666885,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Matisse Thybulle": {
+    "player_id": 666923,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Grant Williams": {
+    "player_id": 666965,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Dylan Windler": {
+    "player_id": 666971,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "John Konchar": {
+    "player_id": 666703,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Garrison Mathews": {
+    "player_id": 666754,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Dean Wade": {
+    "player_id": 666940,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Anthony Edwards": {
+    "player_id": 3547238,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "LaMelo Ball": {
+    "player_id": 3547239,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "James Wiseman": {
+    "player_id": 3547240,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Jaylen Nowell": {
+    "player_id": 666809,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Isaiah Roby": {
+    "player_id": 666873,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Javonte Green": {
+    "player_id": 666604,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Xavier Moon": {
+    "player_id": 24417679,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Gary Harris": {
+    "player_id": 196,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Kennedy Chandler": {
+    "player_id": 38017702,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Spencer Dinwiddie": {
+    "player_id": 130,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Jerami Grant": {
+    "player_id": 182,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Joe Harris": {
+    "player_id": 197,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Doug McDermott": {
+    "player_id": 305,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Aaron Gordon": {
+    "player_id": 177,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Marcus Smart": {
+    "player_id": 420,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Kyle Anderson": {
+    "player_id": 12,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Dwight Powell": {
+    "player_id": 379,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Julius Randle": {
+    "player_id": 387,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Andrew Wiggins": {
+    "player_id": 475,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Joel Embiid": {
+    "player_id": 145,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Dario Saric": {
+    "player_id": 407,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Clint Capela": {
+    "player_id": 83,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Bogdan Bogdanovic": {
+    "player_id": 53,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jusuf Nurkic": {
+    "player_id": 349,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Nikola Jokic": {
+    "player_id": 246,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Kristaps Porzingis": {
+    "player_id": 378,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Joe Ingles": {
+    "player_id": 226,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Cole Anthony": {
+    "player_id": 3547251,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Tyrese Maxey": {
+    "player_id": 3547254,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Khem Birch": {
+    "player_id": 46,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Saddiq Bey": {
+    "player_id": 3547256,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "R.J. Hampton": {
+    "player_id": 3547257,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Josh Green": {
+    "player_id": 3547258,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Jalen Hood-Schifino": {
+    "player_id": 56677835,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "T.J. Warren": {
+    "player_id": 469,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Maxwell Lewis": {
+    "player_id": 56677836,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Jordan Hawkins": {
+    "player_id": 56677837,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Kobe Bufkin": {
+    "player_id": 56677838,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jett Howard": {
+    "player_id": 56677839,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Dereck Lively II": {
+    "player_id": 56677840,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Dariq Whitehead": {
+    "player_id": 56677841,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Brice Sensabaugh": {
+    "player_id": 56677842,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Noah Clowney": {
+    "player_id": 56677843,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Bilal Coulibaly": {
+    "player_id": 56677844,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Colby Jones": {
+    "player_id": 56677845,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Vernon Carey Jr.": {
+    "player_id": 3547252,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Willie Cauley-Stein": {
+    "player_id": 91,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Kelly Oubre Jr.": {
+    "player_id": 360,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jaden McDaniels": {
+    "player_id": 3547259,
+    "team_id": 18,
+    "team_name": "Minnesota Timberwolves"
+  },
+  "Kira Lewis Jr.": {
+    "player_id": 3547260,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Terquavion Smith": {
+    "player_id": 56677788,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Jared Rhoden": {
+    "player_id": 42097199,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Ron Harper Jr.": {
+    "player_id": 38017717,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Kris Murray": {
+    "player_id": 56677791,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Marcus Sasser": {
+    "player_id": 56677792,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Dalen Terry": {
+    "player_id": 38017719,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Isaiah Wong": {
+    "player_id": 56677794,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Jacob Toppin": {
+    "player_id": 56677795,
+    "team_id": 20,
+    "team_name": "New York Knicks"
+  },
+  "Peyton Watson": {
+    "player_id": 38017721,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Caleb Houstan": {
+    "player_id": 38017724,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Moussa Diabate": {
+    "player_id": 38017725,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Trayce Jackson-Davis": {
+    "player_id": 56677799,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Dereon Seabron": {
+    "player_id": 38017726,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Collin Gillespie": {
+    "player_id": 38017727,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jake LaRavia": {
+    "player_id": 38017728,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "David Roddy": {
+    "player_id": 38017729,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Javon Freeman-Liberty": {
+    "player_id": 56677805,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Mouhamed Gueye": {
+    "player_id": 56677806,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jermaine Samuels Jr.": {
+    "player_id": 56677809,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Justin Minaya": {
+    "player_id": 47957121,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Sidy Cissoko": {
+    "player_id": 56677817,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Victor Wembanyama": {
+    "player_id": 56677822,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Brandon Miller": {
+    "player_id": 56677823,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Taylor Hendricks": {
+    "player_id": 56677824,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Amen Thompson": {
+    "player_id": 56677825,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Ausar Thompson": {
+    "player_id": 56677826,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Devin Booker": {
+    "player_id": 57,
+    "team_id": 24,
+    "team_name": "Phoenix Suns"
+  },
+  "Cameron Payne": {
+    "player_id": 368,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Myles Turner": {
+    "player_id": 452,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Trey Lyles": {
+    "player_id": 290,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Frank Kaminsky": {
+    "player_id": 252,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Bobby Portis": {
+    "player_id": 377,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Kevon Looney": {
+    "player_id": 282,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Christian Wood": {
+    "player_id": 486,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Terry Rozier": {
+    "player_id": 403,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Norman Powell": {
+    "player_id": 380,
+    "team_id": 13,
+    "team_name": "LA Clippers"
+  },
+  "Pat Connaughton": {
+    "player_id": 105,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Josh Richardson": {
+    "player_id": 391,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Larry Nance Jr.": {
+    "player_id": 340,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Royce O'Neale": {
+    "player_id": 351,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Cedi Osman": {
+    "player_id": 359,
+    "team_id": 27,
+    "team_name": "San Antonio Spurs"
+  },
+  "Boban Marjanovic": {
+    "player_id": 296,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Ben Simmons": {
+    "player_id": 417,
+    "team_id": 3,
+    "team_name": "Brooklyn Nets"
+  },
+  "Domantas Sabonis": {
+    "player_id": 406,
+    "team_id": 26,
+    "team_name": "Sacramento Kings"
+  },
+  "Malik Beasley": {
+    "player_id": 38,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Kris Dunn": {
+    "player_id": 139,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Buddy Hield": {
+    "player_id": 210,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  },
+  "Brandon Ingram": {
+    "player_id": 227,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Damian Jones": {
+    "player_id": 248,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Caris LeVert": {
+    "player_id": 277,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Dejounte Murray": {
+    "player_id": 334,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Jamal Murray": {
+    "player_id": 335,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Jakob Poeltl": {
+    "player_id": 373,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Taurean Prince": {
+    "player_id": 383,
+    "team_id": 14,
+    "team_name": "Los Angeles Lakers"
+  },
+  "Jaylen Brown": {
+    "player_id": 70,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Malcolm Brogdon": {
+    "player_id": 65,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Georges Niang": {
+    "player_id": 344,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Pascal Siakam": {
+    "player_id": 416,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Furkan Korkmaz": {
+    "player_id": 260,
+    "team_id": 23,
+    "team_name": "Philadelphia 76ers"
+  },
+  "Willy Hernangomez": {
+    "player_id": 207,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Orlando Robinson": {
+    "player_id": 39398582,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Patrick Baldwin Jr.": {
+    "player_id": 38017704,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Walker Kessler": {
+    "player_id": 38017705,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Jaylin Williams": {
+    "player_id": 38017706,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "JD Davison": {
+    "player_id": 38017707,
+    "team_id": 2,
+    "team_name": "Boston Celtics"
+  },
+  "Bryce McGowens": {
+    "player_id": 38017708,
+    "team_id": 4,
+    "team_name": "Charlotte Hornets"
+  },
+  "Christian Braun": {
+    "player_id": 38017709,
+    "team_id": 8,
+    "team_name": "Denver Nuggets"
+  },
+  "Christian Koloko": {
+    "player_id": 38017710,
+    "team_id": 28,
+    "team_name": "Toronto Raptors"
+  },
+  "Jabari Walker": {
+    "player_id": 38017711,
+    "team_id": 25,
+    "team_name": "Portland Trail Blazers"
+  },
+  "Ryan Rollins": {
+    "player_id": 38017712,
+    "team_id": 30,
+    "team_name": "Washington Wizards"
+  },
+  "Vince Williams Jr.": {
+    "player_id": 38017731,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Kenneth Lofton Jr.": {
+    "player_id": 38017732,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "A.J. Green": {
+    "player_id": 38017733,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Jamal Cain": {
+    "player_id": 38017734,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Jack White": {
+    "player_id": 38017735,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Cole Swider": {
+    "player_id": 38017736,
+    "team_id": 16,
+    "team_name": "Miami Heat"
+  },
+  "Trevor Hudgins": {
+    "player_id": 38017737,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Lester Quinones": {
+    "player_id": 45658838,
+    "team_id": 10,
+    "team_name": "Golden State Warriors"
+  },
+  "Simone Fontecchio": {
+    "player_id": 38017739,
+    "team_id": 29,
+    "team_name": "Utah Jazz"
+  },
+  "Jacob Gilyard": {
+    "player_id": 48248287,
+    "team_id": 15,
+    "team_name": "Memphis Grizzlies"
+  },
+  "Jeenathan Williams": {
+    "player_id": 47738533,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Craig Porter": {
+    "player_id": 56677872,
+    "team_id": 6,
+    "team_name": "Cleveland Cavaliers"
+  },
+  "Dexter Dennis": {
+    "player_id": 56677873,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Onuralp Bitim": {
+    "player_id": 56677874,
+    "team_id": 5,
+    "team_name": "Chicago Bulls"
+  },
+  "Miles Norris": {
+    "player_id": 56677875,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "Donovan Williams": {
+    "player_id": 43516144,
+    "team_id": 1,
+    "team_name": "Atlanta Hawks"
+  },
+  "MarJon Beauchamp": {
+    "player_id": 38017676,
+    "team_id": 17,
+    "team_name": "Milwaukee Bucks"
+  },
+  "Dyson Daniels": {
+    "player_id": 38017677,
+    "team_id": 19,
+    "team_name": "New Orleans Pelicans"
+  },
+  "Jaden Hardy": {
+    "player_id": 38017679,
+    "team_id": 7,
+    "team_name": "Dallas Mavericks"
+  },
+  "Jaden Ivey": {
+    "player_id": 38017682,
+    "team_id": 9,
+    "team_name": "Detroit Pistons"
+  },
+  "Paolo Banchero": {
+    "player_id": 38017683,
+    "team_id": 22,
+    "team_name": "Orlando Magic"
+  },
+  "Jabari Smith Jr.": {
+    "player_id": 38017684,
+    "team_id": 11,
+    "team_name": "Houston Rockets"
+  },
+  "Chet Holmgren": {
+    "player_id": 38017685,
+    "team_id": 21,
+    "team_name": "Oklahoma City Thunder"
+  },
+  "Bennedict Mathurin": {
+    "player_id": 38017686,
+    "team_id": 12,
+    "team_name": "Indiana Pacers"
+  }
+}
