@@ -1,5 +1,6 @@
 <script lang="ts">
 	import OnMount from '$lib/components/OnMount.svelte';
+	import PlayerGrid from '$lib/components/PlayerGrid.svelte';
 	import PlayerSearch from '$lib/icons/Player_Search.svelte';
 	import { BASE_DELAY, BASE_DURATION } from '$lib/transitions';
 	import { elasticOut } from 'svelte/easing';
@@ -17,7 +18,9 @@
 		player.toLowerCase().includes(currentPlayerSearch.toLowerCase())
 	);
 
-	let players: string[] = [];
+	$: howManyPlayers = players.size;
+
+	const players: Set<string> = new Set();
 
 	function saveTeamName() {
 		if (nameLockedIn) {
@@ -112,8 +115,8 @@
 			class="flex items-center justify-between"
 		>
 			<h1 class="text-center text-2xl md:text-4xl">Add Players</h1>
-			{#if players.length > 0}
-				<p in:blur class="text-xs">{`${players.length} out of 13 players`}</p>
+			{#if howManyPlayers > 0}
+				<p in:blur class="text-xs">{`${players.size} out of 13 players`}</p>
 			{/if}
 		</div>
 		<div class="divider -mt-2 md:-mb-2 md:-mt-0" />
@@ -140,10 +143,12 @@
 						tabindex="-1"
 					>
 						{#each filteredPlayers as playerOption}
-							<!-- content here -->
 							<div class="py-1" role="none">
-								<!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
 								<button
+									on:click={() => {
+										players.add(playerOption);
+										currentPlayerSearch = '';
+									}}
 									class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
 									role="menuitem"
 									tabindex="-1"
@@ -154,8 +159,8 @@
 					</div>
 				{:else if currentPlayerSearch.length > 0}
 					<div class="py-1" role="none">
-						<!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
 						<p
+							in:fly={{ duration: BASE_DURATION / 3, x: -50, easing: elasticOut }}
 							class="block px-4 py-2 text-sm text-rose-700 hover:bg-gray-100 hover:text-gray-900"
 							id="no-players-menu"
 						>
@@ -164,6 +169,10 @@
 					</div>
 				{/if}
 			</div>
+			<!-- NOW SWITCH TO THE PLAYER GRID -->
+			{#key players}
+				<PlayerGrid {players} />
+			{/key}
 		</div>
 	</div>
 {/if}
