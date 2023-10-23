@@ -38,7 +38,6 @@ def get_all_teams():
 
 #  ------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 def format_player_data():
     with (open("ball_dont_lie/compiled_players.json", "r")) as infile:
         data = json.load(infile)
@@ -67,7 +66,7 @@ def format_teams():
     team_list = data["data"]
     formatted_json = {}
     for team in team_list:
-        formatted_json[team['id']] = {
+        formatted_json[int(team['id'])] = {
             "full_name": team["full_name"],
             "abbreviation": team["abbreviation"],
             "conference": team["conference"],
@@ -78,11 +77,47 @@ def format_teams():
         json.dump(formatted_json, outfile, indent=2)
 
 
+#  ------------------------------------------------------------------------------------------------------------------------------------------------
+
+def merge_ball_with_nba_data():
+    with (open("raw_nba_stats_data/cleaned_players.json", "r")) as infile:
+        nba_players_json = json.load(infile)
+
+    with (open("ball_dont_lie/formatted_players.json", "r")) as infile2:
+        ball_dont_lie_players = json.load(infile2)
+
+    merged_players_json = {}
+
+    index = 0
+    num_not_found_players = 0
+    for player in ball_dont_lie_players:
+        clean_player_name = player.replace(".", "").replace("'", "")
+        if clean_player_name in nba_players_json:
+            merged_players_json[clean_player_name] = {
+                "nba_player_id": nba_players_json[clean_player_name]["player_id"],
+                "ball_dont_lie_id": ball_dont_lie_players[player]["player_id"],
+                "team_id": ball_dont_lie_players[player]["team_id"],
+                "team_name": ball_dont_lie_players[player]["team_name"],
+                "position": nba_players_json[clean_player_name]["position"],
+                # "pts": nba_players_json[player]["pts"],
+                # "reb": nba_players_json[player]["reb"],
+                # "ast": nba_players_json[player]["ast"],
+                "index": index,
+            }
+            index += 1
+        else:
+            print(f"[{clean_player_name.upper()}] not found - {num_not_found_players}")
+            num_not_found_players += 1
+
+    print(f"\nNumber of players not found: {num_not_found_players}\n")
+
+    with (open("merged_data/merged_players.json", "w")) as outfile:
+        json.dump(merged_players_json, outfile, indent=2)
 
 if __name__ == "__main__":
-    format_teams()
+    merge_ball_with_nba_data()
+
     # get_all_players_json()
     # format_player_data()
-    # get_all_teams()
 
-    print("Done")
+    print("\nDone")

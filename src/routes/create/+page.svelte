@@ -5,6 +5,7 @@
 	import { BASE_DELAY, BASE_DURATION } from '$lib/transitions';
 	import { elasticOut } from 'svelte/easing';
 	import { fade, fly, blur } from 'svelte/transition';
+	import { in_progress_lineup } from '$lib/Lineup_Model';
 
 	export let data;
 
@@ -17,10 +18,6 @@
 	$: filteredPlayers = data.player_names.filter((player) =>
 		player.toLowerCase().includes(currentPlayerSearch.toLowerCase())
 	);
-
-	$: howManyPlayers = players.size;
-
-	const players: Set<string> = new Set();
 
 	function saveTeamName() {
 		if (nameLockedIn) {
@@ -115,12 +112,12 @@
 			class="flex items-center justify-between"
 		>
 			<h1 class="text-center text-2xl md:text-4xl">Add Players</h1>
-			{#if howManyPlayers > 0}
-				<p in:blur class="text-xs">{`${players.size} out of 13 players`}</p>
+			{#if $in_progress_lineup.length > 0}
+				<p in:blur class="text-xs">{`${$in_progress_lineup.length} out of 13 players`}</p>
 			{/if}
 		</div>
 		<div class="divider -mt-2 md:-mb-2 md:-mt-0" />
-		<div class="flex justify-center">
+		<div class="flex flex-col items-center">
 			<div class="relative w-[80%] md:w-[26rem]">
 				<OnMount>
 					<!-- in:blur={{ duration: BASE_DURATION }} -->
@@ -146,10 +143,10 @@
 							<div class="py-1" role="none">
 								<button
 									on:click={() => {
-										players.add(playerOption);
+										in_progress_lineup.addPlayer(playerOption);
 										currentPlayerSearch = '';
 									}}
-									class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+									class="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
 									role="menuitem"
 									tabindex="-1"
 									id="dropdown-{playerOption}">{playerOption}</button
@@ -170,9 +167,7 @@
 				{/if}
 			</div>
 			<!-- NOW SWITCH TO THE PLAYER GRID -->
-			{#key players}
-				<PlayerGrid {players} />
-			{/key}
+			<PlayerGrid players={$in_progress_lineup} />
 		</div>
 	</div>
 {/if}

@@ -1,6 +1,5 @@
-import { writable, derived } from "svelte/store";
+import { writable, derived } from 'svelte/store';
 
 export const lineups = writable([]);
 
-// export const numberOfLineups = derived(lineups, ($lineups) => $lineups.length);
-
+// export const in_progress_lineup = writable<string[]>([]);

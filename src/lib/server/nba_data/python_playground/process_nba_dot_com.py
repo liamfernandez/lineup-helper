@@ -27,7 +27,7 @@ def prune_nba_stats_data():
             index += 1
             full_name = player_fields[2] + " " + player_fields[1]
             # add in a filter here to remove any '.' characters from full_name
-            full_name = full_name.replace(".", "") # done
+            full_name = full_name.replace(".", "").replace("'", "") # done
             image_url = f"https://cdn.nba.com/headshots/nba/latest/1040x760/{player_fields[0]}.png"
             pruned_data[full_name] = {
                 "player_id": player_fields[0],
