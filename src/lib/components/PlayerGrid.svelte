@@ -1,7 +1,5 @@
 <script lang="ts">
-	import type { NBA_Player } from '$lib/Lineup_Model';
-	import OnMount from './OnMount.svelte';
-
+	import PlayerTile from './PlayerTile.svelte';
 	export let players: string[];
 
 	// $: players.forEach(async (player) => {
@@ -25,12 +23,11 @@
 	// });
 </script>
 
-<div class="mt-4 overflow-hidden rounded-md bg-white shadow">
-	<ul role="list" class="divide-y divide-gray-200">
-		{#each players as player_name}
-			<li class="px-6 py-4 text-black">
-				<p>{player_name}</p>
-			</li>
-		{/each}
-	</ul>
+<div
+	class="mt-8 flex min-w-[90%] flex-col items-center justify-center gap-2 rounded-md bg-[#28272761] shadow md:min-w-[70%]"
+>
+	{#each players as player_name}
+		<PlayerTile {player_name} />
+		<div class=" divider my-0 -mb-[6px] px-4 py-0 md:px-20"></div>
+	{/each}
 </div>

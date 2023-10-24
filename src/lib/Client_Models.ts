@@ -1,5 +1,7 @@
 import { writable, derived } from 'svelte/store';
 
+export const current_lineup_advanced_info_map = writable<Map<string, NBA_Player>>(new Map());
+
 function LineupContainer() {
 	const { subscribe, set, update } = writable<string[]>([]);
 

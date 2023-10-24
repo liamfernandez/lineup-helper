@@ -5,7 +5,7 @@
 	import { BASE_DELAY, BASE_DURATION } from '$lib/transitions';
 	import { elasticOut } from 'svelte/easing';
 	import { fade, fly, blur } from 'svelte/transition';
-	import { in_progress_lineup } from '$lib/Lineup_Model';
+	import { in_progress_lineup } from '$lib/Client_Models.js';
 
 	export let data;
 
@@ -125,7 +125,7 @@
 						<PlayerSearch />
 						<input
 							type="text"
-							class="block w-full border-0 border-b-2 border-b-gray-400 bg-Canvas px-1 py-1.5 text-xl text-primaryText shadow-sm placeholder:text-gray-400 focus:ring-0 sm:leading-6"
+							class="block w-full border-0 border-b-2 border-b-gray-400 bg-Canvas px-1 py-1.5 text-xl text-primaryText shadow-sm placeholder:text-gray-500 focus:border-b-gray-400 focus:ring-0 sm:leading-6"
 							placeholder="Search Player Name..."
 							bind:value={currentPlayerSearch}
 						/>
