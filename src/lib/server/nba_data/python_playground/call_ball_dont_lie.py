@@ -112,7 +112,7 @@ def merge_ball_with_nba_data():
 
     print(f"\nNumber of players not found: {num_not_found_players}\n")
 
-    with (open("merged_data/merged_players.json", "w")) as outfile:
+    with (open("FINAL_DATA/merged_players.json", "w")) as outfile:
         json.dump(merged_players_json, outfile, indent=2)
 
 if __name__ == "__main__":
