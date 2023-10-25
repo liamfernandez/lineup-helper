@@ -113,7 +113,9 @@
 		>
 			<h1 class="text-center text-2xl md:text-4xl">Add Players</h1>
 			{#if $in_progress_lineup.length > 0}
-				<p in:blur class="text-xs">{`${$in_progress_lineup.length} out of 13 players`}</p>
+				<p in:blur class="text-xs md:text-xl">
+					{`${$in_progress_lineup.length} out of 13 players`}
+				</p>
 			{/if}
 		</div>
 		<div class="divider -mt-2 md:-mb-2 md:-mt-0" />
@@ -133,7 +135,7 @@
 				</OnMount>
 				{#if filteredPlayers.length > 0 && currentPlayerSearch.length > 0}
 					<div
-						class="absolute z-10 ml-16 mt-2 w-[84%] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+						class="absolute z-50 ml-16 mt-2 w-[84%] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
 						role="menu"
 						aria-orientation="vertical"
 						aria-labelledby="menu-button"

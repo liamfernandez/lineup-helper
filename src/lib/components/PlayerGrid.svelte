@@ -1,33 +1,32 @@
 <script lang="ts">
 	import PlayerTile from './PlayerTile.svelte';
+	import { in_progress_lineup } from '$lib/Client_Models';
+	import { goto } from '$app/navigation';
+
 	export let players: string[];
-
-	// $: players.forEach(async (player) => {
-	// 	console.log('About to make request');
-	// 	if (player_adv_info.has(player)) {
-	// 		console.log('Already have player info for: ', player);
-	// 		return;
-	// 	}
-	// 	try {
-	// 		const nba_data = await fetch('/api/players?player_name=' + player);
-	// 		const nba_player_info: NBA_Player = await nba_data.json();
-	// 		player_adv_info.set(player, nba_player_info);
-	// 		console.log(JSON.stringify(nba_player_info));
-	// 		console.log('success');
-	// 	} catch (err) {
-	// 		console.log('Error: ', err);
-	// 		player_adv_info.set(player, null);
-	// 	}
-
-	// 	console.log(player_adv_info);
-	// });
 </script>
 
 <div
-	class="mt-8 flex min-w-[90%] flex-col items-center justify-center gap-2 rounded-md bg-[#28272761] shadow md:min-w-[70%]"
+	class="mt-8 flex min-w-[99%] flex-col items-center justify-center gap-2 rounded-md bg-[#28272761] shadow md:min-w-[70%]"
 >
 	{#each players as player_name}
 		<PlayerTile {player_name} />
 		<div class=" divider my-0 -mb-[6px] px-4 py-0 md:px-20"></div>
 	{/each}
+	{#if $in_progress_lineup.length < 1}
+		<!-- content here -->
+	{:else if $in_progress_lineup.length < 11}
+		<span
+			class=" mb-2 mt-0 rounded-xl px-2 py-2 text-[#ffffff63] underline decoration-orange underline-offset-4 transition md:text-xl md:shadow-none"
+		>
+			Add at least 11 players to continue
+		</span>
+	{:else}
+		<button
+			on:click={() => {}}
+			class="my-4 w-[12rem] flex-col items-center rounded-xl bg-gradient-to-br from-[#FF8A15] to-orange py-2 text-xl text-white shadow-xl transition hover:scale-105 hover:shadow-xl md:shadow-none"
+		>
+			Continue
+		</button>
+	{/if}
 </div>

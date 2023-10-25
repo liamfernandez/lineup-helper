@@ -66,7 +66,8 @@ def format_teams():
     team_list = data["data"]
     formatted_json = {}
     for team in team_list:
-        formatted_json[int(team['id'])] = {
+        team_number = int(team["id"])
+        formatted_json[team_number] = {
             "full_name": team["full_name"],
             "abbreviation": team["abbreviation"],
             "conference": team["conference"],
@@ -115,7 +116,8 @@ def merge_ball_with_nba_data():
         json.dump(merged_players_json, outfile, indent=2)
 
 if __name__ == "__main__":
-    merge_ball_with_nba_data()
+    # merge_ball_with_nba_data()
+    format_teams()
 
     # get_all_players_json()
     # format_player_data()
