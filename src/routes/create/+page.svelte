@@ -31,7 +31,7 @@
 		if (teamName.length > 0) {
 			errorWithName = false;
 			nameLockedIn = true;
-			$in_progress_lineup.name = teamName;
+			in_progress_lineup.updateName(teamName);
 		} else {
 			errorWithName = true;
 		}
@@ -39,7 +39,7 @@
 </script>
 
 <svelte:head>
-	<title>Fantasy 🏀 Assistant</title>
+	<title>{teamName} | Fantasy 🏀 Assistant</title>
 </svelte:head>
 
 <img

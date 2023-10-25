@@ -2,7 +2,7 @@ import type { Lineup, NBA_Player } from '$lib';
 import { writable } from 'svelte/store';
 import { localStorageStore } from '$lib';
 
-export const GLOBAL_LINEUPS = localStorageStore<Lineup[]>('lineups', []);
+export const GLOBAL_LINEUPS = localStorageStore<{ [key: string]: Lineup }>('lineups', {});
 
 function LineupContainer() {
 	const { subscribe, set, update } = writable<Lineup>({
@@ -13,6 +13,7 @@ function LineupContainer() {
 
 	return {
 		subscribe,
+		updateName: (name: string) => update((lineup) => ({ ...lineup, name })),
 		addPlayer: (player: string) =>
 			update((lineup) => {
 				if (lineup.players.includes(player)) return lineup;
