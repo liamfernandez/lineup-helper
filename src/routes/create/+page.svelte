@@ -5,7 +5,7 @@
 	import { BASE_DELAY, BASE_DURATION } from '$lib/transitions';
 	import { elasticOut } from 'svelte/easing';
 	import { fade, fly, blur } from 'svelte/transition';
-	import { in_progress_lineup } from '$lib/Client_Models.js';
+	import { in_progress_lineup } from '$lib/stores.js';
 
 	export let data;
 
@@ -31,6 +31,7 @@
 		if (teamName.length > 0) {
 			errorWithName = false;
 			nameLockedIn = true;
+			$in_progress_lineup.name = teamName;
 		} else {
 			errorWithName = true;
 		}
@@ -112,9 +113,9 @@
 			class="flex items-center justify-between"
 		>
 			<h1 class="text-center text-2xl md:text-4xl">Add Players</h1>
-			{#if $in_progress_lineup.length > 0}
+			{#if $in_progress_lineup.players.length > 0}
 				<p in:blur class="text-xs md:text-xl">
-					{`${$in_progress_lineup.length} out of 13 players`}
+					{`${$in_progress_lineup.players.length} out of 13 players`}
 				</p>
 			{/if}
 		</div>
@@ -169,7 +170,7 @@
 				{/if}
 			</div>
 			<!-- NOW SWITCH TO THE PLAYER GRID -->
-			<PlayerGrid players={$in_progress_lineup} />
+			<PlayerGrid players={$in_progress_lineup.players} />
 		</div>
 	</div>
 {/if}
