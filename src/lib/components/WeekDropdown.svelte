@@ -12,7 +12,7 @@
 		}}
 		class="flex flex-row items-center self-center rounded-md"
 	>
-		<span class="rounded-l-md bg-gradient-to-br from-orange to-orange py-[1px] pl-2 pr-2">
+		<span class="rounded-l-md bg-gradient-to-tr from-orange to-[#f46c0b] py-[1px] pl-2 pr-2">
 			{WEEK_LABELS[$selectedWeek - 1]}
 		</span>
 		<span class="rounded-r-md bg-black px-1 py-1">
