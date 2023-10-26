@@ -1,14 +1,5 @@
 import { writable, type Writable } from 'svelte/store';
 
-export async function hashStringUsingSHA256(data: string) {
-	const encoder = new TextEncoder();
-	const encodedData = encoder.encode(data);
-	const hashBuffer = await crypto.subtle.digest('SHA-256', encodedData);
-	const hashArray = Array.from(new Uint8Array(hashBuffer));
-	const hashHex = hashArray.map((byte) => byte.toString(16).padStart(2, '0')).join('');
-	return hashHex;
-}
-
 export type Lineup = {
 	players: string[];
 	map: Map<string, NBA_Player>;
@@ -32,6 +23,43 @@ export type NBA_Team = {
 	conference: 'East' | 'West';
 	division: 'Southeast' | 'Atlantic' | 'Central' | 'Southwest' | 'Northwest' | 'Pacific';
 };
+
+export const WEEK_LABELS = [
+	'W1: 23 Oct - 29 Oct',
+	'W2: 30 Oct - 5 Nov',
+	'W3: 6 Nov - 12 Nov',
+	'W4: 13 Nov - 19 Nov',
+	'W5: 20 Nov - 26 Nov',
+	'W6: 27 Nov - 3 Dec',
+	'W7: 4 Dec - 10 Dec',
+	'W8: 11 Dec - 17 Dec',
+	'W9: 18 Dec - 24 Dec',
+	'W10: 25 Dec - 31 Dec',
+	'W11: 1 Jan - 7 Jan',
+	'W12: 8 Jan - 14 Jan',
+	'W13: 15 Jan - 21 Jan',
+	'W14: 22 Jan - 28 Jan',
+	'W15: 29 Jan - 4 Feb',
+	'W16: 5 Feb - 11 Feb',
+	'W17: 12 Feb - 25 Feb',
+	'W18: 26 Feb - 3 Mar',
+	'W19: 4 Mar - 10 Mar',
+	'W20: 11 Mar - 17 Mar',
+	'W21: 18 Mar - 24 Mar',
+	'W22: 25 Mar - 31 Mar',
+	'W23: 1 Apr - 7 Apr',
+	'W24: 8 Apr - 14 Apr'
+];
+
+// HELPER METHOD
+export async function hashStringUsingSHA256(data: string) {
+	const encoder = new TextEncoder();
+	const encodedData = encoder.encode(data);
+	const hashBuffer = await crypto.subtle.digest('SHA-256', encodedData);
+	const hashArray = Array.from(new Uint8Array(hashBuffer));
+	const hashHex = hashArray.map((byte) => byte.toString(16).padStart(2, '0')).join('');
+	return hashHex;
+}
 
 // COPIED FROM FRACTILS - LOCALSTORAGESTORE
 // https://github.com/babichjacob/svelte-localstorage

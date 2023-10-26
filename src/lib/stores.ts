@@ -3,6 +3,7 @@ import { writable } from 'svelte/store';
 import { localStorageStore } from '$lib';
 
 export const GLOBAL_LINEUPS = localStorageStore<{ [key: string]: Lineup }>('lineups', {});
+export const selectedWeek = localStorageStore<number>('selected-week', 1);
 
 function LineupContainer() {
 	const { subscribe, set, update } = writable<Lineup>({
