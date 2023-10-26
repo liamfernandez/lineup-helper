@@ -1,5 +1,6 @@
 import os;
 import json;
+import pprint;
 
 def validateSchedule():
   with(open("FINAL_DATA/NBA_Schedule.json", "r")) as infile:
@@ -18,6 +19,30 @@ def validateSchedule():
       print(f"ERROR: Team {teams[str(team_id)]['full_name']} has {sum} games, expected 82.")
 
   print("\n\nSchedule is valid if no errors above this.")
+
+
+def addGamesToTeams():
+  with(open("FINAL_DATA/NBA_Schedule.json", "r")) as infile:
+    schedule = json.load(infile)
+
+  with(open("ball_dont_lie/formatted_teams.json", "r")) as infile:
+    teams = json.load(infile)
+
+  newTeams = {}
+  for team in teams:
+    NBA_Team = {}
+
+    NBA_Team["full_name"] = teams[team]["full_name"]
+    NBA_Team["abbreviation"] = teams[team]["abbreviation"]
+    NBA_Team["conference"] = teams[team]["conference"]
+    NBA_Team["division"] = teams[team]["division"]
+    NBA_Team["schedule"]  = schedule[team]
+
+    newTeams[int(team)] = NBA_Team
+  pprint.pprint(newTeams, indent=2)
+
+
+
 
 
 
@@ -53,7 +78,8 @@ def addGamesToSchedule(date_label, games):
     print(f"\nAdded {date_label} to schedule")
 
 if __name__ == "__main__":
-  validateSchedule()
+  addGamesToTeams()
+  # validateSchedule()
   # week 1
   # addGamesToSchedule("W1: 23 Oct - 29 Oct",[3,2,2,2,3,3,2,3,3,3,3,2,3,3,3,3,2,2,2,3,3,2,3,3,3,3,3,3,3,2])
   # # week 2

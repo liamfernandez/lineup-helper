@@ -1,49 +1,60 @@
 <script class="ts">
 	import Write from '$lib/icons/Write.svelte';
 	import { onMount } from 'svelte';
-	import { lineups } from '$lib/stores';
+	import { GLOBAL_LINEUPS } from '$lib/stores';
 	import { goto } from '$app/navigation';
 
-	let numberOfSavedLineups = $lineups.length;
+	const numberOfSavedLineups = Object.keys($GLOBAL_LINEUPS).length;
 
 	onMount(() => {
-		if (typeof window === "undefined") {
+		if (typeof window === 'undefined') {
 			return;
 		}
-
-
-	})
+	});
 </script>
 
 <svelte:head>
 	<title>Fantasy 🏀 Assistant</title>
 </svelte:head>
 
-<div class="flex flex-col items-center gap-16 md:gap-10 w-full md:-mt-0 px-4 md:px-20">
-	<img alt="fantasy helper logo" src="/app-logos/nav-logo.png" class="md:w-[400px] w-[300px] mr-8" />
+<div class="flex w-full flex-col items-center gap-16 px-4 md:-mt-0 md:gap-10 md:px-20">
+	<img
+		alt="fantasy helper logo"
+		src="/app-logos/nav-logo.png"
+		class="mr-8 w-[300px] md:w-[400px]"
+	/>
 	<a href="/create">
-		<button on:click={() => {
-			goto('/create')
-		}} class="hover:scale-105 hover:shadow-xl shadow-xl transition flex flex-col items-center md:shadow-none mx-auto bg-gradient-to-br from-[#FF8A15] to-orange text-white py-2 text-xl rounded-xl w-[12rem]">
+		<button
+			on:click={() => {
+				goto('/create');
+			}}
+			class="mx-auto flex w-[12rem] flex-col items-center rounded-xl bg-gradient-to-br from-[#FF8A15] to-orange py-2 text-xl text-white shadow-xl transition hover:scale-105 hover:shadow-xl md:shadow-none"
+		>
 			Add a New Lineup
 			<Write size={22} />
 		</button>
 	</a>
 	<div class="w-full">
-		<div class="divider"><p class="rounded-xl text-orange px-2 py-1 outline outline-1 outline-orange">OR</p></div>
+		<div class="divider">
+			<p class="rounded-xl px-2 py-1 text-orange outline outline-1 outline-orange">OR</p>
+		</div>
 	</div>
-	<div id="Existing teams grid" class="flex flex-col text-xl md:w-[40%] w-[90%]">
-		<h1 class="text-white text-center outline outline-1 outline-orange rounded-b-none rounded-xl bg-gradient-to-br from-[#FF8A15] to-orange pt-1 ">
+	<div id="Existing teams grid" class="flex w-[90%] flex-col text-xl md:w-[40%]">
+		<h1
+			class="rounded-xl rounded-b-none bg-gradient-to-br from-[#FF8A15] to-orange pt-1 text-center text-white outline outline-1 outline-orange"
+		>
 			Start with a Previous Lineup
 		</h1>
 		{#if numberOfSavedLineups < 1}
-				<div class=" flex justify-center items-center bg-[#eddfd2] rounded-t-none rounded-xl outline outline-1 outline-orange min-h-[5rem]">
-					<p class="text-sm text-center text-black w-[14rem]">
-						You don't have any saved lineups.
-						<br />
-						Add a new lineup to get started.
-					</p>
-				</div>
+			<div
+				class=" flex min-h-[5rem] items-center justify-center rounded-xl rounded-t-none bg-[#eddfd2] outline outline-1 outline-orange"
+			>
+				<p class="w-[14rem] text-center text-sm text-black">
+					You don't have any saved lineups.
+					<br />
+					Add a new lineup to get started.
+				</p>
+			</div>
 		{/if}
 	</div>
 </div>

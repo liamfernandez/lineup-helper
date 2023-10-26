@@ -36,13 +36,13 @@
 
 				// save lineup to local storage
 				console.log('global lineups so far: ', $GLOBAL_LINEUPS);
-				// $GLOBAL_LINEUPS[key] = $in_progress_lineup;
-				GLOBAL_LINEUPS.set({});
+				$GLOBAL_LINEUPS[key] = $in_progress_lineup;
+				// GLOBAL_LINEUPS.set({});
 
 				console.log('key: ', key, '\nglobal lineups after: ', $GLOBAL_LINEUPS);
 				//clear in progress lineup
-				// in_progress_lineup.reset();
-				// goto(`/lineup/${key}`);
+				in_progress_lineup.reset();
+				goto(`/lineup/${key}`);
 			}}
 			class="my-4 w-[12rem] flex-col items-center rounded-xl bg-gradient-to-br from-[#FF8A15] to-orange py-2 text-xl text-white shadow-xl transition hover:scale-105 hover:shadow-xl md:shadow-none"
 		>

@@ -15,189 +15,220 @@ type NBA_Team = {
 	full_name: string;
 	conference: 'East' | 'West';
 	division: 'Southeast' | 'Atlantic' | 'Central' | 'Southwest' | 'Northwest' | 'Pacific';
+	schedule: number[];
 };
 
 // ALL NBA TEAMS ALPHABETICAL SORT
-export const TEAMS: { [key: number]: NBA_Team } = {
+export const GLOBAL_TEAMS: { [key: number]: NBA_Team } = {
 	1: {
-		full_name: 'Atlanta Hawks',
 		abbreviation: 'ATL',
 		conference: 'East',
-		division: 'Southeast'
+		division: 'Southeast',
+		full_name: 'Atlanta Hawks',
+		schedule: [3, 3, 3, 3, 4, 3, 2, 4, 4, 3, 3, 3, 4, 4, 3, 4, 4, 3, 4, 3, 3, 4, 4, 4]
 	},
 	2: {
-		full_name: 'Boston Celtics',
 		abbreviation: 'BOS',
 		conference: 'East',
-		division: 'Atlantic'
+		division: 'Atlantic',
+		full_name: 'Boston Celtics',
+		schedule: [2, 3, 4, 4, 4, 2, 2, 4, 3, 4, 3, 4, 4, 3, 4, 3, 4, 3, 3, 4, 4, 3, 4, 4]
 	},
 	3: {
-		full_name: 'Brooklyn Nets',
 		abbreviation: 'BKN',
 		conference: 'East',
-		division: 'Atlantic'
+		division: 'Atlantic',
+		full_name: 'Brooklyn Nets',
+		schedule: [2, 4, 4, 3, 3, 3, 2, 4, 4, 4, 4, 1, 4, 3, 3, 4, 4, 4, 5, 3, 3, 4, 4, 3]
 	},
 	4: {
-		full_name: 'Charlotte Hornets',
 		abbreviation: 'CHA',
 		conference: 'East',
-		division: 'Southeast'
+		division: 'Southeast',
+		full_name: 'Charlotte Hornets',
+		schedule: [2, 4, 3, 3, 3, 3, 2, 4, 3, 3, 3, 4, 3, 4, 4, 4, 5, 4, 3, 4, 2, 4, 4, 4]
 	},
 	5: {
-		full_name: 'Chicago Bulls',
 		abbreviation: 'CHI',
 		conference: 'East',
-		division: 'Central'
+		division: 'Central',
+		full_name: 'Chicago Bulls',
+		schedule: [3, 4, 3, 4, 4, 3, 2, 4, 4, 3, 3, 4, 3, 3, 3, 3, 4, 3, 4, 4, 3, 4, 3, 4]
 	},
 	6: {
-		full_name: 'Cleveland Cavaliers',
 		abbreviation: 'CLE',
 		conference: 'East',
-		division: 'Central'
+		division: 'Central',
+		full_name: 'Cleveland Cavaliers',
+		schedule: [3, 4, 2, 4, 4, 3, 2, 4, 4, 2, 4, 1, 3, 3, 4, 4, 5, 4, 4, 3, 4, 4, 4, 3]
 	},
 	7: {
-		full_name: 'Dallas Mavericks',
 		abbreviation: 'DAL',
 		conference: 'West',
-		division: 'Southwest'
+		division: 'Southwest',
+		full_name: 'Dallas Mavericks',
+		schedule: [2, 4, 4, 4, 2, 3, 2, 4, 4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 3, 4, 2, 4, 3, 4]
 	},
 	8: {
-		full_name: 'Denver Nuggets',
 		abbreviation: 'DEN',
 		conference: 'West',
-		division: 'Northwest'
+		division: 'Northwest',
+		full_name: 'Denver Nuggets',
+		schedule: [3, 4, 3, 3, 4, 4, 2, 4, 4, 3, 4, 3, 3, 3, 4, 2, 5, 3, 3, 4, 3, 4, 3, 4]
 	},
 	9: {
-		full_name: 'Detroit Pistons',
 		abbreviation: 'DET',
 		conference: 'East',
-		division: 'Central'
+		division: 'Central',
+		full_name: 'Detroit Pistons',
+		schedule: [3, 4, 4, 3, 2, 4, 2, 4, 3, 3, 4, 3, 3, 4, 3, 3, 4, 4, 3, 4, 4, 3, 4, 4]
 	},
 	10: {
-		full_name: 'Golden State Warriors',
 		abbreviation: 'GSW',
 		conference: 'West',
-		division: 'Pacific'
+		division: 'Pacific',
+		full_name: 'Golden State Warriors',
+		schedule: [3, 4, 4, 3, 3, 3, 2, 4, 3, 3, 4, 3, 3, 3, 3, 4, 5, 4, 3, 3, 4, 4, 3, 4]
 	},
 	11: {
-		full_name: 'Houston Rockets',
 		abbreviation: 'HOU',
 		conference: 'West',
-		division: 'Southwest'
+		division: 'Southwest',
+		full_name: 'Houston Rockets',
+		schedule: [3, 2, 4, 2, 3, 3, 2, 4, 4, 3, 4, 4, 4, 3, 4, 3, 5, 3, 4, 3, 3, 4, 4, 4]
 	},
 	12: {
-		full_name: 'Indiana Pacers',
 		abbreviation: 'IND',
 		conference: 'East',
-		division: 'Central'
+		division: 'Central',
+		full_name: 'Indiana Pacers',
+		schedule: [2, 4, 4, 2, 3, 3, 2, 4, 4, 3, 4, 4, 4, 4, 4, 3, 4, 4, 3, 3, 4, 3, 4, 3]
 	},
 	13: {
-		full_name: 'LA Clippers',
 		abbreviation: 'LAC',
 		conference: 'West',
-		division: 'Pacific'
+		division: 'Pacific',
+		full_name: 'LA Clippers',
+		schedule: [3, 2, 4, 2, 4, 4, 2, 4, 4, 2, 4, 4, 2, 3, 4, 3, 5, 3, 4, 4, 3, 4, 4, 4]
 	},
 	14: {
-		full_name: 'Los Angeles Lakers',
 		abbreviation: 'LAL',
 		conference: 'West',
-		division: 'Pacific'
+		division: 'Pacific',
+		full_name: 'Los Angeles Lakers',
+		schedule: [3, 3, 4, 4, 3, 4, 2, 3, 4, 4, 3, 3, 4, 3, 4, 3, 5, 3, 4, 2, 3, 4, 4, 3]
 	},
 	15: {
-		full_name: 'Memphis Grizzlies',
 		abbreviation: 'MEM',
 		conference: 'West',
-		division: 'Southwest'
+		division: 'Southwest',
+		full_name: 'Memphis Grizzlies',
+		schedule: [3, 4, 3, 3, 3, 3, 2, 3, 4, 4, 4, 3, 3, 4, 4, 3, 4, 4, 4, 3, 3, 3, 4, 4]
 	},
 	16: {
-		full_name: 'Miami Heat',
 		abbreviation: 'MIA',
 		conference: 'East',
-		division: 'Southeast'
+		division: 'Southeast',
+		full_name: 'Miami Heat',
+		schedule: [3, 3, 4, 3, 4, 3, 2, 4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 4, 4, 3, 4, 3, 4, 4]
 	},
 	17: {
-		full_name: 'Milwaukee Bucks',
 		abbreviation: 'MIL',
 		conference: 'East',
-		division: 'Central'
+		division: 'Central',
+		full_name: 'Milwaukee Bucks',
+		schedule: [2, 3, 4, 4, 4, 3, 2, 4, 3, 3, 4, 4, 2, 4, 4, 3, 5, 3, 4, 3, 3, 3, 4, 4]
 	},
 	18: {
-		full_name: 'Minnesota Timberwolves',
 		abbreviation: 'MIN',
 		conference: 'West',
-		division: 'Northwest'
+		division: 'Northwest',
+		full_name: 'Minnesota Timberwolves',
+		schedule: [2, 3, 4, 3, 4, 3, 2, 3, 4, 3, 4, 4, 3, 4, 4, 2, 5, 4, 4, 2, 4, 3, 4, 4]
 	},
 	19: {
-		full_name: 'New Orleans Pelicans',
 		abbreviation: 'NOP',
 		conference: 'West',
-		division: 'Southwest'
+		division: 'Southwest',
+		full_name: 'New Orleans Pelicans',
+		schedule: [2, 4, 4, 3, 4, 4, 2, 4, 3, 3, 4, 3, 3, 3, 3, 4, 5, 3, 3, 3, 4, 3, 4, 4]
 	},
 	20: {
-		full_name: 'New York Knicks',
 		abbreviation: 'NYK',
 		conference: 'East',
-		division: 'Atlantic'
+		division: 'Atlantic',
+		full_name: 'New York Knicks',
+		schedule: [3, 3, 3, 4, 3, 3, 2, 4, 3, 4, 4, 3, 4, 3, 4, 3, 4, 4, 3, 3, 3, 4, 4, 4]
 	},
 	21: {
-		full_name: 'Oklahoma City Thunder',
 		abbreviation: 'OKC',
 		conference: 'West',
-		division: 'Northwest'
+		division: 'Northwest',
+		full_name: 'Oklahoma City Thunder',
+		schedule: [3, 3, 4, 4, 2, 3, 2, 3, 3, 4, 3, 4, 4, 4, 4, 3, 4, 3, 4, 3, 3, 4, 4, 4]
 	},
 	22: {
-		full_name: 'Orlando Magic',
 		abbreviation: 'ORL',
 		conference: 'East',
-		division: 'Southeast'
+		division: 'Southeast',
+		full_name: 'Orlando Magic',
+		schedule: [2, 4, 3, 4, 4, 3, 2, 3, 3, 4, 4, 3, 4, 3, 4, 3, 5, 3, 4, 3, 3, 3, 4, 4]
 	},
 	23: {
-		full_name: 'Philadelphia 76ers',
 		abbreviation: 'PHI',
 		conference: 'East',
-		division: 'Atlantic'
+		division: 'Atlantic',
+		full_name: 'Philadelphia 76ers',
+		schedule: [3, 2, 4, 4, 3, 3, 2, 4, 3, 4, 3, 2, 4, 3, 4, 4, 5, 3, 4, 3, 4, 4, 4, 3]
 	},
 	24: {
-		full_name: 'Phoenix Suns',
 		abbreviation: 'PHX',
 		conference: 'West',
-		division: 'Pacific'
+		division: 'Pacific',
+		full_name: 'Phoenix Suns',
+		schedule: [3, 4, 3, 3, 4, 3, 2, 4, 2, 4, 4, 3, 3, 4, 4, 3, 5, 3, 3, 4, 3, 3, 4, 4]
 	},
 	25: {
-		full_name: 'Portland Trail Blazers',
 		abbreviation: 'POR',
 		conference: 'West',
-		division: 'Northwest'
+		division: 'Northwest',
+		full_name: 'Portland Trail Blazers',
+		schedule: [3, 4, 2, 4, 3, 3, 2, 4, 3, 3, 4, 4, 3, 4, 4, 2, 4, 3, 4, 4, 4, 3, 4, 4]
 	},
 	26: {
-		full_name: 'Sacramento Kings',
 		abbreviation: 'SAC',
 		conference: 'West',
-		division: 'Pacific'
+		division: 'Pacific',
+		full_name: 'Sacramento Kings',
+		schedule: [3, 2, 3, 4, 3, 3, 2, 4, 4, 3, 4, 4, 2, 3, 4, 4, 4, 3, 4, 3, 4, 4, 4, 4]
 	},
 	27: {
-		full_name: 'San Antonio Spurs',
 		abbreviation: 'SAS',
 		conference: 'West',
-		division: 'Southwest'
+		division: 'Southwest',
+		full_name: 'San Antonio Spurs',
+		schedule: [3, 3, 4, 3, 4, 2, 2, 4, 3, 4, 3, 3, 4, 4, 4, 3, 5, 3, 3, 4, 3, 4, 3, 4]
 	},
 	28: {
-		full_name: 'Toronto Raptors',
 		abbreviation: 'TOR',
 		conference: 'East',
-		division: 'Atlantic'
+		division: 'Atlantic',
+		full_name: 'Toronto Raptors',
+		schedule: [3, 4, 2, 4, 4, 3, 2, 3, 4, 3, 4, 3, 4, 3, 3, 4, 4, 4, 3, 4, 3, 3, 4, 4]
 	},
 	29: {
-		full_name: 'Utah Jazz',
 		abbreviation: 'UTA',
 		conference: 'West',
-		division: 'Northwest'
+		division: 'Northwest',
+		full_name: 'Utah Jazz',
+		schedule: [3, 4, 3, 3, 3, 4, 2, 4, 4, 3, 4, 4, 4, 3, 4, 2, 4, 3, 3, 3, 4, 4, 3, 4]
 	},
 	30: {
-		full_name: 'Washington Wizards',
 		abbreviation: 'WAS',
 		conference: 'East',
-		division: 'Southeast'
+		division: 'Southeast',
+		full_name: 'Washington Wizards',
+		schedule: [2, 3, 4, 3, 4, 3, 2, 4, 3, 4, 3, 3, 4, 3, 4, 3, 5, 3, 4, 4, 3, 4, 4, 3]
 	}
 };
 

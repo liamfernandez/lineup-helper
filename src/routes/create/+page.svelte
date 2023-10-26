@@ -10,7 +10,7 @@
 	export let data;
 
 	let teamName = '';
-	let nameLockedIn = true;
+	let nameLockedIn = false;
 	let errorWithName = false;
 	let currentPlayerSearch = '';
 
@@ -21,7 +21,6 @@
 
 	function saveTeamName() {
 		if (nameLockedIn) {
-			console.log('allow edits');
 			nameLockedIn = false;
 			const teamNameEdit = document.getElementById('teamName') as HTMLInputElement;
 			teamNameEdit.focus();
@@ -68,7 +67,12 @@
 		</div>
 		<div class="mt-2 flex flex-col items-center gap-2">
 			<input
-				type="email"
+				on:keydown={(e) => {
+					if (e.key === 'Enter') {
+						const saveButton = document.getElementById('save-team-button');
+						saveButton?.click();
+					}
+				}}
 				bind:value={teamName}
 				disabled={nameLockedIn}
 				name="teamName"
@@ -78,6 +82,7 @@
 			/>
 			{#if !nameLockedIn}
 				<button
+					id="save-team-button"
 					on:click={saveTeamName}
 					type="button"
 					class="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm transition hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green"
