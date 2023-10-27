@@ -35,11 +35,11 @@
 				}
 
 				// save lineup to local storage
-				console.log('global lineups so far: ', $GLOBAL_LINEUPS);
+				// console.log('global lineups so far: ', $GLOBAL_LINEUPS);
 				$GLOBAL_LINEUPS[key] = $in_progress_lineup;
 				// GLOBAL_LINEUPS.set({});
 
-				console.log('key: ', key, '\nglobal lineups after: ', $GLOBAL_LINEUPS);
+				// console.log('key: ', key, '\nglobal lineups after: ', $GLOBAL_LINEUPS);
 				//clear in progress lineup
 				in_progress_lineup.reset();
 				goto(`/lineup/${key}`);

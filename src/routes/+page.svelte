@@ -1,16 +1,9 @@
 <script class="ts">
 	import Write from '$lib/icons/Write.svelte';
-	import { onMount } from 'svelte';
 	import { GLOBAL_LINEUPS } from '$lib/stores';
 	import { goto } from '$app/navigation';
 
 	const numberOfSavedLineups = Object.keys($GLOBAL_LINEUPS).length;
-
-	onMount(() => {
-		if (typeof window === 'undefined') {
-			return;
-		}
-	});
 </script>
 
 <svelte:head>

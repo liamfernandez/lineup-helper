@@ -12,8 +12,10 @@
 		if (!response.ok) {
 			throw new Error(response.statusText);
 		}
+
 		const nba_player_info: NBA_Player = await response.json();
-		$in_progress_lineup.map.set(player, nba_player_info);
+		let player_map = $in_progress_lineup.map;
+		player_map[player] = nba_player_info;
 		return nba_player_info;
 	}
 

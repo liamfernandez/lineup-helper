@@ -5,6 +5,7 @@
 	import Write from '$lib/icons/Write.svelte';
 	import { onMount } from 'svelte';
 	import WeekDropdown from '$lib/components/WeekDropdown.svelte';
+	import GamesPlayedGrid from '$lib/components/GamesPlayedGrid.svelte';
 
 	export let data;
 
@@ -56,12 +57,13 @@
 			<!-- This case is for when local storage doesn't have the lineup  -->
 			<NotFound />
 		{:else}
+			<p class="-mb-1 -mt-4 text-xs opacity-20">Lineup Name</p>
 			<div class="flex flex-row flex-wrap items-center justify-between gap-2 md:gap-4">
 				<h2 class="text-left text-3xl md:text-4xl">
 					{lineup.name}
 				</h2>
 				<button
-					class="flex flex-row items-center gap-2 rounded-3xl bg-gradient-to-br from-blue to-[#2763e9] px-4 py-1 text-[14px] shadow md:py-2"
+					class="flex flex-row items-center gap-2 rounded-3xl bg-gradient-to-br from-blue to-[#2763e9] px-4 py-1 text-[14px] shadow transition hover:scale-105 hover:outline hover:outline-1 hover:outline-white md:py-2"
 				>
 					Edit Lineup
 					<Write size={14} />
@@ -70,7 +72,10 @@
 			<div class="mt-4 flex flex-col items-center gap-1">
 				<p class="text-center text-[14px] opacity-50">Week to Analyze</p>
 				<WeekDropdown />
+				<p class=" -mb-6 mt-4 text-xs opacity-20">Players sorted by most games played</p>
 			</div>
+			<!-- Games Played Grid -->
+			<GamesPlayedGrid teams={data.teams} {lineup} />
 		{/if}
 	</div>
 </div>

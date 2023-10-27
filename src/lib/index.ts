@@ -2,12 +2,13 @@ import { writable, type Writable } from 'svelte/store';
 
 export type Lineup = {
 	players: string[];
-	map: Map<string, NBA_Player>;
+	map: { [key: string]: NBA_Player };
 	name: string;
 };
 
 export type NBA_Player = {
-	player_id: number;
+	nba_player_id: number;
+	ball_dont_lie_id: number;
 	team_id: number;
 	team_name: string;
 	position: string;
@@ -22,6 +23,7 @@ export type NBA_Team = {
 	full_name: string;
 	conference: 'East' | 'West';
 	division: 'Southeast' | 'Atlantic' | 'Central' | 'Southwest' | 'Northwest' | 'Pacific';
+	schedule: number[];
 };
 
 export const WEEK_LABELS = [

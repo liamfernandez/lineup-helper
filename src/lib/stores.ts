@@ -9,7 +9,7 @@ function LineupContainer() {
 	const { subscribe, set, update } = writable<Lineup>({
 		name: '',
 		players: [],
-		map: new Map<string, NBA_Player>()
+		map: {}
 	});
 
 	return {
@@ -26,7 +26,7 @@ function LineupContainer() {
 				lineup.players = lineup.players.filter((p) => p !== player);
 				return lineup;
 			}),
-		reset: () => set({ players: [], map: new Map<string, NBA_Player>(), name: '' })
+		reset: () => set({ players: [], map: {}, name: '' })
 	};
 }
 

@@ -5,7 +5,7 @@
 	import { BASE_DELAY, BASE_DURATION } from '$lib/transitions';
 	import { elasticOut } from 'svelte/easing';
 	import { fade, fly, blur } from 'svelte/transition';
-	import { in_progress_lineup } from '$lib/stores.js';
+	import { GLOBAL_LINEUPS, in_progress_lineup } from '$lib/stores.js';
 
 	export let data;
 
@@ -116,7 +116,7 @@
 {#if nameLockedIn}
 	<div class="px-4 md:px-12">
 		<div
-			in:fly={{ duration: BASE_DURATION / 2, delay: BASE_DELAY, y: 50 }}
+			in:fly={{ duration: BASE_DURATION / 2, delay: BASE_DELAY, x: 50 }}
 			class="flex items-center justify-between"
 		>
 			<h1 class="text-center text-2xl md:text-4xl">Add Players</h1>
