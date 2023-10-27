@@ -26,7 +26,8 @@ function LineupContainer() {
 				lineup.players = lineup.players.filter((p) => p !== player);
 				return lineup;
 			}),
-		reset: () => set({ players: [], map: {}, name: '' })
+		reset: () => set({ players: [], map: {}, name: '' }),
+		setLineup: (lineup: Lineup) => set(lineup)
 	};
 }
 

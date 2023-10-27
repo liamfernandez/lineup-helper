@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import WeekDropdown from '$lib/components/WeekDropdown.svelte';
 	import GamesPlayedGrid from '$lib/components/GamesPlayedGrid.svelte';
+	import { goto } from '$app/navigation';
 
 	export let data;
 
@@ -30,9 +31,9 @@
 	}
 
 	onMount(() => {
-		// setTimeout(() => {
-		// }, 2000);
-		lineup = getLineupFromStorage();
+		setTimeout(() => {
+			lineup = getLineupFromStorage();
+		}, 2000);
 	});
 </script>
 
@@ -48,7 +49,7 @@
 	<div class="w-[90%] md:w-[80%]">
 		{#if typeof lineup === 'undefined'}
 			<!-- Loading State -->
-			<div class=" mt-[10rem] flex w-full flex-row items-center justify-center gap-8 md:mt-[20rem]">
+			<div class=" mt-[10rem] flex w-full flex-row items-center justify-center gap-8 md:mt-[10rem]">
 				<span class="loading loading-ring loading-lg bg-orange"></span>
 				<p class="text-3xl md:text-4xl">Loading Lineup</p>
 				<span class="loading loading-ring loading-lg bg-orange"></span>
@@ -63,6 +64,11 @@
 					{lineup.name}
 				</h2>
 				<button
+					on:click={() => {
+						// console.log('/edit/' + $page.params.hash);
+						const newPath = '/edit/' + $page.params.hash;
+						goto(newPath);
+					}}
 					class="flex flex-row items-center gap-2 rounded-3xl bg-gradient-to-br from-blue to-[#2763e9] px-4 py-1 text-[14px] shadow transition hover:scale-105 hover:outline hover:outline-1 hover:outline-white md:py-2"
 				>
 					Edit Lineup
