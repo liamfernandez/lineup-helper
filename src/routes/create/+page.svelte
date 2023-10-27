@@ -14,6 +14,8 @@
 	let errorWithName = false;
 	let currentPlayerSearch = '';
 
+	in_progress_lineup.reset();
+
 	// Reactive statement to automatically filter the player names
 	$: filteredPlayers = data.player_names.filter((player) =>
 		player.toLowerCase().includes(currentPlayerSearch.toLowerCase())
@@ -41,13 +43,15 @@
 	<title>{teamName} | Fantasy 🏀 Assistant</title>
 </svelte:head>
 
-<a href="/">
-	<img
-		alt="fantasy helper logo"
-		src="/app-logos/long-logo.png"
-		class="-mt-[1.6rem] ml-2 w-[250px] md:-mt-6 md:w-[400px]"
-	/>
-</a>
+<div class="w-fit">
+	<a class="" href="/">
+		<img
+			alt="fantasy helper logo"
+			src="/app-logos/long-logo.png"
+			class="-mt-[1.6rem] ml-2 w-[250px] md:-mt-6 md:w-[400px]"
+		/>
+	</a>
+</div>
 <div class="divider px-4" />
 <div class="flex flex-col items-center">
 	<div class="w-[70%] pb-10 md:w-[30rem]">

@@ -33,17 +33,19 @@
 	onMount(() => {
 		setTimeout(() => {
 			lineup = getLineupFromStorage();
-		}, 2000);
+		}, 1700);
 	});
 </script>
 
-<a href="/">
-	<img
-		alt="fantasy helper logo"
-		src="/app-logos/long-logo.png"
-		class="-mt-[1.6rem] ml-2 w-[250px] md:-mt-6 md:w-[400px]"
-	/>
-</a>
+<div class="w-fit">
+	<a class="" href="/">
+		<img
+			alt="fantasy helper logo"
+			src="/app-logos/long-logo.png"
+			class="-mt-[1.6rem] ml-2 w-[250px] md:-mt-6 md:w-[400px]"
+		/>
+	</a>
+</div>
 <div class="divider px-4" />
 <div class="flex flex-col items-center">
 	<div class="w-[90%] md:w-[80%]">

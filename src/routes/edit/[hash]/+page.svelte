@@ -53,13 +53,15 @@
 	<title>{teamName} | Fantasy 🏀 Assistant</title>
 </svelte:head>
 
-<a href="/">
-	<img
-		alt="fantasy helper logo"
-		src="/app-logos/long-logo.png"
-		class="-mt-[1.6rem] ml-2 w-[250px] md:-mt-6 md:w-[400px]"
-	/>
-</a>
+<div class="w-fit">
+	<a class="" href="/">
+		<img
+			alt="fantasy helper logo"
+			src="/app-logos/long-logo.png"
+			class="-mt-[1.6rem] ml-2 w-[250px] md:-mt-6 md:w-[400px]"
+		/>
+	</a>
+</div>
 <div class="divider px-4" />
 <div class="flex flex-col items-center">
 	<div class="w-[70%] pb-10 md:w-[30rem]">
@@ -67,17 +69,9 @@
 			<label for="teamName" class="block text-sm font-medium leading-6 text-primaryText md:text-xl"
 				>Lineup Name</label
 			>
-			{#if nameLockedIn}
-				<span in:fade class="text-xs leading-6 text-green md:text-sm" id="teamName-optional"
-					>Saved Name!</span
-				>
-			{:else if errorWithName}
-				<span
-					in:fly={{ duration: BASE_DURATION / 3, x: -50, easing: elasticOut }}
-					class="text-sm leading-6 text-red"
-					id="teamName-optional">Name cannot be empty</span
-				>
-			{/if}
+			<!-- <span in:fade class="text-xs leading-6 text-rose-800 md:text-sm" id="teamName-optional"
+				>Name Can't be Edited</span
+			> -->
 		</div>
 		<div class="mt-2 flex flex-col items-center gap-2">
 			<input
@@ -94,34 +88,6 @@
 				class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-logo sm:text-sm sm:leading-6"
 				placeholder="BBL lineup 1"
 			/>
-			{#if !nameLockedIn}
-				<button
-					id="save-team-button"
-					on:click={saveTeamName}
-					type="button"
-					class="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm transition hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green"
-				>
-					Save
-					<svg
-						class="-mr-0.5 h-5 w-5 -translate-y-[1px]"
-						viewBox="0 0 20 20"
-						fill="currentColor"
-						aria-hidden="true"
-					>
-						<path
-							fill-rule="evenodd"
-							d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-							clip-rule="evenodd"
-						/>
-					</svg>
-				</button>
-			{:else}
-				<button
-					on:click={saveTeamName}
-					class="self-start text-xs text-gray-400 hover:underline hover:underline-offset-2"
-					>Edit Name</button
-				>
-			{/if}
 		</div>
 	</div>
 </div>
