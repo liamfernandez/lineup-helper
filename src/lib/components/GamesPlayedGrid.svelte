@@ -46,6 +46,26 @@
 		});
 	}
 
+	$: totalGamesPlayed = getTop10GamesPlayedSum(players_sorted_by_games_played);
+	$: totalProjectedPoints = getTop10ProjectedPointsSum(players_sorted_by_games_played);
+
+	function getTop10GamesPlayedSum(players: string[]) {
+		let sum = 0;
+		for (let i = 0; i < 10; i++) {
+			sum += getGamesPlayed(players[i]);
+		}
+		return sum;
+	}
+
+	function getTop10ProjectedPointsSum(players: string[]) {
+		let sum = 0;
+		for (let i = 0; i < 10; i++) {
+			sum +=
+				calculateAverageFantasyPoints(player_averages[players[i]]) * getGamesPlayed(players[i]);
+		}
+		return sum;
+	}
+
 	function updatePlayerAverages(): void {
 		const last_updated_time = lineup.ball_dont_lie_refreshed_at;
 		const today1am = new Date();
@@ -184,4 +204,32 @@
 		</div>
 		<div class="divider -mt-[3px]"></div>
 	{/each}
+</div>
+<!-- TOTALS -->
+<div>
+	<p class="text-center text-lg italic text-white md:text-2xl">Totals for the week</p>
+	<div class="flex flex-col border border-white pb-2">
+		<p class="px-2 py-2 text-center text-xs md:text-lg">
+			Based on 2023 season averages, the best lineup you could start for this week is players 1-10
+			above.
+		</p>
+		<span class="mt-2 flex flex-row items-center justify-center gap-6 md:gap-20">
+			<span class=" flex flex-col items-center gap-1">
+				<p
+					class="-mt-0 h-full w-fit bg-gradient-to-br from-blue to-[#2763e9] px-3 text-center text-[18px] md:text-[26px]"
+				>
+					{totalGamesPlayed}
+				</p>
+				<p class="text-center text-[10px] opacity-50 md:text-[16px]">Games Played</p>
+			</span>
+			<span class="flex flex-col items-center gap-1">
+				<p
+					class="w-fit bg-gradient-to-br from-[#9819d7] to-[#7518a1] px-2 text-center text-[18px] md:text-[26px]"
+				>
+					{totalProjectedPoints.toFixed(2)}
+				</p>
+				<p class="text-center text-[10px] opacity-50 md:text-[16px]">Projected points</p>
+			</span>
+		</span>
+	</div>
 </div>
