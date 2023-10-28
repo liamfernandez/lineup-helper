@@ -53,6 +53,33 @@ export const WEEK_LABELS = [
 	'W24: 8 Apr - 14 Apr'
 ];
 
+export const YAHOO_SCORE_MAP: { [key: string]: number } = {
+	pts: 1,
+	ast: 1.5,
+	reb: 1.2,
+	stl: 3,
+	blk: 3,
+	turnover: -3
+};
+
+export function calculateAverageFantasyPoints(
+	pts: number,
+	ast: number,
+	reb: number,
+	stl: number,
+	blk: number,
+	turnover: number
+) {
+	return (
+		pts * YAHOO_SCORE_MAP['pts'] +
+		ast * YAHOO_SCORE_MAP['ast'] +
+		reb * YAHOO_SCORE_MAP['reb'] +
+		stl * YAHOO_SCORE_MAP['stl'] +
+		blk * YAHOO_SCORE_MAP['blk'] +
+		turnover * YAHOO_SCORE_MAP['turnover']
+	);
+}
+
 // HELPER METHOD
 export async function hashStringUsingSHA256(data: string) {
 	const encoder = new TextEncoder();

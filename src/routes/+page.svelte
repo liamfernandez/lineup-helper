@@ -3,8 +3,8 @@
 	import { GLOBAL_LINEUPS } from '$lib/stores';
 	import { goto } from '$app/navigation';
 
-	const savedLineupKeys = Object.keys($GLOBAL_LINEUPS);
-	const numberOfSavedLineups = savedLineupKeys.length;
+	$: savedLineupKeys = Object.keys($GLOBAL_LINEUPS);
+	$: numberOfSavedLineups = savedLineupKeys.length;
 
 	function getListOfPlayers(key: string) {
 		const player_list = $GLOBAL_LINEUPS[key].players;
@@ -75,6 +75,18 @@
 						class="-mb-2 block text-[10px] text-blue underline decoration-black opacity-90 md:hidden"
 					>
 						click to view lineup
+					</p>
+				</button>
+				<button
+					on:click={() => {
+						const placeholder = $GLOBAL_LINEUPS;
+						delete placeholder[lineupKey];
+						GLOBAL_LINEUPS.set(placeholder);
+					}}
+					class="-top-1 h-[20px] w-full bg-rose-700 text-[10px] text-white"
+				>
+					<p>
+						click to delete {$GLOBAL_LINEUPS[lineupKey].name}
 					</p>
 				</button>
 				<div class="h-[2px] bg-black"></div>
