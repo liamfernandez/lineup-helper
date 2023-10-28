@@ -55,7 +55,7 @@
 			<img
 				alt={NBA_Player_Data.team_name}
 				src={getTeamImage(NBA_Player_Data.team_name)}
-				class="absolute right-1 z-0 w-[68px] translate-y-3 pr-2 opacity-40 md:relative"
+				class="absolute right-1 z-0 w-[68px] translate-y-3 pr-2 md:relative"
 			/>
 		</div>
 	</div>

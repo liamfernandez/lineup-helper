@@ -76,7 +76,7 @@
 				</p>
 			</span>
 			<img
-				class="ml-auto mr-8 w-[40px] opacity-70 md:mr-20 md:w-[55px]"
+				class="ml-auto mr-8 w-[40px] md:mr-20 md:w-[55px]"
 				alt="{lineup.map[player_name].team_name} logo"
 				src={getTeamImage(lineup.map[player_name].team_name)}
 			/>
