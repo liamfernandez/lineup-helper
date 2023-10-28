@@ -4,6 +4,8 @@ export type Lineup = {
 	players: string[];
 	map: { [key: string]: NBA_Player };
 	name: string;
+	averages: { [key: string]: Season_Averages };
+	ball_dont_lie_refreshed_at: Date | undefined;
 };
 
 export type NBA_Player = {
@@ -24,6 +26,15 @@ export type NBA_Team = {
 	conference: 'East' | 'West';
 	division: 'Southeast' | 'Atlantic' | 'Central' | 'Southwest' | 'Northwest' | 'Pacific';
 	schedule: number[];
+};
+
+export type Season_Averages = {
+	pts: number;
+	ast: number;
+	reb: number;
+	stl: number;
+	blk: number;
+	turnover: number;
 };
 
 export const WEEK_LABELS = [
@@ -59,24 +70,17 @@ export const YAHOO_SCORE_MAP: { [key: string]: number } = {
 	reb: 1.2,
 	stl: 3,
 	blk: 3,
-	turnover: -3
+	turnover: -1
 };
 
-export function calculateAverageFantasyPoints(
-	pts: number,
-	ast: number,
-	reb: number,
-	stl: number,
-	blk: number,
-	turnover: number
-) {
+export function calculateAverageFantasyPoints(season_averages: Season_Averages) {
 	return (
-		pts * YAHOO_SCORE_MAP['pts'] +
-		ast * YAHOO_SCORE_MAP['ast'] +
-		reb * YAHOO_SCORE_MAP['reb'] +
-		stl * YAHOO_SCORE_MAP['stl'] +
-		blk * YAHOO_SCORE_MAP['blk'] +
-		turnover * YAHOO_SCORE_MAP['turnover']
+		season_averages.pts * YAHOO_SCORE_MAP['pts'] +
+		season_averages.ast * YAHOO_SCORE_MAP['ast'] +
+		season_averages.reb * YAHOO_SCORE_MAP['reb'] +
+		season_averages.stl * YAHOO_SCORE_MAP['stl'] +
+		season_averages.blk * YAHOO_SCORE_MAP['blk'] +
+		season_averages.turnover * YAHOO_SCORE_MAP['turnover']
 	);
 }
 

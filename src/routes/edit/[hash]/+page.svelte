@@ -14,30 +14,30 @@
 
 	let teamName = '';
 	let nameLockedIn = false;
-	let errorWithName = false;
 	let currentPlayerSearch = '';
+	// let errorWithName = false;
 
 	// Reactive statement to automatically filter the player names
 	$: filteredPlayers = data.player_names.filter((player) =>
 		player.toLowerCase().includes(currentPlayerSearch.toLowerCase())
 	);
 
-	function saveTeamName() {
-		if (nameLockedIn) {
-			nameLockedIn = false;
-			const teamNameEdit = document.getElementById('teamName') as HTMLInputElement;
-			teamNameEdit.focus();
-			return;
-		}
+	// function saveTeamName() {
+	// 	if (nameLockedIn) {
+	// 		nameLockedIn = false;
+	// 		const teamNameEdit = document.getElementById('teamName') as HTMLInputElement;
+	// 		teamNameEdit.focus();
+	// 		return;
+	// 	}
 
-		if (teamName.length > 0) {
-			errorWithName = false;
-			nameLockedIn = true;
-			in_progress_lineup.updateName(teamName);
-		} else {
-			errorWithName = true;
-		}
-	}
+	// 	if (teamName.length > 0) {
+	// 		errorWithName = false;
+	// 		nameLockedIn = true;
+	// 		in_progress_lineup.updateName(teamName);
+	// 	} else {
+	// 		errorWithName = true;
+	// 	}
+	// }
 
 	onMount(() => {
 		if (typeof localStorage !== 'undefined') {
@@ -94,13 +94,13 @@
 {#if nameLockedIn}
 	<div class="px-4 md:px-12">
 		<div
-			in:fly={{ duration: BASE_DURATION / 2, delay: BASE_DELAY, x: 50 }}
+			in:fly={{ duration: BASE_DURATION / 2, delay: BASE_DELAY, y: -50 }}
 			class="flex items-center justify-between"
 		>
 			<h1 class="text-center text-2xl md:text-4xl">Add Players</h1>
 			{#if $in_progress_lineup.players.length > 0}
 				<p in:blur class="text-xs md:text-xl">
-					{`${$in_progress_lineup.players.length} out of 13 players`}
+					{`${$in_progress_lineup.players.length} out of 15 players`}
 				</p>
 			{/if}
 		</div>
@@ -131,6 +131,10 @@
 							<div class="py-1" role="none">
 								<button
 									on:click={() => {
+										if ($in_progress_lineup.players.length >= 15) {
+											currentPlayerSearch = '';
+											return;
+										}
 										in_progress_lineup.addPlayer(playerOption);
 										currentPlayerSearch = '';
 									}}

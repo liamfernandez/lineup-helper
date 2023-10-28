@@ -84,10 +84,12 @@
 			<div class="mt-4 flex flex-col items-center gap-1">
 				<p class="text-center text-[14px] opacity-50">Week to Analyze</p>
 				<WeekDropdown />
-				<p class=" -mb-6 mt-4 text-xs opacity-20">Players sorted by most games played</p>
+				<p class=" -mb-6 mt-4 text-xs underline decoration-orange underline-offset-2 opacity-40">
+					Players sorted by projected points for the week
+				</p>
 			</div>
 			<!-- Games Played Grid -->
-			<GamesPlayedGrid teams={data.teams} {lineup} />
+			<GamesPlayedGrid teams={data.teams} {lineup} lineupKey={$page.params.hash} />
 		{/if}
 	</div>
 </div>

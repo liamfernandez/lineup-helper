@@ -1,4 +1,4 @@
-import type { Lineup, NBA_Player } from '$lib';
+import type { Lineup, Season_Averages } from '$lib';
 import { writable } from 'svelte/store';
 import { localStorageStore } from '$lib';
 
@@ -9,7 +9,9 @@ function LineupContainer() {
 	const { subscribe, set, update } = writable<Lineup>({
 		name: '',
 		players: [],
-		map: {}
+		map: {},
+		averages: {},
+		ball_dont_lie_refreshed_at: undefined
 	});
 
 	return {
@@ -26,8 +28,11 @@ function LineupContainer() {
 				lineup.players = lineup.players.filter((p) => p !== player);
 				return lineup;
 			}),
-		reset: () => set({ players: [], map: {}, name: '' }),
-		setLineup: (lineup: Lineup) => set(lineup)
+		reset: () =>
+			set({ players: [], map: {}, name: '', averages: {}, ball_dont_lie_refreshed_at: undefined }),
+		setLineup: (lineup: Lineup) => set(lineup),
+		setAverages: (averages: { [key: string]: Season_Averages }) =>
+			update((lineup) => ({ ...lineup, averages }))
 	};
 }
 
