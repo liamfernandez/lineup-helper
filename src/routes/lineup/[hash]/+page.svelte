@@ -25,6 +25,10 @@
 			if (!Object.keys(lineups).includes(providedHash)) {
 				return null;
 			} else {
+				console.log(
+					'[getLineupFromStorage]: returning lineup from storage: ',
+					lineups[providedHash]
+				);
 				return lineups[providedHash];
 			}
 		} else return null;
