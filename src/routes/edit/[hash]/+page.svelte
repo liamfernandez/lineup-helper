@@ -9,6 +9,7 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import type { Lineup } from '$lib';
+	import getPlayerSeasonAverages from '$lib/utils/ball_dont_lie_provider.js';
 
 	export let data;
 
@@ -130,7 +131,7 @@
 						{#each filteredPlayers as playerOption}
 							<div class="py-1" role="none">
 								<button
-									on:click={() => {
+									on:click={async () => {
 										if ($in_progress_lineup.players.length >= 15) {
 											currentPlayerSearch = '';
 											return;

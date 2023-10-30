@@ -13,15 +13,35 @@
 
 	onMount(async () => {
 		await refreshPlayerAverages();
+		await spotHolesInLineup();
 	});
 
+	function spotHolesInLineup() {
+		$viewing_lineup.players.forEach((player_name) => {
+			const average_4_player = $viewing_lineup.averages[player_name];
+			if (average_4_player === undefined) {
+				// console.log(
+				// 	'[spotHolesInLineup]: Found a hole in the lineup, retrieving averages for player: ',
+				// 	player_name
+				// );
+				getPlayerSeasonAverages(player_name, $viewing_lineup).then((average) => {
+					const tempAverages = $viewing_lineup.averages;
+					tempAverages[player_name] = average;
+
+					viewing_lineup.setAverages(tempAverages);
+					// $viewing_lineup.setAverage(player_name, average);
+					$GLOBAL_LINEUPS[lineupKey] = $viewing_lineup;
+				});
+			}
+		});
+	}
 	function validateAverages(lineup: Lineup) {
-		console.log(
-			'[validateAverages]: lineup.averages keys: ',
-			Object.keys(lineup.averages),
-			' & ',
-			Object.keys(lineup.averages).length
-		);
+		// console.log(
+		// 	'[validateAverages]: lineup.averages keys: ',
+		// 	Object.keys(lineup.averages),
+		// 	' & ',
+		// 	Object.keys(lineup.averages).length
+		// );
 		return Object.keys(lineup.averages).length > 0;
 	}
 
