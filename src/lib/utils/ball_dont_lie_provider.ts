@@ -4,7 +4,7 @@ export default async function getPlayerSeasonAverages(
 	player: string,
 	lineup: Lineup
 ): Promise<Season_Averages> {
-	console.log('[getFantasyPtsAverage]: player: ' + player, ' | lineup.map: ', lineup.map);
+	// console.log('[getFantasyPtsAverage]: player: ' + player, ' | lineup.map: ', lineup.map);
 	const player_info = lineup.map[player];
 
 	const response = await fetch(

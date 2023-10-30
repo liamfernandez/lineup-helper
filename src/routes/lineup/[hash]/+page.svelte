@@ -7,36 +7,50 @@
 	import WeekDropdown from '$lib/components/WeekDropdown.svelte';
 	import GamesPlayedGrid from '$lib/components/GamesPlayedGrid.svelte';
 	import { goto } from '$app/navigation';
+	import { viewing_lineup } from '$lib/stores.js';
 
 	export let data;
 
-	let lineup: Lineup | null | undefined = undefined;
+	let loading = true;
+	let lineupNotFound = false;
 
-	function getLineupFromStorage(): Lineup | null {
+	let lineup: Lineup;
+
+	/**
+	 * @description This function will get the lineup from local storage, move it to viewing_lineup store
+	 * @returns {boolean} Returns true if lineup successfully found in localStorage and transferred
+	 * to the viewing_lineup store. Returns false if lineup not found in localStorage.
+	 */
+	function moveLineupToWorkSpace(): boolean {
 		if (typeof localStorage != 'undefined') {
 			const lineups_store = localStorage.getItem('lineups');
 			if (lineups_store === null) {
-				return null;
+				return false;
 			}
 
 			const lineups = JSON.parse(lineups_store) as { [key: string]: Lineup };
 			const providedHash = $page.params.hash;
 
 			if (!Object.keys(lineups).includes(providedHash)) {
-				return null;
+				return false;
 			} else {
 				console.log(
 					'[getLineupFromStorage]: returning lineup from storage: ',
 					lineups[providedHash]
 				);
-				return lineups[providedHash];
+				viewing_lineup.setLineup(lineups[providedHash]);
+				lineup = lineups[providedHash];
+				return true;
 			}
-		} else return null;
+		} else return false;
 	}
 
 	onMount(() => {
+		if (!moveLineupToWorkSpace()) {
+			lineupNotFound = true;
+		}
 		setTimeout(() => {
-			lineup = getLineupFromStorage();
+			loading = false;
 		}, 1700);
 	});
 </script>
@@ -53,14 +67,14 @@
 <div class="divider px-4" />
 <div class="flex flex-col items-center">
 	<div class="w-[90%] md:w-[80%]">
-		{#if typeof lineup === 'undefined'}
+		{#if loading}
 			<!-- Loading State -->
 			<div class=" mt-[10rem] flex w-full flex-row items-center justify-center gap-8 md:mt-[10rem]">
 				<span class="loading loading-ring loading-lg bg-orange"></span>
 				<p class="text-3xl md:text-4xl">Loading Lineup</p>
 				<span class="loading loading-ring loading-lg bg-orange"></span>
 			</div>
-		{:else if !lineup}
+		{:else if lineupNotFound}
 			<!-- This case is for when local storage doesn't have the lineup  -->
 			<NotFound />
 		{:else}
@@ -71,7 +85,6 @@
 				</h2>
 				<button
 					on:click={() => {
-						// console.log('/edit/' + $page.params.hash);
 						const newPath = '/edit/' + $page.params.hash;
 						goto(newPath);
 					}}
@@ -89,7 +102,7 @@
 				</p>
 			</div>
 			<!-- Games Played Grid -->
-			<GamesPlayedGrid teams={data.teams} {lineup} lineupKey={$page.params.hash} />
+			<GamesPlayedGrid teams={data.teams} lineupKey={$page.params.hash} />
 		{/if}
 	</div>
 </div>

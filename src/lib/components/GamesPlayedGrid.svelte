@@ -1,27 +1,86 @@
 <script lang="ts">
 	import type { Lineup, NBA_Team, Season_Averages } from '$lib';
-	import { GLOBAL_LINEUPS, selectedWeek } from '$lib/stores';
+	import { GLOBAL_LINEUPS, selectedWeek, viewing_lineup } from '$lib/stores';
 	import { calculateAverageFantasyPoints } from '$lib';
 	import getPlayerSeasonAverages from '$lib/utils/ball_dont_lie_provider';
+	import { onMount } from 'svelte';
 
-	export let lineup: Lineup;
 	export let lineupKey: string;
 	export let teams: { [key: number]: NBA_Team };
 
 	let players_sorted_by_games_played: string[] = [];
-	const player_averages: { [key: string]: Season_Averages } = lineup.averages;
-	updatePlayerAverages();
+	$: averagesLoaded = validateAverages($viewing_lineup);
 
-	$: if ($selectedWeek > 0) {
-		players_sorted_by_games_played = lineup.players.sort((a, b) => {
+	onMount(async () => {
+		await refreshPlayerAverages();
+	});
+
+	function validateAverages(lineup: Lineup) {
+		console.log(
+			'[validateAverages]: lineup.averages keys: ',
+			Object.keys(lineup.averages),
+			' & ',
+			Object.keys(lineup.averages).length
+		);
+		return Object.keys(lineup.averages).length > 0;
+	}
+
+	async function refreshPlayerAverages() {
+		const today1am = new Date();
+		today1am.setHours(1, 0, 0, 0);
+
+		if (Object.keys($viewing_lineup.averages).length === 0) {
+			const tempAverages = await retrieveAveragesForWholeLineup($viewing_lineup);
+
+			console.log('retrieve averages for whole lineup & about to call store.set ', tempAverages);
+			viewing_lineup.setAverages(tempAverages);
+			viewing_lineup.updateLastRefreshedAt(new Date());
+
+			$GLOBAL_LINEUPS[lineupKey] = $viewing_lineup;
+		} else if (
+			$viewing_lineup.ball_dont_lie_refreshed_at &&
+			$viewing_lineup.ball_dont_lie_refreshed_at < today1am
+		) {
+			const tempAverages = await retrieveAveragesForWholeLineup($viewing_lineup);
+			viewing_lineup.setAverages(tempAverages);
+			viewing_lineup.updateLastRefreshedAt(new Date());
+
+			$GLOBAL_LINEUPS[lineupKey] = $viewing_lineup;
+		}
+
+		return true;
+	}
+
+	async function retrieveAveragesForWholeLineup(
+		lineup: Lineup
+	): Promise<{ [key: string]: Season_Averages }> {
+		const tempAverages: { [key: string]: Season_Averages } = {};
+		const playerAverages = await Promise.all(
+			lineup.players.map((player_name) => getPlayerSeasonAverages(player_name, $viewing_lineup))
+		);
+
+		lineup.players.forEach((player_name, index) => {
+			tempAverages[player_name] = playerAverages[index];
+		});
+
+		// console.log(
+		// 	'[retrieveAveragesForWholeLineup]: Finished retrieving averages for whole lineup: ',
+		// 	tempAverages
+		// );
+		return tempAverages;
+	}
+
+	$: if ($selectedWeek > 0 && averagesLoaded) {
+		players_sorted_by_games_played = $viewing_lineup.players.sort((a, b) => {
 			const a_games_played = getGamesPlayed(a);
 			const b_games_played = getGamesPlayed(b);
 
-			if (
-				player_averages === undefined ||
-				player_averages[a] === undefined ||
-				player_averages[b] === undefined
-			) {
+			if ($viewing_lineup.averages[a] === undefined || $viewing_lineup.averages[b] === undefined) {
+				// console.log(
+				// 	'[SORT] Something is undefined, check player_averages: ',
+				// 	$viewing_lineup.averages
+				// );
+
 				if (a_games_played > b_games_played) {
 					return -1;
 				} else if (a_games_played < b_games_played) {
@@ -30,10 +89,13 @@
 					return 0;
 				}
 			} else {
+				// console.log(
+				// 	`Starting sort by production for ${a} and ${b} | ${$viewing_lineup.averages[a]} | ${$viewing_lineup.averages[b]}`
+				// );
 				const player_a_production =
-					calculateAverageFantasyPoints(player_averages[a]) * a_games_played;
+					calculateAverageFantasyPoints($viewing_lineup.averages[a]) * a_games_played;
 				const player_b_production =
-					calculateAverageFantasyPoints(player_averages[b]) * b_games_played;
+					calculateAverageFantasyPoints($viewing_lineup.averages[b]) * b_games_played;
 
 				if (player_a_production > player_b_production) {
 					return -1;
@@ -44,12 +106,17 @@
 				}
 			}
 		});
+		// console.log('Sorting the list of players by total production finished!');
 	}
 
+	// $: showTotals = areAveragesLoaded(players_sorted_by_games_played);
 	$: totalGamesPlayed = getTop10GamesPlayedSum(players_sorted_by_games_played);
 	$: totalProjectedPoints = getTop10ProjectedPointsSum(players_sorted_by_games_played);
 
 	function getTop10GamesPlayedSum(players: string[]) {
+		if (players === undefined || players.length === 0) {
+			return 0;
+		}
 		let sum = 0;
 		for (let i = 0; i < 10; i++) {
 			sum += getGamesPlayed(players[i]);
@@ -58,50 +125,17 @@
 	}
 
 	function getTop10ProjectedPointsSum(players: string[]) {
+		if (players === undefined || players.length === 0) {
+			return 0;
+		}
 		let sum = 0;
+
 		for (let i = 0; i < 10; i++) {
 			sum +=
-				calculateAverageFantasyPoints(player_averages[players[i]]) * getGamesPlayed(players[i]);
+				calculateAverageFantasyPoints($viewing_lineup.averages[players[i]]) *
+				getGamesPlayed(players[i]);
 		}
 		return sum;
-	}
-
-	function updatePlayerAverages(): void {
-		const last_updated_time = lineup.ball_dont_lie_refreshed_at;
-		const today1am = new Date();
-		today1am.setHours(1, 0, 0, 0);
-		if (!(typeof last_updated_time === 'undefined') && last_updated_time < today1am) {
-			return;
-		} else {
-			lineup.players.forEach(async (player_name) => {
-				const average = await getPlayerSeasonAverages(player_name, lineup);
-				player_averages[player_name] = average;
-			});
-			lineup.ball_dont_lie_refreshed_at = new Date();
-			lineup.averages = player_averages;
-			$GLOBAL_LINEUPS[lineupKey] = lineup;
-			console.log(
-				'[updatePlayerAverages()]: updated averages for lineup: ',
-				JSON.stringify(lineup)
-			);
-		}
-
-		// Fill in any holes
-		let holeMustBeFilled = false;
-		lineup.players.forEach(async (player_name) => {
-			if (player_averages[player_name] !== undefined) {
-				return;
-			} else {
-				holeMustBeFilled = true;
-				const average = await getPlayerSeasonAverages(player_name, lineup);
-				player_averages[player_name] = average;
-			}
-		});
-
-		if (holeMustBeFilled) {
-			lineup.averages = player_averages;
-			$GLOBAL_LINEUPS[lineupKey] = lineup;
-		}
 	}
 
 	function getPlayerImage(player: string) {
@@ -115,7 +149,7 @@
 	}
 
 	function getGamesPlayed(player: string) {
-		let player_map = lineup.map;
+		let player_map = $viewing_lineup.map;
 		const player_info = player_map[player];
 		if (typeof player_info === 'undefined') {
 			return 0;
@@ -128,7 +162,7 @@
 
 <svelte:head>
 	<title>
-		{lineup.name} | Fantasy 🏀 Assistant
+		{$viewing_lineup.name} | Fantasy 🏀 Assistant
 	</title>
 </svelte:head>
 
@@ -160,22 +194,22 @@
 					{player_name}
 				</p>
 				<p class="text-[10px] opacity-60 md:text-[12px]">
-					{lineup.map[player_name].team_name}
+					{$viewing_lineup.map[player_name].team_name}
 				</p>
 			</span>
 			<img
 				class=" hidden w-[40px] md:block md:w-[55px]"
-				alt="{lineup.map[player_name].team_name} logo"
-				src={getTeamImage(lineup.map[player_name].team_name)}
+				alt="{$viewing_lineup.map[player_name].team_name} logo"
+				src={getTeamImage($viewing_lineup.map[player_name].team_name)}
 			/>
 			<!-- AVERAGE FANTASY POINTS BOX -->
-			<span class="-mt-0 ml-auto mr-1 h-full bg-gradient-to-br from-red to-rose-600 md:mr-3">
-				{#if typeof player_averages[player_name] !== 'undefined'}
-					<p class="px-2 text-[18px] md:text-[26px]">
-						{calculateAverageFantasyPoints(player_averages[player_name]).toFixed(1)}
+			<span class="-mt-0 ml-auto mr-1 h-full bg-gradient-to-br from-red to-rose-600 px-2 md:mr-3">
+				{#if averagesLoaded && $viewing_lineup.averages[player_name]}
+					<p class=" text-[18px] md:text-[26px]">
+						{calculateAverageFantasyPoints($viewing_lineup.averages[player_name]).toFixed(1)}
 					</p>
 				{:else}
-					<div class="loading px-1 py-1"></div>
+					<div class="loading"></div>
 				{/if}
 			</span>
 			<p class="md:text-md mr-1 text-xs md:mr-3">X</p>
@@ -189,47 +223,49 @@
 			{/key}
 			<p class="md:text-md mr-1 text-xs md:mr-3">=</p>
 			<!-- TOTAL PRODUCTION BOX -->
-			{#if typeof player_averages[player_name] !== 'undefined'}
+			{#if averagesLoaded && $viewing_lineup.averages[player_name]}
 				<p
 					class="w-[6.4rem] bg-gradient-to-br from-[#9819d7] to-[#7518a1] px-2 text-center text-[18px] md:text-[26px]"
 				>
 					{(
-						calculateAverageFantasyPoints(player_averages[player_name]) *
+						calculateAverageFantasyPoints($viewing_lineup.averages[player_name]) *
 						getGamesPlayed(player_name)
 					).toFixed(2)}
 				</p>
 			{:else}
-				<div class="loading px-1 py-1"></div>
+				<div class="loading bg-purple-600 px-1 py-1"></div>
 			{/if}
 		</div>
 		<div class="divider -mt-[3px]"></div>
 	{/each}
 </div>
 <!-- TOTALS -->
-<div>
-	<p class="text-center text-lg italic text-white md:text-2xl">Totals for the week</p>
-	<div class="flex flex-col border border-white pb-2">
-		<p class="px-2 py-2 text-center text-xs md:text-lg">
-			Based on 2023 season averages, the best lineup you could start for this week is players 1-10
-			above.
-		</p>
-		<span class="mt-2 flex flex-row items-center justify-center gap-6 md:gap-20">
-			<span class=" flex flex-col items-center gap-1">
-				<p
-					class="-mt-0 h-full w-fit bg-gradient-to-br from-blue to-[#2763e9] px-3 text-center text-[18px] md:text-[26px]"
-				>
-					{totalGamesPlayed}
-				</p>
-				<p class="text-center text-[10px] opacity-50 md:text-[16px]">Games Played</p>
+{#if averagesLoaded}
+	<div>
+		<p class="text-center text-lg italic text-white md:text-2xl">Totals for the week</p>
+		<div class="flex flex-col border border-white pb-2">
+			<p class="px-2 py-2 text-center text-xs md:text-lg">
+				Based on 2023 season averages, the best lineup you could start for this week is players 1-10
+				above.
+			</p>
+			<span class="mt-2 flex flex-row items-center justify-center gap-6 md:gap-20">
+				<span class=" flex flex-col items-center gap-1">
+					<p
+						class="-mt-0 h-full w-fit bg-gradient-to-br from-blue to-[#2763e9] px-3 text-center text-[18px] md:text-[26px]"
+					>
+						{totalGamesPlayed}
+					</p>
+					<p class="text-center text-[10px] opacity-50 md:text-[16px]">Games Played</p>
+				</span>
+				<span class="flex flex-col items-center gap-1">
+					<p
+						class="w-fit bg-gradient-to-br from-[#9819d7] to-[#7518a1] px-2 text-center text-[18px] md:text-[26px]"
+					>
+						{totalProjectedPoints.toFixed(2)}
+					</p>
+					<p class="text-center text-[10px] opacity-50 md:text-[16px]">Projected points</p>
+				</span>
 			</span>
-			<span class="flex flex-col items-center gap-1">
-				<p
-					class="w-fit bg-gradient-to-br from-[#9819d7] to-[#7518a1] px-2 text-center text-[18px] md:text-[26px]"
-				>
-					{totalProjectedPoints.toFixed(2)}
-				</p>
-				<p class="text-center text-[10px] opacity-50 md:text-[16px]">Projected points</p>
-			</span>
-		</span>
+		</div>
 	</div>
-</div>
+{/if}
