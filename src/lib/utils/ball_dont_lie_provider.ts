@@ -8,7 +8,12 @@ export default async function getPlayerSeasonAverages(
 	const player_info = lineup.map[player];
 
 	const response = await fetch(
-		`https://www.balldontlie.io/api/v1/season_averages?season=2023&player_ids[]=${player_info.ball_dont_lie_id}`
+		`https://www.balldontlie.io/api/v1/season_averages?season=2023&player_ids[]=${player_info.ball_dont_lie_id}`,
+		{
+			headers: {
+				'Cache-Control': 'max-age=21600' // 6 hours in seconds
+			}
+		}
 	);
 
 	const data = await response.json();
