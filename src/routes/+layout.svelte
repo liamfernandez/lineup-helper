@@ -2,7 +2,10 @@
 	import '../app.css';
 	import { goto } from '$app/navigation';
 	import Liamverse from '$lib/components/Liamverse.svelte';
-	import ThemeSwitcher from '$lib/components/ThemeSwitcher.svelte';
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <svelte:head>
