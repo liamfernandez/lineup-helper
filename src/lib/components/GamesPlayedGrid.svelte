@@ -9,39 +9,36 @@
 	export let teams: { [key: number]: NBA_Team };
 
 	let players_sorted_by_games_played: string[] = [];
-	$: averagesLoaded = validateAverages($viewing_lineup);
+	let holesSorted = false;
+	$: averagesLoaded = validateAverages($viewing_lineup) && holesSorted;
 
 	onMount(async () => {
 		await refreshPlayerAverages();
 		await spotHolesInLineup();
 	});
 
-	function spotHolesInLineup() {
-		$viewing_lineup.players.forEach((player_name) => {
-			const average_4_player = $viewing_lineup.averages[player_name];
-			if (average_4_player === undefined) {
-				// console.log(
-				// 	'[spotHolesInLineup]: Found a hole in the lineup, retrieving averages for player: ',
-				// 	player_name
-				// );
-				getPlayerSeasonAverages(player_name, $viewing_lineup).then((average) => {
-					const tempAverages = $viewing_lineup.averages;
-					tempAverages[player_name] = average;
+	async function spotHolesInLineup() {
+		const holes = await Promise.all(
+			$viewing_lineup.players.map((player_name) => {
+				const average_4_player = $viewing_lineup.averages[player_name];
+				if (average_4_player === undefined) {
+					return getPlayerSeasonAverages(player_name, $viewing_lineup);
+				} else {
+					return average_4_player;
+				}
+			})
+		);
 
-					viewing_lineup.setAverages(tempAverages);
-					// $viewing_lineup.setAverage(player_name, average);
-					$GLOBAL_LINEUPS[lineupKey] = $viewing_lineup;
-				});
-			}
+		const tempAverages: { [key: string]: Season_Averages } = {};
+
+		$viewing_lineup.players.forEach((player_name, index) => {
+			tempAverages[player_name] = holes[index];
 		});
+
+		viewing_lineup.setAverages(tempAverages);
+		holesSorted = true;
 	}
 	function validateAverages(lineup: Lineup) {
-		// console.log(
-		// 	'[validateAverages]: lineup.averages keys: ',
-		// 	Object.keys(lineup.averages),
-		// 	' & ',
-		// 	Object.keys(lineup.averages).length
-		// );
 		return Object.keys(lineup.averages).length > 0;
 	}
 
@@ -49,24 +46,33 @@
 		const today1am = new Date();
 		today1am.setHours(1, 0, 0, 0);
 
+		const refreshedDate =
+			$viewing_lineup.ball_dont_lie_refreshed_at !== undefined
+				? new Date($viewing_lineup.ball_dont_lie_refreshed_at)
+				: undefined;
+
 		if (Object.keys($viewing_lineup.averages).length === 0) {
 			const tempAverages = await retrieveAveragesForWholeLineup($viewing_lineup);
-
-			console.log('retrieve averages for whole lineup & about to call store.set ', tempAverages);
 			viewing_lineup.setAverages(tempAverages);
 			viewing_lineup.updateLastRefreshedAt(new Date());
 
 			$GLOBAL_LINEUPS[lineupKey] = $viewing_lineup;
-		} else if (
-			$viewing_lineup.ball_dont_lie_refreshed_at &&
-			$viewing_lineup.ball_dont_lie_refreshed_at < today1am
-		) {
+		} else if (refreshedDate && refreshedDate < today1am) {
+			console.log(
+				'[refreshPlayerAverages]: Refreshing averages for lineup: ',
+				$viewing_lineup.ball_dont_lie_refreshed_at
+			);
 			const tempAverages = await retrieveAveragesForWholeLineup($viewing_lineup);
 			viewing_lineup.setAverages(tempAverages);
 			viewing_lineup.updateLastRefreshedAt(new Date());
 
 			$GLOBAL_LINEUPS[lineupKey] = $viewing_lineup;
 		}
+
+		console.log(
+			'[refreshPlayerAverages]: Finished refreshing averages for lineup: ',
+			$viewing_lineup.ball_dont_lie_refreshed_at
+		);
 
 		return true;
 	}
