@@ -2164,8 +2164,8 @@ export const GLOBAL_PLAYERS: { [key: string]: NBA_Player } = {
 	'Kyle Lowry': {
 		nba_player_id: 200768,
 		ball_dont_lie_id: 286,
-		team_id: 16,
-		team_name: 'Miami Heat',
+		team_id: 4,
+		team_name: 'Charlotte Hornets',
 		position: 'G',
 		index: 241
 	},
@@ -4228,8 +4228,8 @@ export const GLOBAL_PLAYERS: { [key: string]: NBA_Player } = {
 	'Terry Rozier': {
 		nba_player_id: 1626179,
 		ball_dont_lie_id: 403,
-		team_id: 4,
-		team_name: 'Charlotte Hornets',
+		team_id: 16,
+		team_name: 'Miami Heat',
 		position: 'G',
 		index: 499
 	},
